@@ -1,0 +1,18 @@
+site_name: Sea Saba Knowledge Base
+
+theme: material
+
+nav: 
+  - Home: index.md
+  - Retail Operations: 
+    - Diving & Snorkeling Info: DivingSnorkelingInfo.md
+    - Checkfront: Checkfront.md
+    - Diving Flowchart: DivingFlowchart.md
+    - Non-Diving Flowchart: NonDivingFlowchart.md
+    - Rain POS: RainPOS.md
+    - Edge Reports: EdgeReports.md
+    - Store Opening & Closing Instructions: RetailOpenClosing.md
+
+plugins:
+    - search
+    - mermaid2
