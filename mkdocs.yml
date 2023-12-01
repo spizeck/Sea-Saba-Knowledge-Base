@@ -4,8 +4,11 @@ theme: material
 
 nav: 
   - Home: index.md
+  - General Information:
+    - Diving & Snorkeling Info: GeneralInformation/DivingSnorkelingInfo.md
+  - Diving Operations:
+    - Logging Dives: DiveOperations/DiveLogApp.md
   - Retail Operations: 
-    - Diving & Snorkeling Info: DivingSnorkelingInfo.md
     - Checkfront: Checkfront.md
     - Diving Flowchart: DivingFlowchart.md
     - Non-Diving Flowchart: NonDivingFlowchart.md
