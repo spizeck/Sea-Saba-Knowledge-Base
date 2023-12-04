@@ -1,7 +1,7 @@
 # How-To Guide: Using the Sea Saba Dive Log App
 
 ## Introduction
-The Sea Saba Dive Log App is an in-house developed application designed for logging diving activities and recording sightings of specific marine species as identified by the local marine park. This guide provides detailed instructions on how to use the app effectively.
+The Sea Saba Dive Log App is an in-house developed application designed for logging diving activities and recording sightings of specific marine species as identified by the local marine park. This guide provides detailed instructions on how to use the app effectively. The app is located at [https://seasaba-divelog-frontend.onrender.com/](https://seasaba-divelog-frontend.onrender.com/).
 
 ## User Registration
 ### Desktop
