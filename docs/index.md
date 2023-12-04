@@ -6,12 +6,14 @@ Welcome to the Sea Saba Knowledge Database, your comprehensive resource for all 
 
 Our Knowledge Base is structured into several key categories, each containing specific information and guidelines pertinent to various aspects of our operations:
 
+- **General Information**: Generalized information valuable to team members covering various aspects of our operations, including basic protocols and company policies.
 - **Retail Operations**: Guidelines on opening/closing routines, POS system usage, and adherence to standard operating procedures for seamless retail management.
 - **Diving Operations**: Detailed guides on diving procedures, equipment handling, and safety protocols.
 - **Booking and Customer Service**: Step-by-step processes on managing bookings, customer interactions, and FAQs.
-- **Maintenance Procedures**: Information on maintaining diving gear, boats, and other equipment.
 - **Emergency Protocols**: Guidelines on handling emergencies, first aid procedures, and contact information.
+- **Equipment**: SOPs and maintenance procedures for diving gear, boats, and other equipment.
 - **Training Materials**: Resources for ongoing training and certification for our diving instructors and staff.
+
 
 ## How to Use This Knowledge Base
 

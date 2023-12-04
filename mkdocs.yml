@@ -6,10 +6,6 @@ nav:
   - Home: index.md
   - General Information:
     - Diving & Snorkeling Info: GeneralInformation/DivingSnorkelingInfo.md
-  - Diving Operations:
-    - Logging Dives: DiveOperations/DiveLogApp.md
-  - Equipment:
-    - Vehicle Maintenance SOP: SOPVehicleMaint.md
   - Retail Operations: 
     - Checkfront: Checkfront.md
     - Diving Flowchart: DivingFlowchart.md
@@ -17,6 +13,11 @@ nav:
     - Rain POS: RainPOS.md
     - Edge Reports: EdgeReports.md
     - Store Opening & Closing Instructions: RetailOpenClosing.md
+  - Diving Operations:
+    - Logging Dives: DiveOperations/DiveLogApp.md
+  - Equipment:
+    - Vehicle Maintenance SOP: Equipment/SOPVehicleMaint.md
+  
 
 plugins:
     - search
