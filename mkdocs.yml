@@ -8,6 +8,8 @@ nav:
     - Diving & Snorkeling Info: GeneralInformation/DivingSnorkelingInfo.md
   - Diving Operations:
     - Logging Dives: DiveOperations/DiveLogApp.md
+  - Equipment:
+    - Vehicle Maintenance SOP: SOPVehicleMaint.md
   - Retail Operations: 
     - Checkfront: Checkfront.md
     - Diving Flowchart: DivingFlowchart.md
