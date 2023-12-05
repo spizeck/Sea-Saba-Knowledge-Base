@@ -6,6 +6,12 @@ To outline the process for sending shipment information to King Ocean for freigh
 ## Scope
 For staff managing the shipment of goods via King Ocean.
 
+## Key Deadlines
+- **Cargo Cutoff**: Wednesday at noon.
+- **Documentation Cutoff**: Tuesday at noon.
+- **Arrival**: Cargo arrives the following week with Mutty's Pride.
+- **Special Requirement**: Any package with more than $2500 value of a single commodity requires an SED (Shipper's Export Declaration).
+
 ## Procedure
 
 ### Spreadsheet Update
