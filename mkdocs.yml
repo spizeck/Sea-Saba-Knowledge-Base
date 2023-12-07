@@ -20,6 +20,7 @@ nav:
     - Logging Dives: DiveOperations/DiveLogApp.md
   - Equipment:
     - Vehicle Maintenance SOP: Equipment/SOPVehicleMaint.md
+    - Using Sailclear for Vessel Clearance: Equipment/ClearanceOfVessels.md
   
 
 plugins:
