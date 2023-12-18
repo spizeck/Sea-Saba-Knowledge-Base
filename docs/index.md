@@ -15,6 +15,9 @@ Our Knowledge Base is structured into several key categories, each containing sp
 - **Equipment**: SOPs and maintenance procedures for diving gear, boats, and other equipment.
 - **Training Materials**: Resources for ongoing training and certification for our diving instructors and staff.
 
+## Access the Employee Handbook
+
+For detailed information on company policies, employment details, and workplace guidelines, access our **[Employee Handbook (PDF)](files/Staff%20Handbook%20v3.pdf)**. This handbook is an essential read for all team members.
 
 ## How to Use This Knowledge Base
 

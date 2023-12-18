@@ -2,6 +2,11 @@ site_name: Sea Saba Knowledge Base
 
 theme: material
 
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+
 nav:
   - Home: index.md
   - General Information:
@@ -21,8 +26,9 @@ nav:
       - Logging Dives: DiveOperations/DiveLogApp.md
   - Equipment:
       - Vehicle Maintenance SOP: Equipment/SOPVehicleMaint.md
+      - Compressor Operation: Equipment/CompressorOperation.md
+      - Compressor Servicing: Equipment/CompressorServicing.md
       - Using Sailclear for Vessel Clearance: Equipment/ClearanceOfVessels.md
-
 
 plugins:
   - search
