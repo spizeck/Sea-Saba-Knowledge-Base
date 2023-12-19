@@ -23,9 +23,9 @@ All dive staff members are required to familiarize themselves with these procedu
     - Plug in the heater and dryer (located behind the air dryer on the wall). 
     - Turn on the dryer (blue machine) to allow it to warm up.
 
-![Breaker Panel](/Images/Compressors/BreakerPanel.jpg)
-![Plugs](/Images/Compressors/Plugs.jpg)
-![Air Dryer](/Images/Compressors/Dryer.jpg)
+![Breaker Panel](../Images/Compressors/BreakerPanel.jpg)
+![Plugs](../Images/Compressors/Plugs.jpg)
+![Air Dryer](../Images/Compressors/Dryer.jpg)
 
 2. **Check Air Filter and Oil Change Status**:
     - Refer to the dry erase board for air filter and oil change status.
@@ -33,22 +33,22 @@ All dive staff members are required to familiarize themselves with these procedu
     - The Red Compressor and Air Filters are tracked with the Red Compressor Hour meter.
     - Refer to [Compressor Servicing](Equipment/CompressorServicing.md) for more information about changing oil and filters.
 
-![Status Board](/Images/Compressors/Whiteboard.jpg)
+![Status Board](../Images/Compressors/Whiteboard.jpg)
 
 3. **Check Oil Levels**:
     - The Red Compressor has 2 sight glasses. The oil should be approximately halfway up the top sight glass.
     - The Nitrox compressor has a screw-in dipstick. The oil should be on the hatch marks.
     - If necessary, top up the oil. The Nitrox compressor takes Nuvair 546 oil and the Red Compressor takes SecoLube Tropics. Notify if you had to top up the oil.
 
-![Red Compressor Oil Level](/Images/Compressors/MaxAirOil.jpg)
-![Nitrox Oil Level](/Images/Compressors/NitroxBackOil.jpg)
+![Red Compressor Oil Level](../Images/Compressors/MaxAirOil.jpg)
+![Nitrox Oil Level](../Images/Compressors/NitroxBackOil.jpg)
 
 4. **Drain Condensate**:
     - Both the dryer and red compressor have bottles that collect condensate.
     - The dryer’s condensate (only water) can be emptied outside.
     - The red compressor’s condensate must be emptied into a used oil container for proper disposal.
 
-![Red Compressor Condensate](/Images/Compressors/MaxAirCondensate.jpg)
+![Red Compressor Condensate](../Images/Compressors/MaxAirCondensate.jpg)
 
 5. **Wipe Down the Machines**:
     - Wipe any grease and grime off every day. This makes it easier to spot maintenance issues.
@@ -65,11 +65,14 @@ All dive staff members are required to familiarize themselves with these procedu
       - Target percentage is 32.3% +/-. You can adjust using the regulator on the Nitrox machine. 
       - Ensure that the Oxygen Sensor is calibrated! This can be done by taking off the cap and setting the percentage to 20.9%
 
-![Adjusting Oxygen Percentage](/Images/Compressors/BlueFiltersOps.jpg)
+![Adjusting Oxygen Percentage](../Images/Compressors/BlueFiltersOps.jpg)
 
 7. **Arrange Tanks for Filling**:
     - Arrange the tanks in rows of 8, typically 3-4 rows deep.
     - Connect the fill whips to the row furthest from the wall for efficient operation.
+
+!!! note
+      - Check each tank for Hydro and Visual Inspection Status. Pull any tanks aside that are due for Hydro or Visual Inspection. Do **NOT** drain the tank unless you are going to complete the VIP that day. Do **NOT** leave tanks without pressure overnight.
 
 8. **Filling Procedure**:
     - Takes 20-30 minutes to fill a row of 8 tanks.
@@ -79,7 +82,7 @@ All dive staff members are required to familiarize themselves with these procedu
     - For tanks-only filling, the system will auto-shut at 4500 psi. Restart the red compressor after switching tanks and opening the bank valve.
     - The Nitrox compressor will not shut down as it supplies enriched air to the high-pressure (red) compressor.
 
-![Fill Panel](/Images/Compressors/PanelClose.jpg)
+![Fill Panel](../Images/Compressors/PanelClose.jpg)
 
 !!! alert
       - **Never open both banks simultaneously!**

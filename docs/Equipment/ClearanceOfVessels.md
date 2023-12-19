@@ -26,8 +26,8 @@ Applicable to employees assigned the task of clearing vessels.
    - Number of masts, construction material, year built, color, dimensions, tonnage, motor information.
 3. **Save**: Don’t forget to hit the save button.
 
-![Adding a vessel pt 1](/Images/Sailclear/newvessel1.png)
-![Adding a vessel pt 2](/Images/Sailclear/newvessel2.png)
+![Adding a vessel pt 1](../Images/Sailclear/newvessel1.png)
+![Adding a vessel pt 2](../Images/Sailclear/newvessel2.png)
 
 ## Managing Crew Members
 1. Access the **Crew List** tab.
@@ -35,7 +35,7 @@ Applicable to employees assigned the task of clearing vessels.
    - Rank (Master, Crew, Passenger), travel document type and details.
    - Personal information including name, date of birth, citizenship, and sex.
 
-![Adding a crewmember](/Images/Sailclear/addcrew.png)
+![Adding a crewmember](../Images/Sailclear/addcrew.png)
 
 ## Arrival Notification
 1. Click on **Arrival Notification** and select **Create Notification**.
@@ -47,15 +47,15 @@ Applicable to employees assigned the task of clearing vessels.
 7. Complete the customs declaration (usually all answers are 'No').
 8. Upon completion, note the notification ID for customs.
 
-![Departure Notification Example](/Images/Sailclear/arrival1.png)
+![Departure Notification Example](../Images/Sailclear/arrival1.png)
 
 ---
 
-![Adding crew pt 1](/Images/Sailclear/addcrew2.png)
+![Adding crew pt 1](../Images/Sailclear/addcrew2.png)
 
 ---
 
-![Adding crew pt 2](/Images/Sailclear/addcrew3.png)
+![Adding crew pt 2](../Images/Sailclear/addcrew3.png)
 
 ## Departure Notification
 1. Click on **Departure Notification**.
@@ -64,4 +64,4 @@ Applicable to employees assigned the task of clearing vessels.
 4. Complete the customs declaration.
 5. Note the notification ID to obtain clearance from customs.
 
-![Departure Notification Example](/Images/Sailclear/depart.png)
+![Departure Notification Example](../Images/Sailclear/depart.png)
