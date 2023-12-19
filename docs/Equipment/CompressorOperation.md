@@ -31,7 +31,7 @@ All dive staff members are required to familiarize themselves with these procedu
     - Refer to the dry erase board for air filter and oil change status.
     - The Nitrox Blue Filters are tracked with the Nitrox Machine Hour meter.
     - The Red Compressor and Air Filters are tracked with the Red Compressor Hour meter.
-    - Refer to [Compressor Servicing](Equipment/CompressorServicing.md) for more information about changing oil and filters.
+    - Refer to [Compressor Servicing](CompressorServicing.md) for more information about changing oil and filters.
 
 ![Status Board](../Images/Compressors/Whiteboard.jpg)
 
