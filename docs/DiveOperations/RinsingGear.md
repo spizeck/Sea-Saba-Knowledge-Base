@@ -6,9 +6,9 @@ This SOP encompasses the entire process of rinsing and organizing scuba gear, in
 ## Procedures
 1. **Rinsing and Drying:**
     - Rinse scuba gear thoroughly, in the dunk tanks outside the equipment room.
-
+![Large Rinse Bins](../Image/RinsingGear/BigRinseBins.jpg)
     - Hang wetsuits and BCDs on hangers and place them on drying racks.
-![Description](../Images/RinsingGear/DryingRack.jpg)
+![Drying Rack](../Images/RinsingGear/DryingRack.jpg)
     - See below for rest of equipment
 
 1. **Wetsuits:**
@@ -19,7 +19,7 @@ This SOP encompasses the entire process of rinsing and organizing scuba gear, in
         - Men's Long XXS-4XL
         - Women's Shortie XXS-4XL
         - Women's Long XXS-4XL
-![Description](../Images/RinsingGear/WetsuitsBCDs.jpg)
+![Wetsuit BCD Storage](../Images/RinsingGear/WetsuitsBCDs.jpg)
 1. **BCDs (Buoyancy Control Devices):**
     - Inspect BCDs for tears or broken latches/clips.
     - Hang dry BCDs in the correct size order (Starting from the back wall):
@@ -34,21 +34,21 @@ This SOP encompasses the entire process of rinsing and organizing scuba gear, in
 
 2. **Masks, Snorkels, and Regulators:**
     - Place in crates under the regulator hanging area, this is the to be sanitized crate.
-![Description](../Images/RinsingGear/RegsMaskSanitizeCrate.jpg)
+![Sanitizing Crate](../Images/RinsingGear/RegsMaskSanitizeCrate.jpg)
     - Sanitization process:
         1. Soapy Water - clean masks, snorkels, and regulators to remove debris. If needed there is a toothbrush on the table to give them an extra scrub.
         2. Sanitizing - soak for 10 minutes in a designated solution.
         3. Fresh Water - rinse thoroughly and hang up on Regulator or Mask Rack.
-![Description](../Images/RinsingGear/SanitizingStation.jpg)
-![Description](../Images/RinsingGear/HangingMasksSnorkels.jpg)
-![Description](../Images/RinsingGear/HangingRegs.jpg)
+![Sanitizing Station](../Images/RinsingGear/SanitizingStation.jpg)
+![Mask Snorkel Rack](../Images/RinsingGear/HangingMasksSnorkels.jpg)
+![DRegulator Rack](../Images/RinsingGear/HangingRegs.jpg)
 
 1. **Fins:**
     - Inspect straps to ensure they are not worn out or breaking.
         - This inspection ensures the distribution of high-quality equipment to guests and saves time in the mornings by avoiding the need for replacement.
     - Check for size and stack them on the correct size shelves.
 
-![Description](../Images/RinsingGear/Fins.jpg)
+![Fin Shelf](../Images/RinsingGear/Fins.jpg)
 
 1. **Computers and Copmasses:**
     - Rinse in fresh water.
@@ -57,15 +57,16 @@ This SOP encompasses the entire process of rinsing and organizing scuba gear, in
 
 2. **Crates:**
     - Before storing, check that the crate has the correct numbered hanger.
-![Description](../Images/RinsingGear/CorrectNoHangar.jpg)
+![Match Hangar to Crate](../Images/RinsingGear/CorrectNoHangar.jpg)
     - If not, find the correct hanger before storing.
     - Wipe the slate clean for the next guest's use.
     - Stack crates in threes: one on the bottom, one sideways inside the bottom one, and one upside down on top.
-![Description](../Images/RinsingGear/StackingCrates.jpg)
+![Hot to Stack Crates](../Images/RinsingGear/StackingCrates.jpg)
     - Do not stack unmatched crates in the pile. Place them separately, so we can find the correct hangars.
         - **Most common places to find hangars is on the boats, or hanging on the drying racks.**
 
 ### **Make sure you shut off the water valve above the sink before closing up the equipment room. Otherwise it leaks all over the floor.**
+![Water Shut Off](../Images/RinsingGear/WaterShutOff.jpg)
 
 ## Conclusion:
 By diligently following this comprehensive SOP for rinsing and putting away scuba gear, we can uphold the highest standards in scuba gear management. This ensures the longevity of our equipment, the safety of our guests, and the smooth operation of our diving activities. Regular adherence to these procedures is essential for maintaining an organized and effective scuba gear handling system.
