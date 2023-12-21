@@ -23,6 +23,7 @@ nav:
       - Store Opening & Closing Instructions: RetailOpenClosing.md
   - Diving Operations:
       - Surface Support: DiveOperations/SurfaceSupport.md
+      - Rinsing & Putting Away Equipment: DiveOperations/RinsingGear.md
       - Logging Dives: DiveOperations/DiveLogApp.md
   - Equipment:
       - Vehicle Maintenance SOP: Equipment/SOPVehicleMaint.md
