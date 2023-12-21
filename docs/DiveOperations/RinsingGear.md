@@ -6,7 +6,7 @@ This SOP encompasses the entire process of rinsing and organizing scuba gear, in
 ## Procedures
 1. **Rinsing and Drying:**
     - Rinse scuba gear thoroughly, in the dunk tanks outside the equipment room.
-![Large Rinse Bins](../Image/RinsingGear/BigRinseBins.jpg)
+![Large Rinse Bins](../Images/RinsingGear/BigRinseBins.jpg)
     - Hang wetsuits and BCDs on hangers and place them on drying racks.
 ![Drying Rack](../Images/RinsingGear/DryingRack.jpg)
     - See below for rest of equipment
