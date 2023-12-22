@@ -59,7 +59,7 @@ This SOP encompasses the entire process of rinsing and organizing scuba gear, in
 
 ![Description](../Images/RinsingGear/Fins.jpeg)
 
-1. **Computers and Copmasses:**
+1. **Computers and Compasses:**
     - Rinse in fresh water.
     - Check computers for any issues, report any issues with computers or compasses to management for timely repair.
     - Hanging up on the computer rack.
