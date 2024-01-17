@@ -1,7 +1,7 @@
-# SOP: King Ocean Freight Shipping Procedures
+# SOP: Carib Trans Logistics Freight Shipping Procedures
 
 ## Purpose
-To provide guidelines for shipping goods, both company-related and personal, to Saba via King Ocean.
+To provide guidelines for shipping goods, both company-related and personal, to Saba via Carib Trans Logistics.
 
 ## Scope
 Applicable to all Sea Saba staff members.
@@ -12,15 +12,15 @@ Applicable to all Sea Saba staff members.
 - **Discussion with Management**:
     - Personal item shipments must be discussed with management before proceeding.
 - **Hazmat Check**:
-    - Do not ship hazardous materials (including aerosols) without checking with King Ocean first.
+    - Do not ship hazardous materials (including aerosols) without checking with Carib Trans first.
 
 ### Shipping Address
 - **Address for Forwarding Goods**:
-    - Sea Saba - [Name if personal]
-    - Final Destination: Saba
-    - 13155 NW 19th Lane
-    - Sweetwater, FL 33182
-    - Phone: 305-591-7595
+    - First Name c/o CaribTrans Logistics
+    - 11401 NW 107th ST STE 300
+    - @SEAS 7790
+    - Miami, FL 33178-3382
+    - Phone: 305-696-1200
 
 ### Documentation
 - **Commercial Invoice**:
