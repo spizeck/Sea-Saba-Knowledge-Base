@@ -12,8 +12,8 @@ nav:
   - General Information:
       - Diving & Snorkeling Info: GeneralInformation/DivingSnorkelingInfo.md
   - Freight:
-      - King Ocean Freight Shipping Procedures: Freight/ShippingKingOcean.md
-      - Managing Freight Data and Communication with King Ocean: Freight/KingOceanDocs.md
+      - CaribTrans Freight Shipping Procedures: Freight/ShippingCaribTrans.md
+      - Managing Freight Data and Communication with CaribTrans: Freight/CaribTransDocs.md
   - Retail Operations:
       - Checkfront: Checkfront.md
       - Diving Flowchart: DivingFlowchart.md
