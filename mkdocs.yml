@@ -30,6 +30,8 @@ nav:
       - Compressor Operation: Equipment/CompressorOperation.md
       - Compressor Servicing: Equipment/CompressorServicing.md
       - Using Sailclear for Vessel Clearance: Equipment/ClearanceOfVessels.md
+  - Checkfront:
+      - Checkfront Overview: Checkfront/CheckfrontOverview.md
 
 plugins:
   - search
