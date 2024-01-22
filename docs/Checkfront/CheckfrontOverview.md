@@ -12,40 +12,40 @@ This SOP is applicable to all Sea Saba staff members, especially those involved 
   
 ## Getting Started with Checkfront
 - Account Setup:
-  - Steps to create a new user account.
-  - User roles and permissions.
+    - Steps to create a new user account.
+    - User roles and permissions.
 - Logging In:
-  - How to securely log in to the Checkfront platform.
+    - How to securely log in to the Checkfront platform.
   
 ## Booking Management
 - Creating Bookings:
-  - Step-by-step instructions for booking various activities.
-  - Handling special requests or customizations.
+    - Step-by-step instructions for booking various activities.
+    - Handling special requests or customizations.
 - Activities Available for Booking:
-  - Various diving activities.
-  - Snorkeling activities.
-  - Private Charters.
-  - Edge ferry tickets.
-  - Sunset cruises.
+    - Various diving activities.
+    - Snorkeling activities.
+    - Private Charters.
+    - Edge ferry tickets.
+    - Sunset cruises.
 - Using the Calendar:
-  - How to view and manage bookings using the calendar feature.
+    - How to view and manage bookings using the calendar feature.
   
 ## Customer Interaction
 - Entering Customer Details:
-  - Guidelines for inputting accurate customer information.
+    - Guidelines for inputting accurate customer information.
 - Managing Waivers:
-  - Process for handling digital waivers through Checkfront.
+    - Process for handling digital waivers through Checkfront.
   
 ## Payment Processing
 - Handling Payments:
-  - Instructions for processing payments via Stripe.
-  - Recording payment details in Checkfront.
+    - Instructions for processing payments via Stripe.
+    - Recording payment details in Checkfront.
   
 ## Inventory Management
 - Overview of Inventory Features:
-  - How Checkfront assists in managing and tracking inventory.
+    - How Checkfront assists in managing and tracking inventory.
 - Avoiding Overbooking:
-  - Best practices for utilizing Checkfront’s inventory management to prevent overbooking.
+    - Best practices for utilizing Checkfront’s inventory management to prevent overbooking.
   
 ## Troubleshooting and Support
 - Common issues and their resolutions.
