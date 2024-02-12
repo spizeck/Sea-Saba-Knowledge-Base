@@ -7,7 +7,7 @@
 
 **<span style="color: red;"> Do not close this page you will need it later in the steps!**
 
-![Transaction Detail](Images/Reports/TransactionDetail.png)
+![Transaction Detail](../Images/Reports/TransactionDetail.png)
 
 ### 2. On the Excel spreadsheet delete the following columns named:
   - Department
@@ -25,7 +25,7 @@
   - Sales Person
   - Sales Rep
 
-![Spreadsheet](Images/Reports/Spreadsheet.png)
+![Spreadsheet](../Images/Reports/Spreadsheet.png)
 
 ### 3. Change the column names for these to:
   - Retail change to Total
@@ -39,16 +39,16 @@
   - Make sure to select the "More Number Formats"
   - Select the option where the negative amounts will be in <span style="color: red;"> red.
 
-![Number format](Images/Reports/NumberFormat.png)
-![Currency](Images/Reports/Currency.png)
+![Number format](../Images/Reports/NumberFormat.png)
+![Currency](../Images/Reports/Currency.png)
 
 ### 5. Select column (G) Margin and change the number format to Percent. (You may have to change the percent back to 10% and 20% as they might go to 1000% and 2000%)
 
-![Percent](Images/Reports/Percent.png)
+![Percent](../Images/Reports/Percent.png)
 
 ### 6. Select column (I) Date of Travel and change the number format to Short Date.
 
-![Short Date](Images/Reports/ShortDate.png)
+![Short Date](../Images/Reports/ShortDate.png)
 
 ### 7. Now you will need to select all the columns and rows tht have information so that you can insert a Table.
   - Columns selected should be A - M.
@@ -58,8 +58,8 @@
   - Make sure that the little box is checked tht states "My Table Has Headers".
   - Click Ok.
 
-![Insert Table](Images/Reports/InsertTable.png)
-![Table Header](Images/Reports/TableHeader.png)
+![Insert Table](../Images/Reports/InsertTable.png)
+![Table Header](../Images/Reports/TableHeader.png)
 
 ### 8. For cell F2 enter this formula:
   - =[@TOTAL]/[@QTY] you can try copying and pasting this or....
@@ -67,7 +67,7 @@
   - Once you get the formula entered, the cell (F2) should be surrounded by a green, and there will be a tiny green square in the bottom right corner of the cell. Click on the little square and drag down to the end of the table.
   - This continues the formula for the rest of the cells in that column.
 
-![Drag Formula](Images/Reports/DragFormulas.png)
+![Drag Formula](../Images/Reports/DragFormulas.png)
 
 ### 9. In cell K2 enter this formula:
   - =[@TOTAL]-[@COMMISSION] you can try copying and pasting this or....
@@ -93,7 +93,7 @@
   - In cell F4/G4 type: To Edge
   - In cell F5/G5 type: Total Sales
 
-![Header](Images/Reports/Header.png)
+![Header](../Images/Reports/Header.png)
 
 ### 12. In cell H2 enter this formula:
   - =H1*40
@@ -119,7 +119,7 @@
   - On your table, "Date of Travel" there will be a grey box with a down arrow, click for the drop down.
   - Select "Sort Oldest to Newest".
 
-![Sort Oldest to Newest](Images/Report/../Reports/SortOldest2Newest.png)
+![Sort Oldest to Newest](../Images/Report/../Reports/SortOldest2Newest.png)
 
 ### 19. If you still have information missing, like the customer name and or JB # you will need to get them off of AquaMania's report.
 

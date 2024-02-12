@@ -2,7 +2,7 @@
 
 ### Opening Procedures
 
-#### 1.1 Lights and Air Coditioning
+#### 1.1 Lights and Air Conditioning
    - Turn on all lights.
    - Turn on the air conditioner **(no lower than 76F/24C)**.
    - Use the remote to turn on the fan above the register after flipping the light switch.
