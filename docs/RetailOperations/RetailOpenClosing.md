@@ -1,66 +1,44 @@
-# Retail Opening Procedures
+# Retail Shop Opening and Closing Procedures
 
-1. **Lights and Air Conditioning:**
+### Opening Procedures
 
+#### 1.1 Lights and Air Coditioning
    - Turn on all lights.
    - Turn on the air conditioner **(no lower than 76F/24C)**.
-   - Use the remote to turn on the fan above the register after flipping the switch.
+   - Use the remote to turn on the fan above the register after flipping the light switch.
 
-2. **Computer and Cash Drawer:**
+#### 1.2 Computer and Cash Drawer
+   - Wake up the tablet and ensure that Shopify is open. Verify that the card reader is powered on. If not, remove it from the holder and press the button on the back.
+   - Open the cash register to begin the tracking session. Count the float; it should amount to $200. If the float is incorrect, cross-check with the opening amount and report any discrepancies to management promptly.
 
-   - Log into the computer and open RainPOS.
-   - Open the cash drawer and count the float (should be $200).
-   - If float is under/over $200, adjust accordingly.
-     - Over $200 please remove the extra and put a note on it that states what date the extra cash came from.
-   - If change is insufficient, notify management to get change. Other options are to see if the grocery store or restaurant will break change with you.
-
-3. **Doors and Shutters:**
-
-   - Open all shutters, unlock doors.
+#### 1.3 Doors and Shutters
+   - Open all shutters, and unlock front door.
    - Leave side door behind register locked.
-     - Be careful not to get locked out of the store
+> **Be careful not to get locked out of the store**
 
-4. **Kakona and Lace Room:**
-   - Open Kakona and Lace room, turn on lights.
-   - In Lace room, only open the street-facing door.
-   - Ensure sliding door between Kakona and Lace room is shut.
-   - Turn on air conditioner in Kakona **(no lower than 76F/24C)**.
+### Retail Closing Procedures
 
-<span style="color: red;"> **THURSDAY'S ONLY (SABA LACE):**
+#### 2.1 Restocking
+   - Ensure all T-shirts are neatly restocked, maintaining two of each size on display, unless a particular size is sold out.
+   - Restock any stickers, magnets, water bottles, rum, etc... if sold.
+   - If we are running low on stock please notify management so that we can order new stock.
 
-1. At 2:45 pm, open all shutters in Lace room.
-2. Clear tables and ensure no obstructions.
-3. Prepare ziploc baggie with notebook and money, this is located in the register desk drawer.
-4. Lace ladies usually there 3 pm - 5 pm.
-
-# Retail Closing Procedures
-
-1. **Restocking:**
-   - Ensure T-shirts are restocked (2 of each size).
-
-2. **Closing Time:**
-
+#### 2.2 Operating Hours
+   - Lunch is 30 minutes, please note on the sign when you will return from lunch so customers know when to return.
    - Do not close earlier than scheduled without approval.
 
-3. **Kakona and Lace Room:**
-
-   - Close Kakona and Lace room, turn off air conditioner.
-   - Turn off the lights, there is one light that stays on in Kakona.
-   - Lock the doors
-
-4. **Doors and Shutters:**
-
+#### 2.3 Doors and Shutters
    - Close all shutters, leave side door open so you can still get in to finish closing
    - Lock main door.
 
-5. **Register and Cash:**
-
-   - Lock doors before closing out the register.
-   - Count cash, adjust float ($200) for next day.
+#### 2.4 Cash Handling
+   - Lock doors before counting the cash. Count cash discreetly, away from public view, unless in the presence of authorized individuals.
    - Remove bigger bills before smaller ones.
-   - Paperclip closing receipt to deposit, drop money in safe.
+   - Paperclip closing receipt to cash deposit, and drop it in safe.
 
-6. **Final Steps:**
+#### 2.5 Final Steps
    - Take out the trash if full.
    - Turn off air conditioner and lights.
-   - Lock side door, close shutter.
+   - Lock side door, and close and lock the shutter.
+
+> **NOTE:** Any deviations from these procedures should be communicated to management immediately. These protocols are designed to ensure operational efficiency, security, and a pleasant shopping experience for our customers. Thank you for your attention to detail and dedication to maintaining our store's standards.
