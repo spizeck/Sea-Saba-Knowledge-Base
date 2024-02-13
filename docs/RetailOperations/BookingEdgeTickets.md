@@ -3,7 +3,7 @@
 ### 1. Accessing Junglebee Booking Platform
 1.1 Open a Chrome Web Browser.
 
-1.2 Navigate to <https://junglebee.com> 
+1.2 Navigate to <https:/junglebee.com> 
 
 1.3 Ensure that Chrome has the login information saved for easy access.
 
