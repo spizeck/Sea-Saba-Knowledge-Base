@@ -9,7 +9,7 @@
 
 1.4 Once logged in, familiarize yourself with the dashboard layout. Starred options are frequently used and readily accessible.
 
-![JB Dashboard](Images/Edge/JBdashboard.png)
+![JB Dashboard](../Images/Edge/JBdashboard.png)
 
 ### 2. Booking Ferry Tickets
 
@@ -25,7 +25,7 @@
 
 3.1 Specify the number of passengers traveling.
 
-![Passengers](Images/Edge/JBTravelers.png)
+![Passengers](../Images/Edge/JBTravelers.png)
 
 3.2 Adult fares (14yrs and above) are $75 for Tourists and $60 for locals.
 
@@ -42,7 +42,7 @@
 
 4.3 If multiple passengers are traveling, enter their names in the special notes section. For children, include their ages next to their names.
 
-![Guest Details](Images/Edge/JBGuestDetails.png)
+![Guest Details](../Images/Edge/JBGuestDetails.png)
 
 ### 5. Payment Method
 
@@ -50,7 +50,7 @@
 
 5.2 Enter the total ticket amount.
 
-![JB Payment](Images/Edge/JBPayment.png)
+![JB Payment](../Images/Edge/JBPayment.png)
 
 ### 6. Confirming Booking
 
@@ -60,7 +60,7 @@
 
 6.3 Confirm the booking in the pop-up window by verifying details and clicking "Confirm Booking"
 
-![Confirming Booking](Images/Edge/JBConfirmBooking.png)
+![Confirming Booking](../Images/Edge/JBConfirmBooking.png)
 
 ### 7. Booking Confirmation
 
@@ -68,7 +68,7 @@
 
 7.2 Print the ticket for the customer.
 
-![Print Ticket](Images/Edge/JBPrintTicket.png)
+![Print Ticket](../Images/Edge/JBPrintTicket.png)
 
 ### 8. Processing Payment on Checkfront
 
@@ -77,51 +77,51 @@
 
 8.2 Select "New Booking"
 
-![Booking Tab](Images/Edge/CheckfrontNewBooking.png)
+![Booking Tab](../Images/Edge/CheckfrontNewBooking.png)
 
 8.3 Choose the "Edge Ferry" tab and select the correct travel date on the Calendar.
 
-![Edge Ferry](Images/Edge/CheckfrontEdgeBooking.png)
+![Edge Ferry](../Images/Edge/CheckfrontEdgeBooking.png)
 
 8.4 Specify the travel direction and passenger type (Local or Tourist).
 
 8.5 Select the number of passengers and click "Continue".
 
-![Passengers Tourist](Images/Edge/CheckfrontTourist.png)
-![Passengers Local](Images/Edge/CheckfrontLocal.png)
+![Passengers Tourist](../Images/Edge/CheckfrontTourist.png)
+![Passengers Local](../Images/Edge/CheckfrontLocal.png)
 
 8.6 Enter the passengers' names and contact details, and click "Continue".
 
-![Passenger Info](Images/Edge/CheckfrontCreateBooking.png)
+![Passenger Info](../Images/Edge/CheckfrontCreateBooking.png)
 
 8.7 On the right side of the booking there is a little note box, paste the JB # in here, check the box "Show on invoice", click "Create".
 
-![JB# Note](Images/Edge/CheckfrontNoteJB.png)
+![JB# Note](../Images/Edge/CheckfrontNoteJB.png)
 
 8.8 If paying by card, use the Stripe card reader. If paying with cash, select the "POS" tab and ensure "Cash" is selected.
 
-![Add Payment](Images/Edge/CheckfrontAddPayment.png)
+![Add Payment](../Images/Edge/CheckfrontAddPayment.png)
 
 8.9 Click "Process" to receive payment this will mark the booking as paid.
 
-![Card](Images/Edge/CheckfrontCreditCard.png)
-![Cash](Images/Edge/CheckfrontCash.png)
+![Card](../Images/Edge/CheckfrontCreditCard.png)
+![Cash](../Images/Edge/CheckfrontCash.png)
 
 ### 9. Cash Payment Processing (If Applicable)
 
 9.1 In Shopify, navigate to the "More" tab and select "Register".
 
-![Main Page](Images/Edge/ShopifyMainPage.jpg)
-![More Tab](Images/Edge/ShopifyMoreTab.jpg)
-![Register](Images/Edge/ShopifyRegister.jpg)
+![Main Page](../Images/Edge/ShopifyMainPage.jpg)
+![More Tab](../Images/Edge/ShopifyMoreTab.jpg)
+![Register](../Images/Edge/ShopifyRegister.jpg)
 
 9.2 Click on "View Open Session" and then "Add Cash".
 
-![Open Session](Images/Edge/ShopifyOpenSession.jpg)
+![Open Session](../Images/Edge/ShopifyOpenSession.jpg)
 
 9.3 Enter the amount of cash received and include the customer's name in the notes for reference.
 
-![Adding Cash](Images/Edge/ShopifyAddingCash.jpg)
+![Adding Cash](../Images/Edge/ShopifyAddingCash.jpg)
 
 9.4 Click "Save" to finalize the transaction, and add the cash to the register.
 
