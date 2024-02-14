@@ -99,7 +99,7 @@
    - Add the items to the cart.
    - Click on one of the items.
    - Click on "Discount".
-   - Enter 40% in the Pecentage box.
+   - Enter 40% in the Percentage box.
    - Reason for discount type "Employee".
    - Click "Save".
    - Click "Save" again.
