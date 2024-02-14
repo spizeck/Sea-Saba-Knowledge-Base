@@ -26,6 +26,7 @@
      - If you click on the "Barcode" icon this opens up the camera to scan the barcode.
      - Or you can type in what you are searching for.
   >Just make sure that you select the correct color/size when selecting items, otherwise the inventory will be incorrect.
+   
    - If the customer is buying multiple quantities *(Same size and Color)*, click on the item and you can adjust the quantities there.
    - Click on "Checkout" when ready.
    - For Card payments, have the customer insert/tap the card on the card reader.
@@ -34,6 +35,7 @@
 
 ### 4. Adding Cash to Register
 >This will mainly be used for Edge Tickets or Checkfront Reservations paid in cash
+   
    - Click on the "More" tab.
    - Select "Register".
    - Click on "View Open Session".
@@ -46,6 +48,7 @@
 
 ### 5. Removing Cash from Register
 >This will mainly be used for Edge Refunds or Online Order Shipping Costs.
+  
    - Click on the "More" tab.
    - Select "Register".
    - Click on "View Open Session".
@@ -57,6 +60,7 @@
 
 ### 6. Returns
 >Returns are allowed for items that still have the tags attached **(NOT Worn or Washed)**
+   
    - Click on the "Orders" Tab
    - If the Customer has the receipt, click on the "Magnifying Glass" icon at the top and you can scan the barcode. Or you can search by name, or Order Number.
    - Click on their order.
@@ -69,6 +73,7 @@
 
 ### 7. Exchanging Items
 >Same rule applies for Returns, items must have tags attached **(NOT Worn or Washed)**
+   
    - Follow the same steps as Return, until you get to their Order.
    - Click on "Exchange".
    - Select the reason for Exchange with a little note.
@@ -89,6 +94,7 @@
 
 ### 9. Employee Discount
 >Employee must pay with cash or card to receive discount, not applicable when charging to account.
+   
    - Select the employee as a customer.
    - Add the items to the cart.
    - Click on one of the items.
