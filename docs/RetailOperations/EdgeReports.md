@@ -1,136 +1,96 @@
-# Edge Weekly/Monthly Reports
-### 1. Open up RainPOS and go to Reports
-  - Select Transaction Detail
-  - Select the date range that you would like to run the report for.
-  - Change "All Departments" to "Unassigned Services".
-  - Click Export and Open the Excel spreadsheet.
+# Running Edge Weekly/Monthly Reports
+### 1. Accessing Checkfront:
+  - Open Checkfront https://seasaba.checkfront.com/
+  - Navigate to the Reports tab.
+  - Select "Booking Sales".
+  - Ensure that the "Booking Item" tab is selected.
+  - Change the "Date Source" to "Start".
+  - Change the "Date" to "Custom".
+  - Select the desired date range.
+  - Ensure the "Item ID" has the 4 "Edge 1-ways" selected.
+  - Click on the Export icon.
 
-**<span style="color: red;"> Do not close this page you will need it later in the steps!**
 
-![Transaction Detail](../Images/Reports/TransactionDetail.png)
 
-### 2. On the Excel spreadsheet delete the following columns named:
-  - Department
-  - SKU
-  - Tax Collected
-  - Cost
-  - Liability
-  - Profit
-  - City
-  - State
-  - Zip
-  - Country
-  - Serial Number
-  - Store Location
-  - Sales Person
-  - Sales Rep
+### 2. Excel Formatting:
+  - Open the Excel sheet (if not opened automatically).
+  - Click on "Enable Editing" at the top.
+  - Delete columns: B, D, E, I, and J
+  - Rename cells:
+    - "Item Start Date" change to "Travel Date"
+    - "Item Quantity" change to "Qty"
+    - "Net Sales" change to "Price"
+  - Name new cells:
+    - H4 name "Margin"
+    - I4 name "JB#"
+    - J4 name "Commission"
+    - K4 name "To Edge"
+    - L4 name "Notes"
+  - Format Columns:
+    - Change column C to "Short Date" format
+      - You will have to type in the date MM/DD it will not automatically change.
+    - Change columns F, G, J, and K to "Currency" format.
+      - I like to select the "More Number Formats" and select the Currency option with the negative numbers being in RED so they stand out.
+    - Change column H to "Percentage" format.
 
-![Spreadsheet](../Images/Reports/Spreadsheet.png)
 
-### 3. Change the column names for these to:
-  - Retail change to Total
-  - Discount change to Price
-  - Company change to Date of Travel
-  - Email change to JB#
-  - Phone change to To Edge
-  - Address change to Commission
 
-### 4. Select columns (E) Total, (F) Price, (K) To Edge, and (L) Commission. Change the number format to currency.
-  - Make sure to select the "More Number Formats"
-  - Select the option where the negative amounts will be in <span style="color: red;"> red.
+### 3. Insert Table and Sorting:
+  - Select the report from row 4 until the end and insert a Table, ensuring to check the box "My Table Has Headers".
+  - Sort table data by "Travel Date".
 
-![Number format](../Images/Reports/NumberFormat.png)
-![Currency](../Images/Reports/Currency.png)
 
-### 5. Select column (G) Margin and change the number format to Percent. (You may have to change the percent back to 10% and 20% as they might go to 1000% and 2000%)
 
-![Percent](../Images/Reports/Percent.png)
+### 4. Adding Formulas:
+  - In "Margin" column, input 10 if the "Item Name" says "Local", otherwise input 20.
+  - In Price (F5), input the formula =G5/E5. Or if you are clicking on the cells, it should read =[@Total]/[@Qty]
+    - You will need to grab the little green square and drag the formula down the rest of the column.
+  - In "Commission" (J5), input the formula =G5*H5. If you type enter when done with the formula it will automatically continue the formula through the rest of the columns
+  - In "To Edge" (K5), input the formula =G5-J5.
 
-### 6. Select column (I) Date of Travel and change the number format to Short Date.
 
-![Short Date](../Images/Reports/ShortDate.png)
 
-### 7. Now you will need to select all the columns and rows tht have information so that you can insert a Table.
-  - Columns selected should be A - M.
-  - Rows select all the way down to the last line of information.
-  - Once selected, click on the Insert tab.
-  - Click on the table icon.
-  - Make sure that the little box is checked tht states "My Table Has Headers".
-  - Click Ok.
+### 5. Adding JB#'s and Adjustments
+  - Obtain JB#'s from Checkfront or Junglebee, copy and past the numbers into the corresponding cells
 
-![Insert Table](../Images/Reports/InsertTable.png)
-![Table Header](../Images/Reports/TableHeader.png)
 
-### 8. For cell F2 enter this formula:
-  - =[@TOTAL]/[@QTY] you can try copying and pasting this or....
-  - Type (=), then click on the cell E2, type (/), and click on the cell D2. 
-  - Once you get the formula entered, the cell (F2) should be surrounded by a green, and there will be a tiny green square in the bottom right corner of the cell. Click on the little square and drag down to the end of the table.
-  - This continues the formula for the rest of the cells in that column.
 
-![Drag Formula](../Images/Reports/DragFormulas.png)
+  - Insert 3 rows after row 3.
+  - Merge the following cells:
+    - F1-G1 down to F5-G5
+    - H1-I1 down to H5-I5
 
-### 9. In cell K2 enter this formula:
-  - =[@TOTAL]-[@COMMISSION] you can try copying and pasting this or....
-  - Type (=), then click on the cell E2, type (-), and click on the cell L2
-  - Once you get the formula entered, the cell (K2) should be surrounded by a green, and there will be a tiny green square in the bottom right corner of the cell. Click on the little square and drag down to the end of the table.
-  - This continues the formula for the rest of the cells in that column.
 
-### 10. In cell L2 enter this formula:
-  - =[@TOTAL]*[@MARGIN] you can try copying and pasting this or....
-  - Type (=), then click on the cell E2, type (*), and click on the cell G2
-  - Once you get the formula entered, the cell (L2) should be surrounded by a green, and there will be a tiny green square in the bottom right corner of the cell. Click on the little square and drag down to the end of the table.
-  - This continues the formula for the rest of the cells in that column.
 
-### 11. Insert 6 rows at the top of the table.
-  - Select cells F1 and G1 click "Merge"
-  - Repeat down to F5 and G5
-  - Select cells F1/G1 to H1 down to F5/G5 and H5
-      - Make these cells **BOLD**
-      - Make the font size 14
-  - In cell F1/G1 type: Days Running
-  - In cell F2/G2 type: Agent Fees
-  - In cell F3/G3 type: Commission
-  - In cell F4/G4 type: To Edge
-  - In cell F5/G5 type: Total Sales
+### 6. Adjusting Font and Formatting for the Top:
+  - Select the entire sheet
+  - Change the font to Arial or Calibri and size 12.
+  - Bold the header cells (F1-I1 down to F5-I5).
+  - Set formatting for specific cells at the top:
+    - F1 type "Days Running"
+    - F2 type "Agent Fees"
+    - F3 type "Commission
+    - F4 type "To Edge"
+    - F5 type "Total Sales"
+    - H1 change number format to "General"
+    - H2-5 change number format to "Currency"
+    - H2 type formula =H1*40
+    - H3 type formula =sum(J:J)
+    - H4 type formula =sum(K:K)
+    - H5 type formula =H3+H4
 
-![Header](../Images/Reports/Header.png)
 
-### 12. In cell H2 enter this formula:
-  - =H1*40
 
-### 13. In cell H3 enter this formula:
-  - =sum(L:L)
+### 7. Counting Days and Verification:
+  - Count the days the Edge Ferry ran to Saba and enter the number in H1.
+  - Verify received payment for all purchased tickets.
+  - Cross check report with Aqua Mania's report they send over.
 
-### 14. In cell H4 enter this formula:
-  - =sum(K:K)
 
-### 15. In cell H5 enter this formula:
-  - =H3+H4
 
-### 16. Sometimes in the notes column M, are the JB #'s, but not all the time.
-  - If not you will need to go back to RainPOS (hopefully you still have the report open, otherwise you will need to repeat step 1)
-  - For the ones missing the JB #'s you will need to click on their transactions to see if there are any in the notes.
-  - If nothing in RainPOS, you will need to find them in Junglebee.
+### 8. Saving the Report:
+  - Save the Excel sheet in One Drive>08 Edge Ferry>YYYY Bookings>MM Mon YYYY, Naming the file with dates of travel.
 
-### 17. Once you have the JB #'s you will need to go to www.junglebee.com to find the date of travel.
-  - Also if the customer names are missing from the spreadsheet you will need to grab them from here, and add them to the sheet.
 
-### 18. After you have all the information filled in we will need to sort the sheet by date of travel.
-  - On your table, "Date of Travel" there will be a grey box with a down arrow, click for the drop down.
-  - Select "Sort Oldest to Newest".
 
-![Sort Oldest to Newest](../Images/Report/../Reports/SortOldest2Newest.png)
-
-### 19. If you still have information missing, like the customer name and or JB # you will need to get them off of AquaMania's report.
-
-### 20. Save your report.
-  - Click "Save As"
-  - Select "Browse"
-  - Select the following file:
-      - OneDrive - Sea Saba N.V. > 08 Edge Ferry > 20XX Booking (Current Year) > XX MONTH 20XX (Current Month you are running report for).
-        - If the folder for the month you are working on is not there already you will need to add a New Folder and name it.
-  - Change the document from Comma Delimited .csv to Excel Workbook .xlsx
-  - Change the name of the spreadsheet to XX Month (example: 08 Aug)
-
-### 21. Once AquaMania sends their report, compare the bookings and make sure the totals match.
-  - If they don't match see if there might have been a booking that we missed, or it was purchased outside the date range you ran the report for.
+#### By Following these steps, you can efficiently run Edge Reports and ensure accurate data for analysis and record-keeping.
