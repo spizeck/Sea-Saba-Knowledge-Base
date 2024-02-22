@@ -3,7 +3,13 @@
 ### 1. Opening the Register
    - Enter your 4-6 digit PIN.
   >If you do not have a PIN notify, management so that we can set you up with one.
+
+![Pin](../Images/POS/Pin.jpg)
+
    - Click on the "More" tab.
+
+![MoreTab](../Images/POS/MoreTab.jpg)
+
    - Select "Register".
    - Click on "Start Tracking Session".
    - Enter the amount of cash in the register.
