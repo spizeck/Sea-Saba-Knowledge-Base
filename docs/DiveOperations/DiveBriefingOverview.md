@@ -14,10 +14,10 @@
 - **Post-Tour Instructions:** What divers can do before ascending and when should they ascend.
 
 - **Meeting Points:** (Options for group assembly, ensuring clarity on where and how to meet.)
-  - Meet at the surface at the mooring line, descend as a group.
-  - Meet at the surface at the tag line, descend as a group.
-  - Meet on the mooring line, 15 feet deep, descend as a group.
-  - Buddy teams can descend and meet under the boat / base of the mooring. Experienced buddy teams only!
+    - Meet at the surface at the mooring line, descend as a group.
+    - Meet at the surface at the tag line, descend as a group.
+    - Meet on the mooring line, 15 feet deep, descend as a group.
+    - Buddy teams can descend and meet under the boat / base of the mooring. Experienced buddy teams only!
 
 ## Marine Park Guidelines:
 - Strict no-touching, collecting, or contact policy. Be mindful of buoyancy and fin placement. No gloves.
@@ -26,9 +26,9 @@
 - **Decompression:** No decompression dives, unless specifically planned and certified to do so.
 - **Dive Computer Requirement:** Essential for monitoring air, depth, and deco. Follow the computer's instructions for accidental deco stops.
 - **Air and Depth Monitoring:** Divers are responsible for monitoring their air supply and depth.
-  - Alert your guide upon reaching half tank.
-  - Plan your ascent to return to the boat with at least 500 psi / 50 bar.
-  - Perform a safety stop for 3-5 minutes, depending on maximum depth reached.
+    - Alert your guide upon reaching half tank.
+    - Plan your ascent to return to the boat with at least 500 psi / 50 bar.
+    - Perform a safety stop for 3-5 minutes, depending on maximum depth reached.
 - **Reiterate Entry and Exit Procedures:** Especially taking fins off on the tag line when rough.
 
 ## Additional Notes:
@@ -37,7 +37,7 @@
 - **Guided Dive Protocol:** The tour begins only when all divers are assembled with the guide.
 - **Air Consumption-Based Tours:** Adapt the tour to match divers' air consumption rates.
 - **Dive Computer Usage:** Make sure everyone understands how to use their dive computer. Provide guidance for rental units if necessary.
-- **Compliance with Safety Stops:** Failure to comply with mandatory safety stops will result in a no-dive penalty for at least 24 hours.
+- **Compliance with Deco Stops:** Failure to comply with mandatory stops will result in a no-dive penalty for at least 24 hours.
 - **Handling Accidental Decompression:** Requires a 2-hour surface interval, possibly affecting subsequent dive plans.
 - **Cancellation and Rescheduling Policy:** Dives cancelled by the diver (due to deco, feeling unwell, etc.) are not refundable or exchangeable, though rescheduling may be possible at the company's discretion.
 - **Surface Interval Timing:** Schedule surface intervals strategically to maintain the dive day's flow without rushing the pre-dive briefing.
