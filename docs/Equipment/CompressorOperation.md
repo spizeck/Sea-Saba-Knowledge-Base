@@ -91,6 +91,17 @@ All dive staff members are required to familiarize themselves with these procedu
       - **Pressure Regulation**: The pressure to tanks is regulated at 3300 psi; when this is reached, the valve will close, back pressuring the system.
       - **Restarting Compressors**: If the compressor shuts down at 4500 psi, it’s OK, but avoid making it a habit. Ensure the tank valves are closed before opening the bank valve and restarting the compressor.
 
+9. **Shutting Down**
+    - The Nitrox Compressor is shut down by rotating the On / Off / Start switch to off. This will start the shutdown procedure which takes approximately 30 seconds. 
+    - The Red Compressor is shut down by pressing the Off button. This shuts down immediately. 
+    - Before shutting off the red compressor, it is advisable to manually open the drain valves to purge the condensate collectors. This should only take about 5 seconds each (There are 3). Ensure the knobs are fully tightened when done.
+    - Turn off the Blue Air Dryer, unplug the heater and air dryer (Two plugs behind the Blue Air Dryer), turn off the O2 Analyzer and ensure the banks are closed.
+    - Shut off the breakers for the Compressors and Fans.
+
+!!! alert
+     - If the banks are not closed, they will leak through the O2 analyzer overnight and drain down significantly
+
+
 ## Conclusion
 
 Strict adherence to this SOP ensures the safe and efficient operation of our compressors. Your diligence and attention to detail are crucial in maintaining the high standards of Sea Saba’s diving operations.
