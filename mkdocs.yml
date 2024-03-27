@@ -24,6 +24,7 @@ nav:
       - Store Opening & Closing Instructions: RetailOperations/RetailOpenClosing.md
   - Diving Operations:
       - Dive Briefing Overview: DiveOperations/DiveBriefingOverview.md
+      - Packing Lists: DiveOperations/PackingLists.md
       - Surface Support: DiveOperations/SurfaceSupport.md
       - Rinsing & Putting Away Equipment: DiveOperations/RinsingGear.md
       - Logging Dives: DiveOperations/DiveLogApp.md
