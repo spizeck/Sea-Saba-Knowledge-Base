@@ -8,11 +8,11 @@
 ## Safety Equipment & Procedures
 
 - **Location of Safety Equipment:**
-  - Life Jackets: Adult and Children's.
-  - Oxygen / First Aid Kits
-  - Fire Extinguisher
-  - Emergency Signal Devices
-  - VHF Radio: Channel 16, how to change the channel.
+    - Life Jackets: Adult and Children's.
+    - Oxygen / First Aid Kits
+    - Fire Extinguisher
+    - Emergency Signal Devices
+    - VHF Radio: Channel 16, how to change the channel.
 - **Emergency Procedures:** Emphasize the importance of listening to crew instructions in the event of an emergency.
 
 ## Boat Layout
