@@ -23,7 +23,7 @@ nav:
       - Edge Reports: RetailOperations/EdgeReports.md
       - Store Opening & Closing Instructions: RetailOperations/RetailOpenClosing.md
   - Diving Operations:
-      - Morning Routine: DiveOperations/MorningRouting.md
+      - Morning Routine: DiveOperations/MorningRoutine.md
       - Boat Briefing Overview: DiveOperations/BoatBriefingOverview.md
       - Dive Briefing Overview: DiveOperations/DiveBriefingOverview.md
       - Packing Lists: DiveOperations/PackingLists.md
