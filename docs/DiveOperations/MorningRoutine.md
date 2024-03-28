@@ -63,8 +63,8 @@ Upon arrival at the boat, the captain and the accompanying crew member must comp
 - **Communications and Electronics**: Activate the radio and other necessary electronics, performing a radio check to ensure communication lines are open and clear.
 
 - **Safety and Mooring Preparations**:
-  - Deploy the fenders to protect the boat during docking.
-  - Prepare to release the boat from its mooring by ensuring all lines are ready and secure for a smooth departure to the dock.
+    - Deploy the fenders to protect the boat during docking.
+    - Prepare to release the boat from its mooring by ensuring all lines are ready and secure for a smooth departure to the dock.
 
 ### Final Preparations
 
