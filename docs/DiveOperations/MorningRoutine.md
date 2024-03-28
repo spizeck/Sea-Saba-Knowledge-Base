@@ -1,6 +1,6 @@
 # Morning Routine for Dive Crew
 
-## 1. Opening Procedures
+## Opening Procedures
 
 Upon arrival, the crew is responsible for getting the dive shop ready for the day. This involves a series of steps to ensure everything is accessible and operational.
 
@@ -17,7 +17,7 @@ The crew needs to open the shutters for multiple areas:
       - Captains and Managers have keys.
       - The controls for the Equipment room are inside the Dive Center.
 
-## 2. Preparing the Trucks
+## Preparing the Trucks
 
 After opening up the dive shop, the next step is to prepare for the day's diving trips. This involves loading the trucks with all necessary equipment and making sure that everything is accounted for.
 
@@ -40,17 +40,17 @@ Collect the manifests for the day to determine the needs for tanks and equipment
 - It's advisable to prepare an extra box with a variety of sizes in rental equipment for any size changes that may be needed. If a size change occurs, remember to update the manifest accordingly.
 
 ### Packing List
-Refer to the [packing list](../DiveOperations/PackingLists/) to ensure nothing is forgotten.
+Refer to the [packing list](PackingLists.md) to ensure nothing is forgotten.
 
-## 3. Getting the Boat(s)
+## Getting the Boat(s)
 
 By this time in the morning, the Captain(s) will have determined which dock to bring their boat to for loading. While the small pier is preferred for its ease of loading and unloading equipment and guests, availability can vary. On occasions where space is limited, we may need to tie two boats side by side and cross-load equipment. Generally, we aim to accommodate all boats for the day at the small pier, though minor modifications to the process may be necessary.
 
 ### Process Overview
 
-1. **Dinghy Preparation**: One person is tasked with retrieving the dinghy, while the remainder of the team accompanies the trucks to the designated dock. The dinghy will then be used to transport one captain and one crew member for each boat from the dock to their respective vessels, which are moored offshore. Afterward, the dinghy is securely stored away, and the person responsible assists with further preparations.
+- **Dinghy Preparation**: One person is tasked with retrieving the dinghy, while the remainder of the team accompanies the trucks to the designated dock. The dinghy will then be used to transport one captain and one crew member for each boat from the dock to their respective vessels, which are moored offshore. Afterward, the dinghy is securely stored away, and the person responsible assists with further preparations.
 
-2. **Preparation at the Dock**: While the dinghy is in use, the rest of the crew begins unloading tanks from the truck onto the dock, preparing for the boats' arrival.
+- **Preparation at the Dock**: While the dinghy is in use, the rest of the crew begins unloading tanks from the truck onto the dock, preparing for the boats' arrival.
 
 ### Tasks Upon Reaching the Boat
 
@@ -72,7 +72,7 @@ Upon arrival at the boat, the captain and the accompanying crew member must comp
 
 This process ensures that each boat is prepared with efficiency and safety in mind, ready for a day of diving adventures.
 
-## 4. Loading the Boat(s)
+## Loading the Boat(s)
 
 When the boat has docked, it's crucial to follow a systematic process for loading, rather than hastily moving items onboard. The captain—or a designated individual—plays a pivotal role in organizing this process to ensure both efficiency and safety.
 
@@ -104,5 +104,28 @@ When the boat has docked, it's crucial to follow a systematic process for loadin
 
 This organized approach to loading the boats not only ensures a smooth start to the day's activities but also enhances the overall guest experience by prioritizing safety and efficiency.
 
-## 5. Receiving Guests
+## Receiving Guests
+
+The arrival of guests is a pivotal moment that sets the tone for their experience. It is crucial to manage this process with efficiency and warmth.
+
+### Guest Arrival
+
+- **Greeting**: As soon as a taxi is spotted arriving with guests, a designated crew member from each boat, holding the manifest, should approach the taxi. This crew member's responsibility is to warmly greet the guests and guide them to the correct boat.
+
+- **Dock Assistance**: Another crew member should be stationed at the dock, ready to assist guests as they board or disembark from the boat. This includes helping carry any personal diving gear to the correct seating area on the boat.
+
+### Onboard Assistance
+
+- **Equipment Verification**: Once the guests are directed to their seats, assist them in verifying that all necessary equipment is present, fits properly, and is in serviceable condition. 
+
+- **Camera Equipment**: For guests with cameras, offer a camera bag for protection during the trip. These bags are stored in the equipment room and should be readily available.
+
+### Preparing for Departure
+
+- **Weight Belts and Weights**: Assist guests in making weight belts or gathering weights for integrated weight pockets, ensuring everyone is properly weighted for the dive.
+
+- **Boat Briefing**: Once all guests are on board and settled, a crew member should conduct the boat briefing. This is an essential safety measure and ensures guests are familiar with the boat's layout, safety equipment, and protocols. 
+
+[Boat Briefing Guide](BoatBriefingOverview.md)
+
 
