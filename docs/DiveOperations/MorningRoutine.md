@@ -40,7 +40,7 @@ Collect the manifests for the day to determine the needs for tanks and equipment
 - It's advisable to prepare an extra box with a variety of sizes in rental equipment for any size changes that may be needed. If a size change occurs, remember to update the manifest accordingly.
 
 ### Packing List
-Refer to the [packing list](PackingLists) to ensure nothing is forgotten.
+Refer to the [packing list](../DiveOperations/PackingLists/) to ensure nothing is forgotten.
 
 ## 3. Getting the Boat(s)
 
@@ -91,8 +91,12 @@ When the boat has docked, it's crucial to follow a systematic process for loadin
 ### Safety Checks
 
 - **Regulator and Tank Inspection**: For guests using air tanks, connect the regulator, pressurize to check for leaks, then depressurize. This step is crucial for identifying and fixing any leaking tank o-rings before the area becomes crowded with guests.
+  
+- **Nitrox Tank Analysis and Recording**: For guests diving with Nitrox, it's essential to analyze the tank contents and record the results on a Nitrox Sheet before connecting the regulator and performing a leak check. This process involves two staff members: one to analyze the tank and another to record the findings. The Nitrox Sheet includes sections for the guest's name, tank ID number, oxygen percentage, maximum operating depth (MOD), and a signature field. This procedure not only ensures the safety and correctness of the gas mixtures but also streamlines the process for efficiency. While staff will analyze the tanks, guests are always welcome to use the analyzer themselves to verify the contents. It is mandatory for guests to acknowledge the contents of their tanks by signing the Nitrox Sheet, confirming they are informed and agree with the recorded information.
 
 ### Final Preparations
+
+- **Check Rental Computers**: Verify that the rental computer is set to the appropriate gas (Air / Nitrox) and set the units based on your best guess as to the guests preference. For example, any non-american guests typically prefer their dive computer to be set to Metric Units. When in doubt, set the units to Imperial. 
 
 - **Double-Check**: Ensure that all necessary equipment and supplies are on board before guests arrive. This includes a final check of the equipment, tanks, and additional supplies to avoid any delays or issues during the trip.
 
@@ -100,4 +104,5 @@ When the boat has docked, it's crucial to follow a systematic process for loadin
 
 This organized approach to loading the boats not only ensures a smooth start to the day's activities but also enhances the overall guest experience by prioritizing safety and efficiency.
 
+## 5. Receiving Guests
 
