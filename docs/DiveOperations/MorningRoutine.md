@@ -40,7 +40,7 @@ Collect the manifests for the day to determine the needs for tanks and equipment
 - It's advisable to prepare an extra box with a variety of sizes in rental equipment for any size changes that may be needed. If a size change occurs, remember to update the manifest accordingly.
 
 ### Packing List
-Refer to the [packing list](DiveOperations/PackingLists.md) to ensure nothing is forgotten.
+Refer to the [packing list](PackingLists.md) to ensure nothing is forgotten.
 
 ## 3. Getting the Boat(s)
 
@@ -73,4 +73,31 @@ Upon arrival at the boat, the captain and the accompanying crew member must comp
 This process ensures that each boat is prepared with efficiency and safety in mind, ready for a day of diving adventures.
 
 ## 4. Loading the Boat(s)
+
+When the boat has docked, it's crucial to follow a systematic process for loading, rather than hastily moving items onboard. The captain—or a designated individual—plays a pivotal role in organizing this process to ensure both efficiency and safety.
+
+### Initial Steps
+
+- **Equipment Verification**: The Captain (or designated person) starts with the manifest to verify the guest equipment (crates) and establish the seating arrangement for the day. This step is fundamental for organizing the loading process and ensuring a smooth operation.
+
+- **Seating Arrangement**: Carefully arranging the seating is essential, especially when the group size necessitates multiple guides. If there are more than 8 guests, indicating two guides will be in the water, it’s important to split the group accordingly. Guests should be seated with their group and other divers they are traveling with to facilitate a natural and streamlined experience.
+
+### Loading Process
+
+- **Equipment and Tanks**: Only after seating and equipment arrangements have been decided are tanks loaded onto the boat. Each guest's equipment is set up on their designated tank, starting from the tank furthest towards the bow and moving towards the stern as the day progresses. For divers stationed at the stern (if side spaces are full), equipment setup moves from the starboard side to the port side (left to right when facing the equipment).
+
+- **Staff Gear**: Simultaneously, water jugs, coolers, and staff gear/tanks can be loaded, with staff tanks always placed at the stern of the boat.
+
+### Safety Checks
+
+- **Regulator and Tank Inspection**: For guests using air tanks, connect the regulator, pressurize to check for leaks, then depressurize. This step is crucial for identifying and fixing any leaking tank o-rings before the area becomes crowded with guests.
+
+### Final Preparations
+
+- **Double-Check**: Ensure that all necessary equipment and supplies are on board before guests arrive. This includes a final check of the equipment, tanks, and additional supplies to avoid any delays or issues during the trip.
+
+- **Prepare to Receive Guests**: With everything in place, the crew should be ready to welcome guests onto the boat, guiding them to their designated seating and briefing them on safety procedures.
+
+This organized approach to loading the boats not only ensures a smooth start to the day's activities but also enhances the overall guest experience by prioritizing safety and efficiency.
+
 
