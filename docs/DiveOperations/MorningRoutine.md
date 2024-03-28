@@ -50,7 +50,7 @@ By this time in the morning, the Captain(s) will have determined which dock to b
 
 - **Dinghy Preparation**: One person is tasked with retrieving the dinghy, while the remainder of the team accompanies the trucks to the designated dock. The dinghy will then be used to transport one captain and one crew member for each boat from the dock to their respective vessels, which are moored offshore. Afterward, the dinghy is securely stored away, and the person responsible assists with further preparations.
 
-- **Preparation at the Dock**: While the dinghy is in use, the rest of the crew begins unloading tanks from the truck onto the dock, preparing for the boats' arrival.
+- **Preparation at the Dock**: While the dinghy is transferring crew to the boat(s), the remaining crew begins unloading tanks from the truck onto the dock, preparing for the boats' arrival. In scenarios where one boat is scheduled to depart earlier than another—possibly due to the other boat accommodating numerous new divers, for example—this boat should be positioned either in front of the others or on the outside when boats are docked side by side.
 
 ### Tasks Upon Reaching the Boat
 
@@ -68,7 +68,8 @@ Upon arrival at the boat, the captain and the accompanying crew member must comp
 
 ### Final Preparations
 
-- Once the captain has confirmed that the boat is ready and safe for docking, the crew member releases the mooring and prepares the lines for the boat's arrival at the dock.
+- Once the captain has confirmed that the boat is ready and safe for docking, the crew member releases the mooring and prepares the lines for the boat's arrival at the dock. On Shark Bait and Fin & Tonic, that includes putting the bow line on the cleat.
+- If docking side by side, install a smaller fender at mid ship. 
 
 This process ensures that each boat is prepared with efficiency and safety in mind, ready for a day of diving adventures.
 
