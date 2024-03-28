@@ -40,7 +40,7 @@ Collect the manifests for the day to determine the needs for tanks and equipment
 - It's advisable to prepare an extra box with a variety of sizes in rental equipment for any size changes that may be needed. If a size change occurs, remember to update the manifest accordingly.
 
 ### Packing List
-Refer to the [packing list](PackingLists.md) to ensure nothing is forgotten.
+Refer to the [packing list](PackingLists) to ensure nothing is forgotten.
 
 ## 3. Getting the Boat(s)
 
