@@ -84,7 +84,7 @@ All dive staff members are required to familiarize themselves with these procedu
    - Filling a row of 8 tanks using only the compressor takes approximately **20-30 minutes**.
    - Using the cascade system can reduce the filling time to as little as **4-6 minutes**, depending on fill speed. Control the speed by adjusting the bank valves.
     
-#### **Steps:**
+#### Steps:
 
 1. **Initial Filling**:
     - Begin filling tanks from **Bank 2** and the compressor simultaneously.
@@ -122,7 +122,7 @@ All dive staff members are required to familiarize themselves with these procedu
    - **Duration**: It takes approximately 20-30 minutes to fill a row of 8 tanks.
    - **Current System**: As of this writing, we do not have a dedicated air bank system. This is planned for expansion in **Q4 2024**.
 
-#### **Steps:**
+#### Steps:
 
 1. **Begin Filling**:
     - Line up the row of tanks and start filling. 
