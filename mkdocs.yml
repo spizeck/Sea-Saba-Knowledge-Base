@@ -19,8 +19,6 @@ nav:
       - Diving Flowchart: RetailOperations/DivingFlowchart.md
       - Non-Diving Flowchart: RetailOperations/NonDivingFlowchart.md
       - Shopify POS: RetailOperations/ShopifyPOS.md
-      - Booking Edge Tickets: RetailOperations/BookingEdgeTickets.md
-      - Edge Reports: RetailOperations/EdgeReports.md
       - Store Opening & Closing Instructions: RetailOperations/RetailOpenClosing.md
   - Diving Operations:
       - Morning Routine: DiveOperations/MorningRoutine.md
@@ -35,6 +33,7 @@ nav:
       - Compressor Operation: Equipment/CompressorOperation.md
       - Compressor Servicing: Equipment/CompressorServicing.md
       - Using Sailclear for Vessel Clearance: Equipment/ClearanceOfVessels.md
+      - ECU Replacement on OXE Engines: Equipment/ECU.md
   - Checkfront:
       - Checkfront Overview: Checkfront/CheckfrontOverview.md
 
