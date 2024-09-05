@@ -81,8 +81,8 @@ All dive staff members are required to familiarize themselves with these procedu
 ### Filling Procedure Nitrox - Cascade:
 
    - **Duration**: 
-   - Filling a row of 8 tanks using only the compressor takes approximately **20-30 minutes**.
-   - Using the cascade system can reduce the filling time to as little as **4-6 minutes**, depending on fill speed. Control the speed by adjusting the bank valves.
+     - Filling a row of 8 tanks using only the compressor takes approximately **20-30 minutes**.
+     - Using the cascade system can reduce the filling time to as little as **4-6 minutes**, depending on fill speed. Control the speed by adjusting the bank valves.
     
 #### Steps:
 
