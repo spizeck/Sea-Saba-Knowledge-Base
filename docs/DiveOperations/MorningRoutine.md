@@ -29,6 +29,7 @@ After opening up the dive shop, the next step is to prepare for the day's diving
 Collect the manifests for the day to determine the needs for tanks and equipment.
 
 ### Loading Tanks
+- Tanks are generally loaded onto the trucks the previous afternoon to reduce workload in the morning.
 - Ensure there are enough tanks for all manifested divers and staff.
 - Include a spare tank for emergencies.
 - Remember to account for tanks left on board from previous dives.
