@@ -39,7 +39,7 @@
 
 - Manifest box – Check that it has a PEN
 - Two 5-gallon water jugs – fill approximately halfway
-- 1 Gatorade packet
+- 1/2 Gatorade packet or 3-4 scoops per gallon from the Gatorade Container - Do **NOT** mix too strong
 - 3 reusable ice packs
 - 1 soft sided cooler
 - Guest equipment (Don’t forget the wetsuit)
