@@ -6,8 +6,13 @@ This SOP outlines the key responsibilities and tasks for the Surface Support rol
 
 ## Responsibilities
 
-- **Diver Assistance**: Assist divers in and out of the water.
-- **Bubble Watching**: Continuously monitor divers underwater by watching their bubbles. It's crucial for safety. **No napping** and **No Music** if it interferes with keeping track of the divers.
+- **Review Contingency Plans**: Collaborate with the Captain and Dive Guides to review contingency plans. Discuss roles and actions in scenarios such as increased current, dive aborts, or broken moorings.
+- **Prepare the Boat for Diving**: Ensure the boat is fully prepared by setting up dive flags, the current line, tag line, ladder, and other necessary equipment.
+- **Check Tank Valves**: Double-check that all tank valves are fully **OPEN** before divers enter the water.
+- **Diver Assistance**: Provide assistance to divers entering and exiting the water to ensure safety and efficiency.
+- **Monitor Diver Safety**: Continuously observe divers underwater by tracking their bubbles. This is a critical safety responsibility.
+    - **Avoid Distractions**: Refrain from napping or playing music if it interferes with monitoring divers.
+    - **Adapt to Current Changes**: Regularly check the current line. If currents strengthen, extend the tag line by attaching additional floating line.
 - **Housekeeping**: While still maintaining situational awareness, perform the following tasks:
 
 ## Equipment Inspection and Maintenance
