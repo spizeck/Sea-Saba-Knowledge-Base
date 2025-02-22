@@ -11,6 +11,7 @@ nav:
   - Home: index.md
   - General Information:
       - Diving & Snorkeling Info: GeneralInformation/DivingSnorkelingInfo.md
+      - Random Important Information: GeneralInformation/RandomImportantInfo.md
   - Freight:
       - CaribTrans Freight Shipping Procedures: Freight/ShippingCaribTrans.md
       - Managing Freight Data and Communication with CaribTrans: Freight/CaribTransDocs.md
@@ -28,6 +29,7 @@ nav:
       - Surface Support: DiveOperations/SurfaceSupport.md
       - Rinsing & Putting Away Equipment: DiveOperations/RinsingGear.md
       - Logging Dives: DiveOperations/DiveLogApp.md
+      - Marine Park Rules: DiveOperations/MarineParkRules.md
   - Equipment:
       - Vehicle Maintenance SOP: Equipment/SOPVehicleMaint.md
       - Compressor Operation: Equipment/CompressorOperation.md
