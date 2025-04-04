@@ -10,6 +10,7 @@ markdown_extensions:
 nav:
   - Home: index.md
   - General Information:
+      - Problem-Solving & Issue Escalation: GeneralInformation/ProblemSolving.md
       - Diving & Snorkeling Info: GeneralInformation/DivingSnorkelingInfo.md
       - Random Important Information: GeneralInformation/RandomImportantInfo.md
   - Freight:
