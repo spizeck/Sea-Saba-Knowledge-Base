@@ -6,6 +6,7 @@ markdown_extensions:
   - admonition
   - pymdownx.details
   - pymdownx.superfences
+  - attr_list
 
 nav:
   - Home: index.md
@@ -14,8 +15,8 @@ nav:
       - Diving & Snorkeling Info: GeneralInformation/DivingSnorkelingInfo.md
       - Random Important Information: GeneralInformation/RandomImportantInfo.md
   - Freight:
-      - CaribTrans Freight Shipping Procedures: Freight/ShippingCaribTrans.md
-      - Managing Freight Data and Communication with CaribTrans: Freight/CaribTransDocs.md
+      - Hassell Free Freight Shipping Procedures: Freight/ShippingHassellFree.md
+      - Managing Freight Data and Communication with Hassell Free: Freight/HassellFreeDocs.md
   - Retail Operations:
       - Checkfront: RetailOperations/Checkfront.md
       - Diving Flowchart: RetailOperations/DivingFlowchart.md
@@ -43,3 +44,4 @@ nav:
 plugins:
   - search
   - mermaid2
+  - mkdocs-pdf
