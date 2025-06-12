@@ -44,4 +44,4 @@ nav:
 plugins:
   - search
   - mermaid2
-  - pdf
+  - pdf-viewer
