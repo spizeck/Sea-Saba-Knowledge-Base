@@ -30,5 +30,5 @@ Applicable to all Sea Saba staff members.
     - If you have access to the Sea Saba onedrive, place the invoice in \07 Freight\Hassell Free\Sea Saba - Hassell Free Shared Folder
 
 ### Shipping Schedule
-![Hassell Free Shipping Schedule](../files/2025 Shipping to Saba Calendar.pdf){ type=application/pdf }
+<pdf src="files/2025%20Shipping%20to%20Saba%20Calendar.pdf" />
 [Download the shipping schedule](../files/2025%20Shipping%20to%20Saba%20Calendar.pdf)
