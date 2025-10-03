@@ -1,5 +1,8 @@
 # How to Book Edge Tickets
 
+!!! alert
+    **This SOP is no longer valid as Sea Saba no longer sells Edge Tickets.**
+
 ### 1. Accessing Junglebee Booking Platform
 1.1 Open a Chrome Web Browser.
 

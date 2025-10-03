@@ -1,5 +1,9 @@
 # Retail Shop Opening and Closing Procedures
 
+!!! alert
+    **This SOP is currently under revision due to the retail location change. Please confirm procedures with management if anything is unclear.**
+
+
 ### Opening Procedures
 
 #### 1.1 Lights and Air Conditioning
