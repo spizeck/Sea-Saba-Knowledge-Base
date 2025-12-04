@@ -1,0 +1,9 @@
+{
+  "name": "sea-saba-kb-scripts",
+  "version": "1.0.0",
+  "description": "Build scripts for Sea Saba Knowledge Base",
+  "dependencies": {
+    "yaml": "^2.3.4",
+    "marked": "^11.1.1"
+  }
+}

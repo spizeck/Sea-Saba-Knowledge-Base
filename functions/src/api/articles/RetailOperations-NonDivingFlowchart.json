@@ -1,0 +1,9 @@
+{
+  "id": "RetailOperations/NonDivingFlowchart",
+  "title": "Non-Diving Flowchart",
+  "content": "<pre><code class=\"language-mermaid\">---\ntitle: Non-Diving Flowchart\n---\ngraph TD;\n    start{Are you interested&lt;br&gt;in a discovery dive or&lt;br&gt;a getting certified?}\n    start --&gt; dsd[Discover&lt;br&gt;Scuba Dive]\n    start --&gt; owc[Open Water&lt;br&gt;Course]\n    start --&gt; snorkel[No, Just&lt;br&gt;Snorkeling]\n\n    dsd --&gt; info1{Provide DSD&lt;br&gt;Information&lt;br&gt;1 Day Course}\n\n    owc --&gt; info2{Provide OWC&lt;br&gt;Information&lt;br&gt;3 Day Course}\n\n    snorkel --&gt; info3{Provide Snorkeling&lt;br&gt;Information&lt;br&gt;}\n\n    info1 --Yes---&gt; Harbor[Check with the Harbor for Scheduling]\n\n    info2 --Yes---&gt; Harbor\n    info3 --Yes--&gt; Weather[Check the weather or&lt;br&gt;Contact the Harbor]\n    Weather --Bad Conditions--&gt; Harbor\n    Weather --Good Conditions---&gt; Checkfront[Enter into Checkfront]\n    \n    Harbor ---&gt; Checkfront\n</code></pre>\n",
+  "excerpt": "mermaid\r ---\r title: Non-Diving Flowchart\r ---\r graph TD;\r     start{Are you interested<br>in a discovery dive or<br>a getting certified?}\r     start...",
+  "path": "/RetailOperations/NonDivingFlowchart",
+  "lastModified": "2025-12-04T16:50:37.439Z",
+  "category": "Retail Operations"
+}
