@@ -126,7 +126,6 @@ function main() {
   
   // Read MkDocs configuration
   const mkDocsConfig = yaml.parse(fs.readFileSync(MKDOCS_CONFIG, 'utf8'));
-  console.log('MkDocs config:', JSON.stringify(mkDocsConfig.nav, null, 2));
   
   const { categories, allArticles } = parseMkDocsNav(mkDocsConfig.nav);
   
@@ -142,18 +141,18 @@ function main() {
     JSON.stringify(categories, null, 2)
   );
   
-  // Create individual article files
+  // Create individual article files with safe filenames
   const articlesDir = path.join(OUTPUT_DIR, 'articles');
   if (!fs.existsSync(articlesDir)) {
     fs.mkdirSync(articlesDir, { recursive: true });
   }
   
   for (const article of allArticles) {
-    // Replace slashes with dashes to avoid nested directories
-    const fileName = article.id.replace(/\//g, '-');
+    // Use base64 encoding to avoid filename collisions
+    const fileName = Buffer.from(article.id).toString('base64').replace(/[/+=]/g, '-');
     fs.writeFileSync(
       path.join(articlesDir, `${fileName}.json`),
-      JSON.stringify(article, null, 2)
+      JSON.stringify({ ...article, originalId: article.id }, null, 2)
     );
   }
   

@@ -10,6 +10,16 @@ markdown_extensions:
 
 nav:
   - Home: index.md
+  - Business App:
+      - Quick Start Guide: BusinessApp/QuickStart.md
+      - Contract Management: BusinessApp/ContractManagement.md
+      - Dive Package Configuration: BusinessApp/DivePackages.md
+      - Hotel & Room Management: BusinessApp/HotelManagement.md
+      - Dive Logging & Operations: BusinessApp/DiveLogging.md
+      - Equipment Maintenance: BusinessApp/Maintenance.md
+      - Asset Tracking: BusinessApp/AssetManagement.md
+      - Analytics & Reporting: BusinessApp/Analytics.md
+      - Troubleshooting Common Issues: BusinessApp/Troubleshooting.md
   - General Information:
       - Problem-Solving & Issue Escalation: GeneralInformation/ProblemSolving.md
       - Diving & Snorkeling Info: GeneralInformation/DivingSnorkelingInfo.md
