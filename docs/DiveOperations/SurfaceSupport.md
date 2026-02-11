@@ -1,21 +1,27 @@
-# SOP: Surface Support
+# Surface Support
 
-## Introduction
+## Purpose
 
-This SOP outlines the key responsibilities and tasks for the Surface Support role. Surface Support plays a critical role in dive operations, ensuring the safety and preparedness of divers and equipment.
+To outline the key responsibilities and tasks for the Surface Support role, ensuring the safety and preparedness of divers and equipment during dive operations.
 
-## Responsibilities
+## Scope
 
-- **Review Contingency Plans**: Collaborate with the Captain and Dive Guides to review contingency plans. Discuss roles and actions in scenarios such as increased current, dive aborts, or broken moorings.
-- **Prepare the Boat for Diving**: Ensure the boat is fully prepared by setting up dive flags, the current line, tag line, ladder, and other necessary equipment.
-- **Check Tank Valves**: Double-check that all tank valves are fully **OPEN** before divers enter the water.
-- **Diver Assistance**: Provide assistance to divers entering and exiting the water to ensure safety and efficiency.
-- **Monitor Diver Safety**: Continuously observe divers underwater by tracking their bubbles. This is a critical safety responsibility.
+This SOP applies to all dive crew members assigned to the Surface Support role.
+
+## Procedure
+
+### Core Responsibilities
+
+1. **Review Contingency Plans**: Collaborate with the Captain and Dive Guides to review contingency plans. Discuss roles and actions in scenarios such as increased current, dive aborts, or broken moorings.
+2. **Prepare the Boat for Diving**: Ensure the boat is fully prepared by setting up dive flags, the current line, tag line, ladder, and other necessary equipment.
+3. **Check Tank Valves**: Double-check that all tank valves are fully **OPEN** before divers enter the water.
+4. **Diver Assistance**: Provide assistance to divers entering and exiting the water to ensure safety and efficiency.
+5. **Monitor Diver Safety**: Continuously observe divers underwater by tracking their bubbles. This is a critical safety responsibility.
     - **Avoid Distractions**: Refrain from napping or playing music if it interferes with monitoring divers.
     - **Adapt to Current Changes**: Regularly check the current line. If currents strengthen, extend the tag line by attaching additional floating line.
-- **Housekeeping**: While still maintaining situational awareness, perform the following tasks:
+6. **Housekeeping**: While still maintaining situational awareness, perform the following tasks:
 
-## Equipment Inspection and Maintenance
+### Equipment Inspection and Maintenance
 
 1. **Tool Kit Inspection**:
     - Inspect and clean the tool kit after each use.
@@ -34,10 +40,11 @@ This SOP outlines the key responsibilities and tasks for the Surface Support rol
         - Relying on informal advice like "That's how I was told" is not acceptable. Always verify instructions.
         - Use the correct RainX for the windows if needed (specific RainX for plastic windows vs. glass. Using the wrong one will destroy the window).
         - Other tasks as you see the need to keep the boats clean and organized.
-!!! WARNING
-    - **Use PPE** (Personal Protective Equipment) when using chemicals. You do NOT want Ospho in your eyes...
 
-## Operational Tasks
+!!! danger
+    **Use PPE** (Personal Protective Equipment) when using chemicals. You do NOT want Ospho in your eyes.
+
+### Operational Tasks
 
 1. **Organize Weights and Belts**:
     - Tidy and organize the weights and belts to ease future use.
@@ -52,7 +59,11 @@ This SOP outlines the key responsibilities and tasks for the Surface Support rol
 4. **Personal Gear Preparation**:
     - If applicable, have your own gear ready for the next dive.
 
-!!! note
-      - **Be Vigilant**: Surface support is a critical role that requires constant attention and vigilance.
-      - **Communication**: Promptly report any issues or shortages to ensure seamless dive operations.
-      - **Notify Issues Immediately**: This can't be stressed enough. We can't fix unreported issues.
+!!! warning
+    - **Be Vigilant**: Surface support is a critical role that requires constant attention and vigilance.
+    - **Communication**: Promptly report any issues or shortages to ensure seamless dive operations.
+    - **Notify Issues Immediately**: This can't be stressed enough. We can't fix unreported issues.
+
+## Accountability
+
+All crew members assigned to Surface Support are responsible for following this SOP. Report any equipment issues or safety concerns to the Captain immediately.

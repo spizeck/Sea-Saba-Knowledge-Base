@@ -202,11 +202,8 @@ Evaluate maintenance investments:
 - **Reporting Issues** - Check data sources and parameters
 - **Integration Problems** - Verify system connections
 
----
+## Related Articles
 
-*Related Articles:*
 - [Asset Tracking](AssetManagement.md)
 - [Dive Logging & Operations](DiveLogging.md)
 - [Equipment SOPs](../Equipment/SOPVehicleMaint.md)
-
-*Last updated: December 2025*

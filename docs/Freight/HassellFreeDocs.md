@@ -1,17 +1,19 @@
-# SOP: Managing Freight Data and Communication with Hassell Free Shipping
+# Managing Freight Data and Communication with Hassell Free Shipping
 
 ## Purpose
+
 To outline the process for sending shipment information to Hassell Free Shipping for freight transport to Saba.
 
 ## Scope
-For staff managing the shipment of goods via Hassell Free.
 
-## Key Deadlines
+This SOP applies to staff managing the shipment of goods via Hassell Free.
+
+## Procedure
+
+### Key Deadlines
 - **Cargo Cutoff**: Every other Monday as per the schedule located [Here](../files/2025%20Shipping%20to%20Saba%20Calendar.pdf).
 - **Documentation Cutoff**: Same as cargo cutoff.
 - **Arrival**: Cargo arrives the following week via Orion.
-
-## Procedure
 
 ### Place Invoice in Shared Folder
 - **Shared Folder**:
@@ -39,3 +41,6 @@ For staff managing the shipment of goods via Hassell Free.
     - Formula adds invoice value with shipping cost and multiplies by 6%.
     - Manually override for tax-free items.
 
+## Accountability
+
+Staff managing freight are responsible for following this SOP. Ensure all documentation is accurate and submitted before cargo cutoff deadlines.

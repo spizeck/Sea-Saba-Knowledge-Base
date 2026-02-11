@@ -184,11 +184,8 @@ Track operational efficiency:
 - **Revenue Decline** - Investigate market conditions and competition
 - **Guest Complaints** - Review property standards and service quality
 
----
+## Related Articles
 
-*Related Articles:*
 - [Contract Management](ContractManagement.md)
 - [Dive Package Configuration](DivePackages.md)
 - [Analytics & Reporting](Analytics.md)
-
-*Last updated: December 2025*

@@ -2,21 +2,34 @@
 
 Dive packages are the core offering of your dive business. This system allows you to configure comprehensive dive packages with flexible pricing and inclusions.
 
-## Package Types
+## Rates
 
-### Standard Packages
-- **2-Tank Morning Dive** - Most popular option
-- **3-Tank Full Day** - For experienced divers
-- **Night Dive** - Specialized evening dives
-- **Shore Dive** - Beach entry options
-- **Course Dives** - Training and certification dives
+| Days Booked | Package Type | Diving Only (Per Day) | With Full Rental Gear (Per Day) | Notes |
+|---|---|---|---|---|
+| 1 Day | Two Tank Boat Dive | $155.00 | $195.00 | Nitrox included |
+| 2 Days | Two Tank Boat Dive | $147.00 | $185.00 | Nitrox included. Max 1 day gap in booking. |
+| 3-4 Days | Two Tank Boat Dive | $140.00 | $175.00 | Nitrox included |
+| 5+ Days | Two Tank Boat Dive | $132.00 | $165.00 | Nitrox included |
+| Per day | Add Third Dive | $50.00 | $50.00 | No gear surcharge. Nitrox included |
+| Per day | Single Afternoon Dive | $95.00 | $135.00 | No discounts. Nitrox included |
+| Per day | Night Dive | $115.00 | $115.00 | No discounts. Nitrox included |
+| 5 Days of Diving | 13 Dives in 5 days | $750.00 | $900.00 | Nitrox included. No refunds on unused dives. |
 
-### Premium Packages
-- **Private Guide** - One-on-one diving experience
-- **Photography Package** - Underwater photo/video service
-- **Specialty Dives** - Wreck, deep, or specialty diving
-- **Marine Life Tours** - Focused on specific species
-- **Technical Dives** - Advanced certification required
+## Schedule
+
+| Taxi Pickup Time | Departure Time | Return Time | Package Type | Requirements / Description |
+|---|---|---|---|---|
+| 8:30 AM | 9:00 AM | 1:00 PM | Advanced 2-Tank Dive | AOW & 20 dives or OW & 50 dives. Depths up to 110 feet / 33 meters. Nitrox Mandatory on Dive 1. |
+| 10:00 AM | 10:30 AM | 2:30 PM | Classic 2-Tank Dive | Certified divers. All levels welcome. |
+| 12:30 PM | 1:00 PM | 3:00 PM | Afternoon 1-Tank Dive | Certified divers. Combined with Snorkeling and Courses. |
+| 12:30 PM | 1:00 PM | 3:00 PM | Afternoon Snorkel | Not guided. Must be a comfortable swimmer. |
+
+## How Multi-Day Dive Discounts Work
+
+Our multi-day dive discounts are designed for guests diving on a mostly continuous schedule.
+
+- To keep logistics efficient and equipment properly staged, we allow **one rest day** during a multi-day dive package.
+- Taking more than one day off between dive days requires re-handling and re-staging equipment, and the **multi-day discount will reset**.
 
 ## Configuring Dive Packages
 
@@ -31,49 +44,26 @@ Dive packages are the core offering of your dive business. This system allows yo
    - **Certification Required** - Minimum certification level
 
 ### Pricing Configuration
-1. **Base Price** - Standard rate per person
-2. **Group Discounts** - Tiered pricing for groups:
-   - 1-4 divers: Standard rate
-   - 5-8 divers: 10% discount
-   - 9+ divers: 15% discount
-3. **Seasonal Adjustments**:
-   - High season (Dec-Apr): +20%
-   - Low season (May-Nov): Standard rate
+1. **Base Price** - Set the per-day rate from the rates table above
+2. **Multi-Day Discounts** - Tiered pricing based on days booked (1, 2, 3-4, 5+)
+3. **Gear Surcharge** - Full rental gear adds to the base price per the rates table
 4. **Add-on Services**:
-   - Equipment rental: $25/day
-   - Private guide: +$100/dive
-   - Photography: +$150/dive
+   - Add Third Dive: $50/day (no gear surcharge)
+   - Night Dive: $115/day (no discounts)
 
-### Inclusions Configuration
-For each package, specify what's included:
-- **Dive Equipment** - Tanks, weights, BCD, regulator
-- **Safety Gear** - Surface marker, whistle, dive computer
-- **Services** - Guide, boat captain, deckhand
-- **Refreshments** - Water, fruit, snacks
-- **Transportation** - Hotel pickup/dropoff
-
-## Advanced Package Features
-
-### Dynamic Pricing
-Configure automatic price adjustments based on:
-- **Fuel Costs** - Adjust for current fuel prices
-- **Marine Park Fees** - Include government fees
-- **Seasonal Demand** - Peak vs. off-peak pricing
-- **Group Size** - Volume discounts
-
-### Capacity Management
-Set limits for each package:
-- **Maximum Divers** - Per guide: 4-6 divers
-- **Boat Capacity** - Maximum per boat: 12-20 divers
-- **Site Restrictions** - Some sites have diver limits
-- **Equipment Availability** - Ensure enough gear
+### Inclusions
+All dive packages include:
+- **Nitrox** - Included with all packages
+- **Tanks and Weights** - Standard with every dive
+- **Boat and Crew** - Captain, guide, and surface support
+- **Transfers** - Taxi pickup and return per the schedule
+- **Refreshments** - Water and Gatorade on the boat
 
 ### Booking Rules
-Configure booking restrictions:
-- **Minimum Booking Time** - 24 hours in advance
+- **Multi-Day Gap** - Maximum 1 rest day allowed before discount resets
 - **Cancellation Policy** - 48 hours for full refund
-- **Weather Policy** - Dives cancelled due to weather
-- **Minimum Divers** - Some packages require minimum group size
+- **Weather Policy** - Dives cancelled due to weather are rescheduled
+- **13-Dive Package** - No refunds on unused dives
 
 ## Integration with Other Systems
 
@@ -152,11 +142,8 @@ Analyze operational metrics:
 - **Customer Complaints** - Review inclusions and expectations
 - **Operational Delays** - Check capacity and resource allocation
 
----
+## Related Articles
 
-*Related Articles:*
 - [Contract Management](ContractManagement.md)
 - [Dive Logging & Operations](DiveLogging.md)
 - [Analytics & Reporting](Analytics.md)
-
-*Last updated: December 2025*

@@ -17,16 +17,12 @@ The Asset Management system helps you track company equipment, vehicles, and val
 - **Personal Vehicles** - Company cars for staff use
 
 ### Facility Assets
-- **Buildings** - Dive shops, offices, storage facilities
 - **Equipment** - Compressors, generators, water systems
-- **Furniture** - Office furniture, customer seating
 - **Technology** - Computers, servers, communication systems
 
 ### Miscellaneous Assets
 - **Tools** - Maintenance tools and equipment
-- **Inventory** - Retail items and consumables
-- **Intellectual Property** - Software licenses, trademarks
-- **Financial Assets** - Investments, accounts receivable
+
 
 ## Asset Registration
 
@@ -209,11 +205,8 @@ Meet regulatory standards:
 - **Reporting Errors** - Verify data sources and report parameters
 - **Integration Failures** - Check system connections and APIs
 
----
+## Related Articles
 
-*Related Articles:*
 - [Equipment Maintenance](Maintenance.md)
 - [Analytics & Reporting](Analytics.md)
 - [Vehicle Maintenance SOP](../Equipment/SOPVehicleMaint.md)
-
-*Last updated: December 2025*

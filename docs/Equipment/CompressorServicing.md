@@ -1,14 +1,14 @@
-# SOP: Compressor Maintenance
+# Compressor Maintenance
 
 ## Purpose
 
-This SOP outlines the procedures for routine maintenance of the compressors used at Sea Saba. Regular maintenance ensures the safe and efficient operation of our compressors and extends their lifespan.
+To outline the procedures for routine maintenance of the compressors used at Sea Saba, ensuring safe and efficient operation and extending their lifespan.
 
 ## Scope
 
-This SOP applies to all dive staff responsible for compressor maintenance. It includes instructions for changing air filters, conducting oil changes, and performing other routine maintenance tasks.
+This SOP applies to all dive staff responsible for compressor maintenance. It covers air filter changes, oil changes, and other routine maintenance tasks.
 
-## Services
+## Procedure
 
 ### Final Air Filters (Lawrence Factor X65247)
 
@@ -79,11 +79,7 @@ This SOP applies to all dive staff responsible for compressor maintenance. It in
     - Service intervals at 1000 and 2000 hours are performed by Chad.
     - Notify management when these services are due.
 
-## Conclusion
-
-Adherence to this SOP is essential for the upkeep and longevity of our compressors. Regular maintenance ensures operational efficiency and upholds safety standards.
-
-!!! warning
+!!! danger
     Working with compressed gas and maintaining breathing air systems involves inherent risks. Improper handling, usage, or maintenance can lead to serious injury or death. Adhere to safety protocols:
 
     - Follow established SOPs and manufacturer guidelines.
@@ -92,4 +88,6 @@ Adherence to this SOP is essential for the upkeep and longevity of our compresso
     - Report any issues immediately.
     - Be familiar with emergency procedures.
 
-    Safety and quality of air are paramount. Your diligence in maintenance is crucial for safety and operational efficiency.
+## Accountability
+
+All dive staff are responsible for adhering to this SOP. Safety and quality of air are paramount. Your diligence in maintenance is crucial for safety and operational efficiency.

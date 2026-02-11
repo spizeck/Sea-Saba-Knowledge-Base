@@ -192,11 +192,8 @@ Generate business insights:
 - **Performance Problems** - Clear cache and restart application
 - **Data Corruption** - Contact system administrator
 
----
+## Related Articles
 
-*Related Articles:*
 - [Equipment Maintenance](Maintenance.md)
 - [Analytics & Reporting](Analytics.md)
-- [Diving Operations](../DivingOperations/MorningRoutine.md)
-
-*Last updated: December 2025*
+- [Diving Operations](../DiveOperations/MorningRoutine.md)

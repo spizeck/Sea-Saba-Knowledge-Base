@@ -1,6 +1,10 @@
-# Boats
+# Random Important Information
 
-## Fin & Tonic
+A collection of miscellaneous but important reference information for Sea Saba operations.
+
+## Boats
+
+### Fin & Tonic
 
   - Bench Padding:
      - Sides are 10 feet. Requires 3 rolls of padding per side.
@@ -8,7 +12,7 @@
    - Shock cord for the sides are TBD.
    - Shock cord for the back tank racks are 30 inches.
 
-## Shark Bait
+### Shark Bait
 
   - Bench Padding:
      - TBD

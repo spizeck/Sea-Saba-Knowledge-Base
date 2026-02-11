@@ -1,3 +1,7 @@
+# Non-Diving Flowchart
+
+A visual decision tree for staff to guide non-certified guests toward the appropriate activity — Discover Scuba Diving, Open Water Course, or Snorkeling.
+
 ```mermaid
 ---
 title: Non-Diving Flowchart

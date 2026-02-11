@@ -1,48 +1,69 @@
 # Retail Shop Opening and Closing Procedures
 
-!!! alert
-    **This SOP is currently under revision due to the retail location change. Please confirm procedures with management if anything is unclear.**
+!!! warning
+    This SOP is currently under revision due to the retail location change. Please confirm procedures with management if anything is unclear.
 
+## Purpose
+
+To establish consistent opening and closing procedures for the retail shop, ensuring operational efficiency, security, and a pleasant shopping experience for customers.
+
+## Scope
+
+This SOP applies to all staff members responsible for opening and closing the retail shop.
+
+## Procedure
 
 ### Opening Procedures
 
-#### 1.1 Lights and Air Conditioning
-   - Turn on all lights.
-   - Turn on the air conditioner **(no lower than 76F/24C)**.
-   - Use the remote to turn on the fan above the register after flipping the light switch.
+#### Lights and Air Conditioning
 
-#### 1.2 Computer and Cash Drawer
-   - Wake up the tablet and ensure that Shopify is open. Verify that the card reader is powered on. If not, remove it from the holder and press the button on the back.
-   - Open the cash register to begin the tracking session. Count the float; it should amount to $200. If the float is incorrect, cross-check with the opening amount and report any discrepancies to management promptly.
+1. **Turn on all lights**.
+2. **Turn on the air conditioner**: No lower than 76F/24C.
+3. **Turn on the fan**: Use the remote to turn on the fan above the register after flipping the light switch.
 
-#### 1.3 Doors and Shutters
-   - Open all shutters, and unlock front door.
-   - Leave side door behind register locked.
-> **Be careful not to get locked out of the store**
+#### Computer and Cash Drawer
 
-### Retail Closing Procedures
+1. **Wake up the tablet**: Ensure that Shopify is open. Verify that the card reader is powered on. If not, remove it from the holder and press the button on the back.
+2. **Open the cash register**: Begin the tracking session. Count the float; it should amount to $200. If the float is incorrect, cross-check with the opening amount and report any discrepancies to management promptly.
 
-#### 2.1 Restocking
-   - Ensure all T-shirts are neatly restocked, maintaining two of each size on display, unless a particular size is sold out.
-   - Restock any stickers, magnets, water bottles, rum, etc... if sold.
-   - If we are running low on stock please notify management so that we can order new stock.
+#### Doors and Shutters
 
-#### 2.2 Operating Hours
-   - Lunch is 30 minutes, please note on the sign when you will return from lunch so customers know when to return.
-   - Do not close earlier than scheduled without approval.
+1. **Open all shutters** and unlock the front door.
+2. **Leave side door behind register locked**.
 
-#### 2.3 Doors and Shutters
-   - Close all shutters, leave side door open so you can still get in to finish closing
-   - Lock main door.
+!!! warning
+    Be careful not to get locked out of the store.
 
-#### 2.4 Cash Handling
-   - Lock doors before counting the cash. Count cash discreetly, away from public view, unless in the presence of authorized individuals.
-   - Remove bigger bills before smaller ones.
-   - Paperclip closing receipt to cash deposit, and drop it in safe.
+### Closing Procedures
 
-#### 2.5 Final Steps
-   - Take out the trash if full.
-   - Turn off air conditioner and lights.
-   - Lock side door, and close and lock the shutter.
+#### Restocking
 
-> **NOTE:** Any deviations from these procedures should be communicated to management immediately. These protocols are designed to ensure operational efficiency, security, and a pleasant shopping experience for our customers. Thank you for your attention to detail and dedication to maintaining our store's standards.
+1. **T-shirts**: Ensure all T-shirts are neatly restocked, maintaining two of each size on display, unless a particular size is sold out.
+2. **Other merchandise**: Restock any stickers, magnets, water bottles, rum, etc. if sold.
+3. **Low stock**: If running low on stock, notify management so new stock can be ordered.
+
+#### Operating Hours
+
+1. **Lunch**: 30 minutes. Note on the sign when you will return from lunch so customers know when to come back.
+2. **Early closing**: Do not close earlier than scheduled without approval.
+
+#### Doors and Shutters
+
+1. **Close all shutters**: Leave side door open so you can still get in to finish closing.
+2. **Lock main door**.
+
+#### Cash Handling
+
+1. **Lock doors before counting cash**: Count cash discreetly, away from public view, unless in the presence of authorized individuals.
+2. **Remove bigger bills before smaller ones**.
+3. **Paperclip closing receipt to cash deposit** and drop it in the safe.
+
+#### Final Steps
+
+1. **Take out the trash** if full.
+2. **Turn off air conditioner and lights**.
+3. **Lock side door** and close and lock the shutter.
+
+## Accountability
+
+All staff members are responsible for following this SOP. Any deviations from these procedures should be communicated to management immediately.

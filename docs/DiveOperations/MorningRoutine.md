@@ -1,6 +1,16 @@
 # Morning Routine for Dive Crew
 
-## Opening Procedures
+## Purpose
+
+To establish a consistent morning routine that ensures the dive shop, trucks, boats, and equipment are fully prepared before guests arrive.
+
+## Scope
+
+This SOP applies to all dive crew members responsible for morning setup and boat loading operations.
+
+## Procedure
+
+### Opening Procedures
 
 Upon arrival, the crew is responsible for getting the dive shop ready for the day. This involves a series of steps to ensure everything is accessible and operational.
 
@@ -106,7 +116,7 @@ When the boat has docked, it's crucial to follow a systematic process for loadin
 
 This organized approach to loading the boats not only ensures a smooth start to the day's activities but also enhances the overall guest experience by prioritizing safety and efficiency.
 
-## Receiving Guests
+### Receiving Guests
 
 The arrival of guests is a pivotal moment that sets the tone for their experience. It is crucial to manage this process with efficiency and warmth.
 
@@ -130,4 +140,6 @@ The arrival of guests is a pivotal moment that sets the tone for their experienc
 
 [Boat Briefing Guide](BoatBriefingOverview.md)
 
+## Accountability
 
+All dive crew members are responsible for following this SOP. Communicate any issues or delays to the Captain immediately.

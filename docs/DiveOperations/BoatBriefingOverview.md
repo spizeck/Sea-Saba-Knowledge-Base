@@ -1,5 +1,7 @@
 # Boat Briefing Overview
 
+A template for conducting boat briefings when guests board. Adapt the content to the specific boat and group.
+
 ## Welcome Aboard
 
 - **Greeting:** “Welcome aboard your dive boat today, Fin & Tonic.”

@@ -1,10 +1,12 @@
-# SOP: Hassell Free Freight Shipping Procedures
+# Hassell Free Freight Shipping Procedures
 
 ## Purpose
-To provide guidelines for shipping goods, both company-related and personal, to Saba via Hassell Free Shpping.
+
+To provide guidelines for shipping goods, both company-related and personal, to Saba via Hassell Free Shipping.
 
 ## Scope
-Applicable to all Sea Saba staff members.
+
+This SOP applies to all Sea Saba staff members.
 
 ## Procedure
 
@@ -30,4 +32,9 @@ Applicable to all Sea Saba staff members.
     - If you have access to the Sea Saba onedrive, place the invoice in \07 Freight\Hassell Free\Sea Saba - Hassell Free Shared Folder
 
 ### Shipping Schedule
+
 [Download the shipping schedule](../files/2025%20Shipping%20to%20Saba%20Calendar.pdf)
+
+## Accountability
+
+All staff members are responsible for following this SOP. Personal shipments must be approved by management before proceeding.

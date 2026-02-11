@@ -35,12 +35,10 @@ The Sea Saba Knowledge Base is a collaborative effort, and your contributions ar
 
 [Sea Saba Knowledge Base Repository](https://github.com/spizeck/Sea-Saba-Knowledge-Base)
 
-For guidance on how to contribute, please refer to the README file in the repository.
+For guidance on how to contribute, please refer to the [Contributing Guide](https://github.com/spizeck/Sea-Saba-Knowledge-Base/blob/main/CONTRIBUTING.md).
 
 ## Your Contribution
 
 Your insights and experiences are valuable to us. If you have suggestions for improving this Knowledge Base or if you would like to contribute, please don't hesitate to reach out.
-
----
 
 Sea Saba is committed to providing its employees with the resources they need to excel in their roles. This Knowledge Base is a reflection of our commitment to continuous learning and improvement.

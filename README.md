@@ -1,131 +1,127 @@
-# Contributing to the Sea Saba Knowledge Base
+# Sea Saba Knowledge Base
 
-Thank you for your interest in contributing to the Sea Saba Knowledge Base. This document provides guidelines and
-instructions for contributing content through GitHub.
+An internal knowledge base for [Sea Saba](https://seasaba.com) dive operations, built with MkDocs and hosted on Firebase. Provides SOPs, guides, and reference material for staff across diving operations, retail, equipment maintenance, freight, and more.
 
-## Getting Started
+**Live site:** [sea-saba-knowledge-base.web.app](https://sea-saba-knowledge-base.web.app)
 
-1. **Create a GitHub Account**: If you don't already have a GitHub account, [sign up here](https://github.com/join).
+## Tech Stack
 
-2. **Familiarize Yourself with GitHub**: If you're new to GitHub, take some time to understand the basics of Git and
-   GitHub. [GitHub's Quickstart Guide](https://docs.github.com/en/get-started/quickstart) is a great resource.
+- **Documentation:** [MkDocs](https://www.mkdocs.org/) with [Material for MkDocs](https://squidfundamentals.github.io/mkdocs-material/) theme
+- **Hosting:** [Firebase Hosting](https://firebase.google.com/docs/hosting)
+- **API:** [Firebase Functions](https://firebase.google.com/docs/functions) (TypeScript) — serves knowledge base content as JSON for the Sea Saba Business App
+- **CI/CD:** GitHub Actions — auto-builds and deploys on merge to `main`, with preview deploys on PRs
+- **Markdown Extensions:** Admonitions, Mermaid diagrams, superfences, attribute lists
 
-## Making Contributions
+## Project Structure
 
-### Editing Content
+```
+Sea-Saba-Knowledge-Base/
+├── docs/                    # Markdown content (SOPs, guides, references)
+│   ├── BusinessApp/         # Business App documentation
+│   ├── Checkfront/          # Booking system docs
+│   ├── DiveOperations/      # Dive crew procedures
+│   ├── Equipment/           # Equipment SOPs & maintenance
+│   ├── Freight/             # Shipping procedures
+│   ├── GeneralInformation/  # Company-wide policies
+│   ├── RetailOperations/    # Retail shop procedures
+│   ├── Images/              # Shared images
+│   ├── files/               # Downloadable PDFs and files
+│   └── index.md             # Homepage
+├── functions/               # Firebase Functions (TypeScript API)
+│   └── src/
+│       ├── index.ts         # API endpoints
+│       └── api/             # Auto-generated JSON (gitignored)
+├── scripts/
+│   └── generate-api.js      # Parses mkdocs.yml + markdown → JSON for API
+├── .github/workflows/       # CI/CD pipelines
+├── mkdocs.yml               # MkDocs configuration & navigation
+├── firebase.json            # Firebase hosting & functions config
+├── requirements.txt         # Python dependencies (MkDocs)
+└── README.md                # This file
+```
 
-1. **Navigate to the Repository**: Go to
-   the [Sea Saba Knowledge Base repository](https://github.com/spizeck/Sea-Saba-Knowledge-Base).
+## Local Development
 
-2. **Find the File You Want to Edit**: The content is organized in Markdown files. Navigate to the specific file you
-   want to update. The markdown files are located in the `docs` folder.
+### Prerequisites
 
-3. **Edit the File**:
-    - Click the pencil icon (Edit this file) on the top right of the file view.
-    - Make your changes directly in the GitHub editor.
-    - You can use the `Preview` tab to check your changes.
+- Python 3.x
+- Node.js 20+
+- Firebase CLI (`npm install -g firebase-tools`)
 
-### Creating a Pull Request
+### MkDocs (Documentation Site)
 
-After editing the content:
+```bash
+# Install Python dependencies
+pip install -r requirements.txt
 
-1. **Scroll Down to 'Propose Changes'**:
-    - Add a brief but descriptive title for your changes.
-    - Optionally, add a more detailed description.
+# Serve locally with hot reload
+mkdocs serve
+```
 
-2. **Click 'Propose Changes'**: This will create a new branch in the repository and take you to the 'Open a pull
-   request' page.
+The site will be available at `http://127.0.0.1:8000`.
 
-3. **Open a Pull Request**:
-    - Review your changes.
-    - Click 'Create pull request'.
-    - This allows repository maintainers to review your changes before merging them into the main content.
+### Firebase Functions (API)
 
-## Adding New Content
+```bash
+# Install dependencies
+cd functions && npm install
+cd ../scripts && npm install
 
-### Adding a New Markdown File
+# Generate API JSON files from markdown
+cd ../functions && npm run generate-api
 
-1. **Create a New File**:
-    - In the appropriate directory within the `docs` folder, click 'Add file' and then 'Create new file'.
-    - For example, to add a new file in the Equipment section: navigate to `docs/Equipment/`, then create your file (
-      e.g., `new-equipment-guide.md`).
+# Test locally with Firebase emulator
+npm run serve
+```
 
-2. **Write Your Content**:
-    - Use Markdown to write your content. If you’re new to Markdown, here's
-      a [basic guide](https://www.markdownguide.org/basic-syntax/).
+## Deployment
 
-3. **Save and Propose the New File**:
-    - Name your file at the top (ensure it ends with `.md`).
-    - Scroll down, add a commit message, and propose the new file.
+Deployment is automated via GitHub Actions:
 
-### Linking the New File in `mkdocs.yml`
+- **Pull Requests** → Preview deploy to a temporary Firebase channel
+- **Merge to `main`** → Production deploy to [sea-saba-knowledge-base.web.app](https://sea-saba-knowledge-base.web.app)
 
-1. **Edit `mkdocs.yml`**:
-    - Navigate to the root of the repository and open `mkdocs.yml`.
-    - Click the pencil icon to edit.
+### Manual Deployment
 
-2. **Add Your New File to the Navigation**:
-    - In the `nav` section, add a link to your new Markdown file under the appropriate category.
-    - Follow the existing format. For example:
-      ```yaml
-      - Equipment:
-        - New Equipment Guide: Equipment/new-equipment-guide.md
-      ```
+```bash
+# Build the MkDocs site
+mkdocs build
 
-3. **Propose the Change**:
-    - Scroll down, add a commit message, and propose the change.
+# Deploy hosting only
+firebase deploy --only hosting
 
-### Adding Images
+# Deploy functions (API) only
+cd functions && npm run deploy
 
-1. **Place Images in the Correct Directory**:
-    - Images should be placed in an `Images` folder within the relevant section.
-    - For example, for equipment-related images, use `docs/Equipment/Images/`.
+# Deploy everything
+firebase deploy
+```
 
-2. **Add Images to Your Markdown File**:
-    - Use the Markdown syntax to add images. For example:
-      ```markdown
-      ![Alt text for the image](Equipment/Images/your-image.jpg)
-      ```
-    - Replace `your-image.jpg` with the name of your image file.
+## API
 
-3. **Commit and Propose the Changes**:
-    - After adding images to the `Images` folder and referencing them in your Markdown file, commit and propose these
-      changes as described earlier.
+The Firebase Functions API serves knowledge base content as JSON for the Sea Saba Business App. See [README-API.md](README-API.md) for full API documentation including endpoints, setup, and integration details.
 
-## Creating Pull Requests for New Content
+### Endpoints
 
-After adding new content or making changes:
+| Endpoint | Description |
+|---|---|
+| `/api/articles` | All articles |
+| `/api/categories` | Structured categories |
+| `/api/article/:id` | Individual article |
+| `/api/search?q=query` | Search articles |
+| `/api/health` | Health check |
 
-1. **Follow the Same Process**: As with editing content, scroll down to 'Propose changes', add a descriptive title and
-   description, and create a pull request.
+## Contributing
 
-2. **Review and Approval**:
-    - The repository maintainers will review your pull request.
-    - If changes are approved, they will be merged into the main content.
+See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines on adding and editing content.
 
-Remember, quality and clarity are key in your contributions. If you’re adding new sections or significant content,
-consider discussing it with the team or the repository maintainers first.
+## Key Documentation
 
-## Best Practices for Contributions
+- [CONTRIBUTING.md](CONTRIBUTING.md) — How to contribute content
+- [README-API.md](README-API.md) — API setup and integration
+- [INSTRUCTIONS.md](INSTRUCTIONS.md) — AI coding assistant instructions
+- [docs/SOP-FORMATTING-GUIDE.md](docs/SOP-FORMATTING-GUIDE.md) — Standards for writing SOPs and guides
 
-- **Clear and Concise Writing**: Keep your contributions clear, concise, and factual.
-- **Check Grammar and Spelling**: Ensure your text is free of errors.
-- **Stick to the Format**: Follow the existing structure and formatting of the documents.
-- **Be Respectful and Constructive**: When providing feedback on others' contributions, be respectful and constructive.
+## License
 
-## Writing in Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling text on the web. If you are not familiar with Markdown,
-here is a resource to get you started:
-
-- [Markdown Guide](https://www.markdownguide.org/basic-syntax/): A comprehensive guide to Markdown syntax, covering
-  everything from basic to advanced usage.
-
-We recommend familiarizing yourself with the basics of Markdown to ensure your contributions are formatted correctly.
-
-## Need Help?
-
-If you have any questions or need assistance with the contribution process, please feel free to reach out to the
-repository maintainers.
-
-Thank you for helping improve the Sea Saba Knowledge Base!
+See [license.md](license.md) for details.

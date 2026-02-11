@@ -210,11 +210,8 @@ High-level business overview:
 - **Export Errors** - Check file formats and export procedures
 - **Integration Issues** - Verify connections to other systems
 
----
+## Related Articles
 
-*Related Articles:*
 - [Dive Logging & Operations](DiveLogging.md)
 - [Contract Management](ContractManagement.md)
 - [Asset Management](AssetManagement.md)
-
-*Last updated: December 2025*

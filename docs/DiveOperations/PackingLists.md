@@ -1,4 +1,7 @@
 # Packing Lists
+
+Reference checklists for equipment that should be on each boat. Verify these lists before putting the boat away every day and before morning loadout.
+
 ## Spares Crate Contents
 *Rinse and check before putting the boat away every day.*
 

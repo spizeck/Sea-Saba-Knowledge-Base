@@ -87,6 +87,3 @@ After completing this quick start guide, explore these detailed sections:
 - [Equipment Maintenance](Maintenance.md)
 - [Analytics & Reporting](Analytics.md)
 
----
-
-*Last updated: December 2025*

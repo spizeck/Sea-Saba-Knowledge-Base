@@ -28,12 +28,25 @@ exports.api = functions.https.onRequest(async (req, res) => {
     res.set("Access-Control-Allow-Origin", "*");
     res.set("Access-Control-Allow-Methods", "GET, OPTIONS");
     res.set("Access-Control-Allow-Headers", "Content-Type");
+    res.set("Cache-Control", "public, max-age=3600"); // Cache for 1 hour
     if (req.method === "OPTIONS") {
         res.status(204).send("");
         return;
     }
     try {
         const requestPath = req.path.replace('/api', '');
+        if (requestPath === '/health') {
+            // Health check endpoint
+            const articles = readJsonFile('articles.json');
+            const categories = readJsonFile('categories.json');
+            res.json({
+                status: 'ok',
+                articlesCount: articles ? articles.length : 0,
+                categoriesCount: categories ? categories.length : 0,
+                timestamp: new Date().toISOString()
+            });
+            return;
+        }
         if (requestPath === '/articles') {
             // Return all articles
             const articles = readJsonFile('articles.json');

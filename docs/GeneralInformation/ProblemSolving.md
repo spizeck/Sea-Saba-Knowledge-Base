@@ -1,14 +1,12 @@
-# Standard Operating Procedure (SOP) for Problem-Solving & Issue Escalation
-
----
+# Problem-Solving & Issue Escalation
 
 ## Purpose
+
 To provide a clear, step-by-step framework that empowers all staff members to solve problems independently, minimizing unnecessary interruptions and efficiently using resources.
 
 ## Scope
-This SOP applies to all employees who need assistance in troubleshooting issues or making decisions within the organization.
 
----
+This SOP applies to all employees who need assistance in troubleshooting issues or making decisions within the organization.
 
 ## Procedure
 
@@ -34,10 +32,9 @@ If the issue remains unresolved and requires escalation, come prepared to addres
 3. **What do you recommend and why?**  
    Present your best guess or hypothesis, even if you’re not 100% certain. This encourages accountability and learning.
 
----
+## Accountability
 
-## Reporting & Accountability
-- **Self-Assessment**: Before escalating any issue, verify you have completed Steps 1 and 2, and prepared answers for Step 3.  
-- **Manager/Supervisor Review**: Supervisors will ensure adherence by asking staff if they have completed each step. Repeated failure to follow the SOP may result in additional coaching or disciplinary action.  
+- **Self-Assessment**: Before escalating any issue, verify you have completed Steps 1 and 2, and prepared answers for Step 3.
+- **Manager/Supervisor Review**: Supervisors will ensure adherence by asking staff if they have completed each step. Repeated failure to follow the SOP may result in additional coaching or disciplinary action.
 
-**All staff members are responsible for adhering to this SOP.**
+All staff members are responsible for adhering to this SOP.

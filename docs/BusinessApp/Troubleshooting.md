@@ -306,11 +306,8 @@ When contacting support, include:
    - Share solutions with team
    - Contribute to knowledge base
 
----
+## Related Articles
 
-*Related Articles:*
 - [Quick Start Guide](QuickStart.md)
 - [Contract Management](ContractManagement.md)
 - [Dive Logging & Operations](DiveLogging.md)
-
-*Last updated: December 2025*

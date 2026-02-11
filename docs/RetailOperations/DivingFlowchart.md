@@ -1,3 +1,7 @@
+# Diving Questions Flowchart
+
+A visual decision tree for staff to determine the appropriate diving option for certified guests based on their certification level, experience, and last dive date.
+
 ```mermaid
 ---
 title: Diving Questions Flowchart
@@ -60,5 +64,4 @@ graph TD;
     class AfternoonFirst,Refresher,MorningDives green;
 
 ```
----
-**These are guidelines. For further clarification, please contact the the Harbor Office.**
+> These are guidelines. For further clarification, please contact the Harbor Office.

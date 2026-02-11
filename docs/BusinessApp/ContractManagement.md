@@ -130,11 +130,8 @@ In **Dive Packages**, configure:
 - **"Package Capacity Exceeded"** - Check dive boat availability
 - **"Commission Calculation Error"** - Review agent settings
 
----
+## Related Articles
 
-*Related Articles:*
 - [Dive Package Configuration](DivePackages.md)
 - [Hotel & Room Management](HotelManagement.md)
 - [Troubleshooting Common Issues](Troubleshooting.md)
-
-*Last updated: December 2025*

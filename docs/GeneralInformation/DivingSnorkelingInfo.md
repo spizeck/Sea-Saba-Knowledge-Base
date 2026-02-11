@@ -1,80 +1,104 @@
 # Diving and Snorkeling Information
 
-## 1. Certification Status
-### 1.1 Are you certified?
+A reference guide for staff when speaking with guests about diving, snorkeling, courses, and pricing. Use this information to answer common questions and assist with bookings.
+
+## Certification Status
+
+### Are You Certified?
   - If yes, **What level of certification?**
   - If no, we have a few options for you:
     - Discover Scuba Diving (1-day course for trying diving)
     - Open Water Certification (3-day full certification)
     - Snorkeling
 
-## 2. Current Certification Level:
+## Current Certification Level
   - Open Water
   - Advanced Open Water
   - Rescue Diver
   - Dive Master
   - Instructor
 
-## 3. Last Diving Experience:
+## Last Diving Experience
   - When was the last time you were diving?
     - If more than 2 years ago, contact the Harbor (ph# 3544) to continue with the booking
 
-## 4. Length of Stay:
+## Length of Stay
   - How long are you on the island for?
 
-# For those Not Certified
-<src style="color: red;"> **Call the Harbor for availability before booking any courses**
+## For Those Not Certified
 
-### 1. Scuba Discovery (Discover Scuba Diving):
+!!! warning
+    Call the Harbor for availability before booking any courses.
+
+### Scuba Discovery (Discover Scuba Diving)
   - An option for trying scuba diving
   - Cost: $170 per person (includes transfers, gear, instruction, and afternoon dive)
   - Schedule: Pickup at 8:30 am **(Bring a Lunch)**, gear fitting, confined water session, afternoon dive at 1:00 pm. Back to the harbor by 3:00 pm
   - Max Depth: 12m (40ft)
 
-### 2. Open Water Course (3-day full certification)
+### Open Water Course (3-Day Full Certification)
   - Online instruction (about 20 hrs), must be completed before in water sessions
   - Cost: $749 per person (includes transfers, gear, all fees and taxes)
   - Pickup at 8:30 am **(Bring a Lunch)**
   - We will update pickup times after your first day
 
-# Dive Schedule:
-  - 2 Tank Morning Dives:
-    - Pickup at 8:30 am, boat departs at 9:00 am, back by 1:00 pm
-    - Cost: $150 (Includes transfers, tanks, weights)
-    - Additional $4 Marine Park Fee per dive
-    - Rental gear: $50 for full set or $10-15 per item
-    - Nitrox: $8 per tank or $59 unlimited for the week
+## Dive Schedule
 
-  - 1 Tank Afternoon Dive:
-    - Pickup at 12:30 pm, boat departs at 1:00 pm, back by 3:00 pm
-    - Cost: $75 (includes transfers, tanks, weights)
-    - Additional $4 Marine Park Fee per dive
-    - Rental gear: $50 for full set or $10-15 per item
-    - Nitrox: $8 per tank or $59 unlimited for the week
+- **Advanced 2-Tank Dive**:
+    - Pickup at 8:30 AM, boat departs at 9:00 AM, back by 1:00 PM
+    - Requirements: AOW & 20 dives or OW & 50 dives. Nitrox mandatory on Dive 1.
+    - Depths up to 110 feet / 33 meters
 
-### Night Dives <span style="color: red;"> (Must call Harbor to book)
-  - Minimum of 4 divers required
-  - Cost: $115 (Includes transfers, tanks, weights)
-  - Additional $4 Marine Park Fee per dive
-  - Rental gear: $50 for full set or $10-15 per item
-  - Nitrox: $8 per tank or $59 unlimited for the week
+- **Classic 2-Tank Dive**:
+    - Pickup at 10:00 AM, boat departs at 10:30 AM, back by 2:30 PM
+    - Certified divers. All levels welcome.
 
-### Snorkeling:
-  - Check with the Harbor for suitability
-  - Pickup at 12:30 pm, boat departs at 1:00 pm, back by 3:00 pm
-  - Cost: $39 (includes transfers, gear)
-  - Additional $3 Marine Park fee per snorkel
+- **Afternoon 1-Tank Dive**:
+    - Pickup at 12:30 PM, boat departs at 1:00 PM, back by 3:00 PM
+    - Certified divers. Combined with Snorkeling and Courses.
+    - Cost: $95 diving only / $135 with full rental gear (no discounts)
 
-### Charter Fishing:
+- **Afternoon Snorkel**:
+    - Pickup at 12:30 PM, boat departs at 1:00 PM, back by 3:00 PM
+    - Not guided. Must be a comfortable swimmer.
+
+### Dive Pricing (Two Tank Boat Dive)
+
+| Days Booked | Diving Only (Per Day) | With Full Rental Gear (Per Day) |
+|---|---|---|
+| 1 Day | $155.00 | $195.00 |
+| 2 Days | $147.00 | $185.00 |
+| 3-4 Days | $140.00 | $175.00 |
+| 5+ Days | $132.00 | $165.00 |
+
+- All prices include Nitrox and transfers
+- **Add Third Dive**: $50/day (no gear surcharge, Nitrox included)
+- **Night Dive**: $115/day (no discounts, Nitrox included)
+- **13 Dives in 5 Days**: $750 diving only / $900 with gear (no refunds on unused dives)
+
+### Night Dives
+
+!!! note
+    Must call Harbor to book.
+
+- Cost: $115 per dive (Nitrox included)
+- No discounts apply
+
+### Snorkeling
+
+- Pickup at 12:30 PM, boat departs at 1:00 PM, back by 3:00 PM
+- Not guided. Must be a comfortable swimmer.
+
+### Charter Fishing
   - Check with the Harbor for scheduling
   - Pickup times vary
   - Cost: $900 half-day / $1,400 full-day
   - Includes drinks and snacks
   - Targeted species include: Mahi , Tuna, Wahoo. Billfish are catch and release only!
 
-**<span style="color: red;"> Note: Dive sites are condition-dependent, and preferences can be communicated to the crew.**
+> Note: Dive sites are condition-dependent, and preferences can be communicated to the crew.
 
-# Courses:
+## Courses
   - Sea Saba is a TDI / SDI 5 star facility (https://www.tdisdi.com/)
   - We offer courses from beginner to techincal to professional level
   - Contact the harbor for scheduling any courses!
@@ -88,11 +112,14 @@
      - Inactive Diver: $120 (Includes eLearning and afternoon dive)
      - Scuba Discovery: $170 ($120 for additional dives)
 
-# <span style="color: blue;"> Specials:
-### 3 or more days of diving: 10% off diving and rental equipment
-### 5 or more days of diving: 15% off diving and rental equipment
+## Multi-Day Discounts
 
-## Things You Might See Underwater:
+- Multi-day discounts are built into the tiered pricing above
+- Discounts are designed for guests diving on a mostly continuous schedule
+- We allow **one rest day** during a multi-day package
+- Taking more than one day off resets the multi-day discount
+
+## Things You Might See Underwater
   - Turtles (Green and Hawksbill)
   - Sharks (Nurse Sharks, Reef Sharks)
     - Rare sightings: Hammerheads and Tiger Sharks
@@ -100,7 +127,7 @@
   - Nudibranchs
   - Whales during the winter months, you can hear them underwater. Possible sightings on the way to the dive sites or during surface intervals
 
-## Boat and Additional Information:
+## Boat and Additional Information
   - Water and Gatorade provided on the boat.
   - Bring your own snacks, towels, bathing suites, and sunscreen
   - On-board restroom for **EMERGENCIES ONLY** 
