@@ -48,6 +48,7 @@ nav:
       - Marine Park Rules: DiveOperations/MarineParkRules.md
   - Equipment:
       - Vehicle Maintenance SOP: Equipment/SOPVehicleMaint.md
+      - Vessel Operating Speeds & Harbor Entry: Equipment/VesselOperatingSpeeds.md
       - Compressor Operation: Equipment/CompressorOperation.md
       - Compressor Servicing: Equipment/CompressorServicing.md
       - Using Sailclear for Vessel Clearance: Equipment/ClearanceOfVessels.md
