@@ -37,6 +37,7 @@ nav:
   - Diving Operations:
       - Morning Routine: DiveOperations/MorningRoutine.md
       - Boat Briefing Overview: DiveOperations/BoatBriefingOverview.md
+      - Boat Emergency Procedures & Diver Safety Briefing: DiveOperations/BoatEmergencyProcedures.md
       - Dive Briefing Overview: DiveOperations/DiveBriefingOverview.md
       - Diver Support Level Policy: DiveOperations/DiverSupportLevelPolicy.md
       - Unplanned Decompression: DiveOperations/UnplannedDecompression.md
@@ -50,7 +51,6 @@ nav:
       - Compressor Operation: Equipment/CompressorOperation.md
       - Compressor Servicing: Equipment/CompressorServicing.md
       - Using Sailclear for Vessel Clearance: Equipment/ClearanceOfVessels.md
-      - ECU Replacement on OXE Engines: Equipment/ECU.md
   - Checkfront:
       - Checkfront Overview: Checkfront/CheckfrontOverview.md
 
