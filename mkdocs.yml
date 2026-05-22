@@ -17,7 +17,7 @@ nav:
       - Hotel & Room Management: BusinessApp/HotelManagement.md
       - Dive Logging & Operations: BusinessApp/DiveLogging.md
       - Equipment Maintenance: BusinessApp/Maintenance.md
-      - Asset Tracking: BusinessApp/AssetManagement.md
+      - Equipment & Maintenance Tracking: BusinessApp/AssetManagement.md
       - Analytics & Reporting: BusinessApp/Analytics.md
       - Troubleshooting Common Issues: BusinessApp/Troubleshooting.md
   - General Information:
