@@ -10,29 +10,53 @@ This SOP applies to all dive staff responsible for compressor maintenance. It co
 
 ## Procedure
 
-### Final Air Filters (Lawrence Factor X65247)
+### Final Air Filters — Compressor-Specific
 
-1. **Frequency of Change**:
-    - Change filters every 30 hours of run time.
+#### General Configuration
 
-2. **Procedure**:
-    - Filters are numbered 1 (right) and 2 (left); air flows into filter 1, then 2, then to the panel.
-    - Depressurize the system using the bleeder to the left.
-    - Open filter housings with a wrench. Excessive force indicates pressure in the system.
-    - Discard the filter from housing 1; move the filter from 2 to 1.
-    - Install a new filter into housing 2.
-    - Clean threads on caps, apply silicon grease to O-ring if needed, and reinstall caps without overtightening.
-    - Notify when down to 5 filters for reordering.
+Each Red Compressor now has its own dedicated two-stage final filtration assembly mounted directly to the compressor. This allows filter service intervals to be tracked independently for each machine.
 
-!!! alert
-    When new filters arrive, mark the current inventory with an "X" for differentiation. Use marked filters first.
+Air flows through each assembly in the following order:
+
+1. **Filter 1** (left side, closest to the wall) — drying media for moisture removal. Uses **Lawrence Factor X65677**.
+2. **Filter 2** (right side) — final purification media for breathing air filtration. Uses **Lawrence Factor X65247**.
+
+After passing through both stages, air flows to the fill panel.
+
+#### Service Interval
+
+- Replace both filters every **50 hours** of compressor run time.
+- Filter hours for the **Old Red Compressor** (Air) and **New Red Compressor** (Nitrox) are tracked independently on the status board.
+
+#### Filter Change Procedure
+
+!!! danger
+    Never attempt to open filter housings while the system is pressurized. Always fully depressurize and verify pressure is relieved before loosening any housing.
+
+1. Shut down the compressor and allow it to stop completely.
+2. Use the **bleed valve on the lower left side of the filter assembly** to depressurize the system.
+3. Verify the system is fully depressurized before proceeding.
+4. Begin loosening filter housings slowly with the appropriate wrench. If excessive resistance is felt, stop — residual pressure may remain in the system.
+5. Remove and discard both old filter cartridges.
+6. Clean housing threads and sealing surfaces.
+7. Inspect O-rings and apply silicone grease if necessary.
+8. Install new filters in the correct locations:
+    - **X65677 drying filter** into the left housing (Filter 1)
+    - **X65247 purification filter** into the right housing (Filter 2)
+9. Reinstall housings securely. Hand-tight plus a firm snug with the wrench is sufficient — do not overtighten.
+10. Return the system to service and inspect for leaks.
+
+#### Inventory Tracking
+
+- Notify management when filter inventory is running low.
+- When new filters arrive, **mark existing inventory with an "X"** so older stock is identified and used first.
 
 ![Filters](../Images/Compressors/Filters.jpg)
 ![Filter Wrench](../Images/Compressors/FilterWrench.jpeg)
 
 ### Maintenance of the Nitrox Machine
 
-!!! alert
+!!! note
     Refer to the maintenance manual for detailed procedures and safety precautions before starting any maintenance tasks.
 
 1. **Annual / 500 Hours Maintenance**:
@@ -52,6 +76,8 @@ This SOP applies to all dive staff responsible for compressor maintenance. It co
     - Lubricate new filter O-rings before installation.
     - Clean housing interiors before reassembly.
 
+> The blue filters belong to the Nitrox membrane pre-filtration system and are separate from the final breathing air filters mounted on each Red Compressor.
+
 !!! note
     Change one blue filter at a time to maintain correct order.
 
@@ -62,7 +88,7 @@ This SOP applies to all dive staff responsible for compressor maintenance. It co
 3. **Inventory Notification**:
     - Notify management if only one filter is remaining or if there are only two gallons of oil left.
 
-### Maintenance of the Red Compressor
+### Maintenance of the Old Red Compressor (Air)
 
 1. **Oil and Filter Change**:
     - Change oil and filter every 90 hours.
@@ -72,8 +98,6 @@ This SOP applies to all dive staff responsible for compressor maintenance. It co
 
 !!! note
     Hand-tighten the oil filter only to avoid difficulties in future removal.
-
-
 
 2. **Long-Term Maintenance**:
     - Service intervals at 1000 and 2000 hours are performed by Chad.
