@@ -72,13 +72,14 @@ This SOP applies to all dive staff involved in compressor operations. It covers 
 
 1. **Arrange rows**: Set up 4–5 rows of tanks with a clear path to the control panel.
 2. **Stagger tanks**: Allow the whips to be placed on the tanks without putting pressure on the stems.
-3. **Connect fill whips**: Attach to the row furthest from the wall for efficient operation.
+3. **Connect fill whips**: Attach to the row furthest from the wall for efficient operation. Open tank valves slowly to reduce heat buildup and stress on fill components.
 
 !!! warning
     Check each tank for Hydro and Visual Inspection Status. Pull any tanks aside that are due for Hydro or Visual Inspection. Do **NOT** drain the tank unless you are going to complete the VIP that day. Do **NOT** leave tanks without pressure overnight.
 
 ### Filling Procedure — Nitrox (Cascade)
 
+- **Fill panel**: The Nitrox fill panel has **8 yoke fill whips** and **2 DIN fill whips**.
 - **Duration**: Filling a row of 8 tanks using only the compressor takes approximately **20–30 minutes**. Using the cascade system can reduce filling time to as little as **4–6 minutes**, depending on fill speed. Control the speed by adjusting the bank valves.
 
 1. **Initial Filling**:
@@ -90,7 +91,7 @@ This SOP applies to all dive staff involved in compressor operations. It covers 
     - If **Bank 1** is below **3400 psi**, close it after equilibrium is reached and finish topping off the tanks with the compressor.
 
 3. **Reaching Full Pressure**:
-    - Once the tanks reach full pressure (**3400 psi hot**), close the tank valve.
+    - Once the tanks reach full pressure (**hot fill**), close the tank valve. Hot fills may temporarily read higher than the target pressure immediately after filling — cylinders should cool to approximately **3000 psi** at ambient temperature.
     - Open **Bank 1** during the switchover process.
 
 4. **Switch Tanks**:
@@ -98,17 +99,22 @@ This SOP applies to all dive staff involved in compressor operations. It covers 
     - If you need to step away, consider filling the banks (Note: **Both Banks** have a maximum pressure of **4500 psi**).
 
 5. **Compressor Auto-Shutdown**:
-    - The system will automatically shut off when it reaches **4500 psi**.
+    - The high-pressure compressor will automatically shut off when it reaches **4500 psi**.
+    - The Nitrox high-pressure compressor will also **automatically restart** if pressure unloads while the switch remains in the ON position.
     - If the tanks are full and you need to restart the compressor, close the tank valves and then open the appropriate bank valve.
 
 6. **Nitrox Compressor Behavior**:
-    - The Nitrox compressor will not shut down as it continuously supplies enriched air to the high-pressure (red) compressor.
+    - The Nitrox low-pressure compressor will not shut down as it continuously supplies enriched air to the high-pressure compressor.
 
 ![Fill Panel](../Images/Compressors/PanelClose.jpeg)
 
 !!! warning
-    - **Pressure Regulation**: The pressure to tanks is regulated at 3400 psi; when this is reached, the valve will close, back pressuring the system.
+    - **Pressure Regulation**: The pressure to tanks is regulated to prevent overpressurization of scuba cylinders. The regulator should be set so cylinders cool to approximately **3000 psi** at ambient temperature. Hot fills may temporarily exceed this immediately after filling.
     - **Restarting Compressors**: If the compressor shuts down at 4500 psi, it's OK, but avoid making it a habit. Ensure the tank valves are closed before opening the bank valve and restarting the compressor.
+    - **Compressor room must remain attended** whenever compressors are operating. Monitor tank temperatures during rapid fills and reduce fill speed if tanks become excessively hot.
+
+!!! warning
+    The Nitrox high-pressure compressor will automatically shut down when the **60-hour service interval** is reached. To reset the service lockout, rotate the On / Off switch twice as described by the instructions located beneath the switch.
 
 ### Filling Procedure — Air
 
@@ -120,41 +126,44 @@ This SOP applies to all dive staff involved in compressor operations. It covers 
 
 #### Current Fill Panel Configuration
 
-The air fill panel is mounted to the front of the old red compressor. Air flows through the system in the following order:
+The air fill panel is mounted to the front of the old red compressor and contains **7 yoke fill whips**, each with an **integrated bleeder valve**. Air flows through the system in the following order:
 
 1. **Inline shutoff valve** — used to isolate the fill panel during tank changes.
-2. **Pressure regulator** — set to approximately **3400 psi** to prevent overpressurization of scuba cylinders. The compressor's pressure switch is set much higher (~4500 psi), so the regulator is the primary protection for cylinders during fills.
-3. **Aluminum distribution block** — receives air after the regulator and feeds **seven fill whips**.
+2. **Pressure regulator** — set to prevent overpressurization of scuba cylinders. The compressor's pressure switch is set much higher (~4500 psi), so the regulator is the primary protection for cylinders during fills. Adjust so cylinders cool to approximately **3000 psi** at ambient temperature. Hot fills may temporarily read higher immediately after filling.
+3. **Aluminum distribution block** — receives air after the regulator and feeds the **7 fill whips**.
 4. **Pressure gauge** — mounted on top of the distribution block; used to monitor fill pressure throughout the process.
 
 #### Filling Procedure
 
 1. Line up and connect the tanks securely to the fill whips.
-2. Verify all tank valves are **fully opened**.
+2. Open tank valves **slowly** to reduce heat buildup and stress on fill components. Verify all tank valves are fully opened.
 3. Confirm the **inline air shutoff valve is open**.
-4. **Start the compressor**.
-5. Monitor the fill pressure gauge throughout the fill. The regulator will control final fill pressure at approximately **3400 psi**.
+4. **Start the compressor**. Note: the air compressor does **not** automatically restart after shutdown — press the Start button manually to resume filling.
+5. Monitor the fill pressure gauge throughout the fill. The regulator controls fill pressure to protect cylinders from overpressurization.
 6. Once the tanks are full:
     - **Shut off the compressor**.
     - **Close the inline air shutoff valve** supplying the fill panel.
 7. Close each scuba cylinder valve individually.
-8. Open the **system bleeder valve** to release pressure from the fill whips and manifold.
-9. Once pressure is fully relieved, disconnect the whips and swap out tanks as needed.
+8. Open the **integrated bleeder valve on each fill whip** to release pressure before disconnecting.
+9. Once pressure is fully relieved on each whip, disconnect and swap out tanks as needed.
 10. Repeat the process for the next set of cylinders.
 
 !!! warning
-    - **Never disconnect pressurized fill whips.** Always verify pressure has been fully bled before disconnecting.
-    - **Monitor gauges continuously** throughout the fill process. Do not leave the compressor running unattended.
-    - **Do not bypass or adjust the regulator** without management authorization. The regulator protects scuba cylinders from accidental overpressurization.
+    - **Never disconnect a pressurized fill whip.** Always open the integrated bleeder on each whip and verify pressure is fully relieved before disconnecting.
+    - **Monitor gauges continuously** throughout the fill process. The compressor room must remain attended whenever compressors are operating.
+    - **Do not bypass or adjust the regulator** without management authorization. The regulator protects scuba cylinders from overpressurization.
+    - Monitor tank temperatures during rapid fills. Reduce fill speed if tanks become excessively hot.
 
 #### Future Air Bank Expansion
 
-The system has already been partially prepared for future air bank integration:
+The Red Compressor has two high-pressure output ports after the filtration system:
 
-- A **one-way valve** is installed leading to the fill panel.
-- A **valve connection** has been installed to support a future single storage bank system.
+- One port has a **valve already installed** for connection of a future storage bank.
+- The second port feeds the fill panel through a **one-way check valve**, which prevents stored air from flowing backward into the future bank during fills.
 
-Once an air bank system is in place, procedures will be updated to allow tank changes without shutting down the compressor between sets.
+The Nitrox system does not yet have equivalent bank plumbing installed.
+
+Once an air bank system is connected, procedures will be updated to allow tank changes without shutting down the compressor between sets.
 
 ### Shutting Down
 
