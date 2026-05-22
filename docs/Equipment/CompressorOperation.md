@@ -27,7 +27,7 @@ This SOP applies to all dive staff involved in compressor operations. It covers 
 3. **Red Compressor and Air Filters**: Tracked with the Red Compressor Hour meter.
 4. **Reference**: Refer to [Compressor Servicing](CompressorServicing.md) for more information about changing oil and filters.
 
-![Status Board](../Images/Compressors/Whiteboard.jpeg)
+![Status Board](../Images/Compressors/Whiteboard.jpg)
 
 ### Check Oil Levels
 
@@ -112,27 +112,49 @@ This SOP applies to all dive staff involved in compressor operations. It covers 
 
 ### Filling Procedure — Air
 
-- **Duration**: It takes approximately 20–30 minutes to fill a row of 8 tanks.
-- **Current System**: As of this writing, we do not have a dedicated air bank system.
+#### General Overview
 
-1. **Begin Filling**:
-    - Line up the row of tanks and start filling. 
-    - Monitor the pressure as the tanks approach **3000 psi**.
+- Filling a standard row of tanks takes approximately **20–30 minutes** depending on starting pressure and compressor conditions.
+- The air fill system is currently configured **without a dedicated storage bank system**.
+- Until an air bank system is installed, the **compressor must be shut down while changing tanks**.
 
-2. **Shut Off Half the Tanks**:
-    - Once half of the tanks reach **3000 psi**, shut them off.
+#### Current Fill Panel Configuration
 
-3. **Continue Filling to 3400 psi**:
-    - Allow the other half of the tanks to continue filling until they reach **3400 psi**.
-    - **Note**: Properly timing this will prevent the compressor from shutting off due to back pressure (4500 psi).
+The air fill panel is mounted to the front of the old red compressor. Air flows through the system in the following order:
 
-4. **Switch the Tanks**:
-    - While the compressor is pumping the second half of the tanks to **3400 psi**, change out the first half of the tanks that were previously shut off.
+1. **Inline shutoff valve** — used to isolate the fill panel during tank changes.
+2. **Pressure regulator** — set to approximately **3400 psi** to prevent overpressurization of scuba cylinders. The compressor's pressure switch is set much higher (~4500 psi), so the regulator is the primary protection for cylinders during fills.
+3. **Aluminum distribution block** — receives air after the regulator and feeds **seven fill whips**.
+4. **Pressure gauge** — mounted on top of the distribution block; used to monitor fill pressure throughout the process.
 
-5. **Repeat the Process**:
-    - Once the second half of tanks reaches **3400 psi**, close them.
-    - Open the new set of tanks (the first half that was replaced) and repeat the process.
-    - Continue alternating until all tanks are filled to **3400 psi**.
+#### Filling Procedure
+
+1. Line up and connect the tanks securely to the fill whips.
+2. Verify all tank valves are **fully opened**.
+3. Confirm the **inline air shutoff valve is open**.
+4. **Start the compressor**.
+5. Monitor the fill pressure gauge throughout the fill. The regulator will control final fill pressure at approximately **3400 psi**.
+6. Once the tanks are full:
+    - **Shut off the compressor**.
+    - **Close the inline air shutoff valve** supplying the fill panel.
+7. Close each scuba cylinder valve individually.
+8. Open the **system bleeder valve** to release pressure from the fill whips and manifold.
+9. Once pressure is fully relieved, disconnect the whips and swap out tanks as needed.
+10. Repeat the process for the next set of cylinders.
+
+!!! warning
+    - **Never disconnect pressurized fill whips.** Always verify pressure has been fully bled before disconnecting.
+    - **Monitor gauges continuously** throughout the fill process. Do not leave the compressor running unattended.
+    - **Do not bypass or adjust the regulator** without management authorization. The regulator protects scuba cylinders from accidental overpressurization.
+
+#### Future Air Bank Expansion
+
+The system has already been partially prepared for future air bank integration:
+
+- A **one-way valve** is installed leading to the fill panel.
+- A **valve connection** has been installed to support a future single storage bank system.
+
+Once an air bank system is in place, procedures will be updated to allow tank changes without shutting down the compressor between sets.
 
 ### Shutting Down
 
