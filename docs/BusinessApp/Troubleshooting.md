@@ -1,313 +1,165 @@
-# Troubleshooting Common Issues
+# Troubleshooting & Common Operational Issues
 
-This guide helps you resolve common problems with the Sea Saba Business App and maintain smooth operations.
+This guide covers common problems staff encounter in the Sea Saba Business App and how to resolve them. The app is built on Firebase and uses Google Firestore for real-time data storage. Most issues are related to permissions, browser state, configuration gaps, or data entry.
 
-## System Access Issues
+> **First steps for almost any issue:** refresh the page, log out and back in, or clear your browser cache. These resolve the majority of transient problems.
 
-### Login Problems
-**Issue**: Cannot log in to the application
+## System Access & Permissions
 
-**Solutions**:
-1. **Check Credentials**
-   - Verify username and password are correct
-   - Check for caps lock or num lock
-   - Ensure you're using the correct login URL
+Permissions are a common source of confusion. Staff only see the modules they have been granted access to — a missing menu item is usually a permission issue, not a bug.
 
-2. **Browser Issues**
-   - Clear browser cache and cookies
-   - Try a different browser (Chrome, Firefox, Safari)
-   - Disable browser extensions temporarily
-   - Check browser compatibility (use updated browsers)
+### "Access Denied" or Missing Module
 
-3. **Network Problems**
-   - Verify internet connection is stable
-   - Try connecting from a different network
-   - Check firewall settings
-   - Contact IT if on corporate network
+- Your account may not have permission for that module.
+- You may have view-only access rather than create or edit access.
+- Your account may have been archived.
 
-4. **Account Issues**
-   - Verify account is active and not suspended
-   - Check if password has expired
-   - Contact administrator for account reset
-   - Verify you have permission for the specific module
+**Resolution:** Contact management or admin to review your role permissions.
 
-### Performance Issues
-**Issue**: Application is slow or unresponsive
+### Cannot Log In
 
-**Solutions**:
-1. **Browser Optimization**
-   - Close unnecessary browser tabs
-   - Clear browser cache
-   - Disable unnecessary extensions
-   - Update browser to latest version
+- Verify your credentials and that caps lock is off.
+- Clear browser cache and try again.
+- Try a different browser (Chrome, Edge, or Safari — kept up to date).
+- If your account was recently created or modified, confirm with management that it is active.
 
-2. **Device Performance**
-   - Close other applications
-   - Restart your device
-   - Check available memory and disk space
-   - Update operating system
+### Page Loads but Data Appears Empty
 
-3. **Network Connection**
-   - Test internet speed
-   - Connect via wired connection if possible
-   - Move closer to Wi-Fi router
-   - Contact internet service provider if slow
+- Your session may have expired. Log out and back in.
+- A browser refresh usually restores live Firestore data.
+- Weak connectivity can cause delayed data loading — wait a moment and refresh.
 
-## Data Entry Problems
+## Browser & Connectivity
 
-### Form Validation Errors
-**Issue**: Cannot save or submit forms
+The app relies on live Firestore listeners. Most display issues resolve with a simple page refresh.
 
-**Common Validation Errors**:
-1. **Required Fields**
-   - Fill in all required fields (marked with *)
-   - Check for hidden required fields
-   - Ensure date formats are correct (MM/DD/YYYY)
-   - Verify phone number formats
+- **Refresh the page** if data looks stale or a form appears broken.
+- **Avoid editing the same record in multiple browser tabs** — this can cause conflicting writes.
+- **Use an up-to-date browser** — Chrome, Edge, or Safari. Older browser versions may have rendering issues.
+- **Weak or intermittent internet** can cause delayed sync. Wait for connectivity to stabilize, then refresh.
 
-2. **Data Format Issues**
-   - Email addresses must contain @ symbol
-   - Phone numbers should include country code
-   - Dates must be valid calendar dates
-   - Numbers should not contain text characters
+## Contract Management
 
-3. **Character Limits**
-   - Check maximum character limits for text fields
-   - Abbreviate long descriptions if needed
-   - Use notes section for additional information
-   - Split long text into multiple fields
+### Pricing Looks Incorrect
 
-### Data Loss Issues
-**Issue**: Data entered but not saved
+Contract pricing is calculated automatically from configured data. Incorrect totals almost always trace back to a configuration problem, not a calculation bug.
 
-**Prevention**:
-1. **Auto-Save Features**
-   - Look for auto-save indicators
-   - Save frequently when working on long forms
-   - Don't leave browser idle for extended periods
-   - Check for unsaved changes warnings
+Check in order:
 
-2. **Session Management**
-   - Avoid multiple browser tabs with same form
-   - Log out properly when finished
-   - Don't close browser during data entry
-   - Use "Save as Draft" if available
+1. **Hotel season** — Is the travel date falling in the correct season? Season boundaries are date-sensitive.
+2. **Room category and occupancy type** — Is the correct combination selected for this group?
+3. **Booking type** — Is the correct commission structure selected (Dive Shop vs. Tour Operator)?
+4. **Meal package** — Is the correct hotel-specific meal package selected?
+5. **Dive package** — Is the correct package and diver count entered?
 
-3. **Browser Stability**
-   - Keep browser updated
-   - Avoid browser crashes during data entry
-   - Use stable internet connection
-   - Consider typing in external editor first
+If rates appear missing or zero, the most likely cause is that no rate has been configured for the selected season + room category + occupancy type combination. Check hotel configuration.
 
-## Module-Specific Issues
+### Room Categories or Occupancy Types Not Appearing
 
-### Contract Management
-**Issue**: Problems creating or managing contracts
+- Room categories only appear if rates exist for the selected hotel and season.
+- Occupancy types only appear if configured for that room category.
+- If an expected option is missing, the rate data needs to be added in Hotel Configuration.
 
-**Common Problems**:
-1. **Pricing Calculation Errors**
-   - Verify hotel and package configurations
-   - Check seasonal rate settings
-   - Review commission calculations
-   - Ensure all required fields are filled
+### FOC Calculations Look Wrong
 
-2. **PDF Generation Issues**
-   - Check all required fields are complete
-   - Verify customer information accuracy
-   - Clear browser cache and retry
-   - Try generating in a different browser
+- **Dive FOC** (7+1) and **Hotel FOC** are calculated separately — they are independent.
+- Meal packages may still apply to FOC guests depending on how the hotel is configured.
+- If FOC results are unexpected, verify the hotel's FOC rules in Hotel Configuration.
 
-3. **Availability Conflicts**
-   - Check room inventory in hotel management
-   - Verify dive package availability
-   - Review booking calendar for conflicts
-   - Contact hotel for availability confirmation
+### "I Edited a Contract and Now There Are Two Versions"
 
-### Dive Logging
-**Issue**: Problems recording dive operations
+This is intentional. Editing a contract creates a new revision and archives the previous version automatically. Previous versions remain accessible for reference. Use the revision history to find older versions — do not create a duplicate contract.
 
-**Common Problems**:
-1. **Site Selection Issues**
-   - Verify dive site is configured in system
-   - Check GPS coordinates are accurate
-   - Ensure site is approved for current conditions
-   - Review site difficulty level matches diver certification
+### PDF Not Generating or Looks Incorrect
 
-2. **Equipment Assignment Problems**
-   - Check equipment availability status
-   - Verify equipment is not in maintenance
-   - Ensure equipment matches diver requirements
-   - Review equipment assignment history
+- Verify all required fields in the contract are completed.
+- Confirm that rates exist for the selected season, category, and occupancy type.
+- Refresh the page and regenerate. If the issue persists, contact management.
 
-3. **Weather Data Issues**
-   - Verify weather station connection
-   - Check manual data entry accuracy
-   - Use consistent measurement units
-   - Document unusual weather conditions
+## Dive Logs
 
-### Maintenance Tracking
-**Issue**: Problems with equipment maintenance records
+### Site, Boat, or Guide Not in the List
 
-**Common Problems**:
-1. **Service Scheduling Conflicts**
-   - Check technician availability
-   - Verify equipment is not already scheduled
-   - Review parts availability
-   - Consider priority of maintenance tasks
+Sites, boats, and guides are reference data managed by admins. If an option is missing from a dropdown, it has not been added to the system configuration. Contact management to have it added.
 
-2. **Cost Tracking Issues**
-   - Verify labor rates are current
-   - Check parts pricing in inventory
-   - Review cost calculation formulas
-   - Document all expenses accurately
+### Sightings Data Not Recorded
 
-3. **Warranty Validation Problems**
-   - Check purchase dates and warranty periods
-   - Verify maintenance follows manufacturer requirements
-   - Document all service for warranty claims
-   - Keep original purchase documentation
+- Species sightings are captured in a multi-step form after the basic dive information is entered.
+- If the form was not completed through all steps, sightings may not have been saved.
+- Re-entering the log and completing all steps is the correct resolution.
 
-## Integration Issues
+### Analytics Not Reflecting Recent Dives
 
-### Data Synchronization Problems
-**Issue**: Data not syncing between modules
+- Analytics are generated from completed dive logs. Dives must be fully submitted to appear.
+- Inconsistent site names (e.g., "Diamond Rock" vs "Diamond rock") will cause the same site to appear as two different entries in analytics. Use site names exactly as they appear in the dropdown.
+- Firestore sync is near-instantaneous but allow a short delay before expecting analytics to update after logging.
 
-**Solutions**:
-1. **Check System Status**
-   - Verify all systems are online
-   - Check for scheduled maintenance windows
-   - Review system status dashboard
-   - Contact IT for system-wide issues
+## Maintenance & Assets
 
-2. **Manual Sync Options**
-   - Use manual sync if available
-   - Check last sync timestamp
-   - Retry sync after clearing cache
-   - Contact support for persistent sync issues
+### Service Due Date or Hours Looks Wrong
 
-3. **Data Validation**
-   - Check for data format inconsistencies
-   - Verify required fields are complete
-   - Review data for special characters
-   - Validate data against system requirements
+- Check that the **current reading** (hours, date, or cycles) was recorded accurately when the maintenance log was submitted.
+- Check that the **service interval** is correctly configured on the asset's service schedule.
+- Verify you are looking at the **correct child asset** — service logged to a parent asset does not update the child's service due.
 
-### Third-Party Integration Issues
-**Issue**: Problems with external systems (email, payment, etc.)
+### Can't Find the Right Asset to Log Against
 
-**Common Problems**:
-1. **Email Delivery Issues**
-   - Check email server status
-   - Verify email addresses are correct
-   - Check spam/junk folders
-   - Review email sending limits
+The asset hierarchy is: parent asset → child assets. Maintenance should be logged against the **most specific child asset** possible.
 
-2. **Payment Processing Problems**
-   - Verify payment gateway connection
-   - Check payment method validity
-   - Review transaction error messages
-   - Contact payment provider for issues
+| Looking for | Find it under |
+|---|---|
+| Compressor oil change | Old Red Compressor (asset) |
+| Final filter replacement | Old Red Compressor → Final Filters (child) |
+| Engine service | Shark Bait → Port Yamaha 300 (child) |
 
-3. **API Connection Issues**
-   - Check API credentials are current
-   - Verify endpoint URLs are correct
-   - Review API rate limits
-   - Check for API service outages
+If an asset is missing entirely, it may need to be created. See [Equipment & Maintenance Tracking](AssetManagement.md).
 
-## Error Messages and Codes
+### Duplicate Maintenance Log Submitted
 
-### Common Error Messages
-1. **"Access Denied"**
-   - Check user permissions
-   - Verify you're logged in correctly
-   - Contact administrator for access
-   - Check if module is available
+- Refresh the page before resubmitting a form if you are unsure whether it saved.
+- Avoid having the same record open in multiple tabs.
+- If a duplicate was created, contact management to have the extra entry removed.
 
-2. **"Data Validation Failed"**
-   - Review all form fields for errors
-   - Check required field completion
-   - Verify data format requirements
-   - Look for specific field error messages
+## Real-Time Sync Behavior
 
-3. **"System Unavailable"**
-   - Check system status page
-   - Wait a few minutes and retry
-   - Try accessing from different network
-   - Contact IT support
+The app uses live Firestore listeners on most pages — data updates automatically without manually refreshing. Occasionally this breaks down:
 
-### Error Code Reference
-- **400**: Bad Request - Check data format
-- **401**: Unauthorized - Check login credentials
-- **403**: Forbidden - Check user permissions
-- **404**: Not Found - Verify URL is correct
-- **500**: Server Error - Contact IT support
-- **503**: Service Unavailable - Try again later
+- After a **long idle period**, the live listener may have disconnected. Refresh the page.
+- After a **network interruption**, data may appear stale. Refresh to re-establish the connection.
+- If data you just saved is not appearing, wait a few seconds and refresh before assuming something went wrong.
+
+## Common Error Messages
+
+| Message | Likely Cause | Action |
+|---|---|---|
+| **Access Denied** | Missing module permission | Contact management |
+| **Permission Denied** | Role does not include this action | Contact management |
+| **Missing Required Fields** | Form incomplete | Fill all required fields and resubmit |
+| **Failed to Save** | Connectivity issue or validation error | Check connection, review fields, retry |
+| **Page Not Found** | Stale link or wrong URL | Navigate from the sidebar instead |
+
+## Prevention
+
+- **Refresh occasionally** during long sessions to keep Firestore listeners active.
+- **Avoid editing the same contract in multiple tabs** — use one tab per record.
+- **Complete dive logs the same day** — waiting increases the chance of inaccurate data.
+- **Verify seasons and occupancy types** carefully before finalizing contracts.
+- **Log maintenance immediately** after service completion.
+- **Use consistent site names** — select from the dropdown rather than typing variations.
+- **Notify management** if you see recurring errors or data inconsistencies.
 
 ## Getting Help
 
-### Self-Service Options
-1. **Knowledge Base**
-   - Search for specific error messages
-   - Review related articles
-   - Check for known issues
-   - Look for troubleshooting guides
+1. Check the relevant configuration or workflow page in this knowledge base first.
+2. Verify your permissions before assuming something is broken.
+3. Refresh and retry — this resolves most transient issues.
+4. Contact management or admin for persistent problems or access changes.
 
-2. **System Diagnostics**
-   - Run system diagnostic tools
-   - Check browser compatibility
-   - Test internet connection speed
-   - Verify system requirements
+## Related
 
-### Contact Support
-When to contact support:
-- Issues persist after trying troubleshooting steps
-- Error messages not covered in this guide
-- System-wide problems affecting multiple users
-- Urgent issues affecting business operations
-
-### Information to Provide
-When contacting support, include:
-- **Error Message**: Exact text of error
-- **Steps Taken**: What you've already tried
-- **Browser Information**: Browser type and version
-- **Time of Issue**: When the problem occurred
-- **Impact Assessment**: How it affects your work
-
-## Prevention Tips
-
-### Regular Maintenance
-1. **Browser Maintenance**
-   - Keep browser updated
-   - Clear cache regularly
-   - Manage extensions properly
-   - Use recommended browsers
-
-2. **Data Management**
-   - Save work frequently
-   - Validate data before submission
-   - Keep backups of important data
-   - Follow data entry best practices
-
-3. **System Health**
-   - Monitor system performance
-   - Report issues promptly
-   - Follow security guidelines
-   - Keep software updated
-
-### Training and Documentation
-1. **Regular Training**
-   - Attend system training sessions
-   - Review new feature documentation
-   - Share tips with team members
-   - Stay updated on system changes
-
-2. **Documentation**
-   - Keep personal notes on common tasks
-   - Document custom procedures
-   - Share solutions with team
-   - Contribute to knowledge base
-
-## Related Articles
-
-- [Quick Start Guide](QuickStart.md)
-- [Contract Management](ContractManagement.md)
-- [Dive Logging & Operations](DiveLogging.md)
+- [Sea Saba Business App — Quick Start Guide](QuickStart.md)
+- [Group Contract Management](ContractManagement.md)
+- [Hotel Configuration & Seasonal Room Rates](HotelManagement.md)
+- [Dive Log & Marine Life Sightings](DiveLogging.md)
+- [Maintenance Tracking & Service Logs](Maintenance.md)
+- [Dive Analytics & Operational Insights](Analytics.md)

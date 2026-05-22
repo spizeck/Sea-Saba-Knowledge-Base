@@ -1,89 +1,98 @@
-# Business App Quick Start Guide
+# Sea Saba Business App — Quick Start Guide
 
-Welcome to the Sea Saba Business App! This comprehensive guide will help you get started with managing dive operations, contracts, and business analytics.
+The Sea Saba Business App is an internal operational platform built specifically around Sea Saba's workflows. It is not a generic booking engine or off-the-shelf business tool. Different staff members may only have access to certain modules depending on their role and permissions.
 
-## Getting Started
+## Modules Overview
 
-### Accessing the App
-1. Open your web browser and navigate to the Sea Saba Business App URL
-2. Log in with your provided credentials
-3. You'll see the main dashboard with all available modules
+### Contracts
+Build group dive vacation contracts combining hotel rooms, dive packages, and meal packages. The system calculates pricing, commissions, and FOC automatically and generates printable customer-ready PDFs. Contracts use pre-configured hotel rates, seasonal pricing, and occupancy types — the wizard guides you through each step.
 
-### Main Dashboard Overview
+### Dive Operations
+Log completed dives after boats return. Each log captures the dive site, guide, boat, maximum depth, water temperature, and drift dive status. After the basic information is entered, the form walks through species of concern sightings. Dive log data feeds directly into the Analytics system.
 
-The dashboard provides quick access to all major functions:
+### Maintenance
+Record completed maintenance against equipment assets. Track service schedules by hours, date, cycles, or combinations. Log parts used, current readings, and next service due. Maintenance logs create the historical service record for each piece of equipment.
 
-- **Contracts** - Create and manage dive group contracts
-- **Dive Operations** - Log daily dives and track activities
-- **Maintenance** - Monitor equipment service schedules
-- **Assets** - Track company equipment and vehicles
-- **Analytics** - View business performance metrics
+### Assets
+Organize operational equipment in parent/child structures — vessels contain engines, compressors contain filters and dryers, vehicles contain engines and batteries. Each asset can carry its own maintenance schedule and log history independently. Assets exist primarily to give maintenance records somewhere accurate to live.
 
-## Daily Workflow
+### Analytics
+Review operational patterns from logged dive data. See dive site repetition over the last 7 days with color-coded boat/site matrices, water temperature trends over 30 days to 24 months, site visitation patterns, guide and boat activity, and seasonal wildlife sighting trends.
 
-### Morning Routine
-1. **Check Today's Schedule** - View scheduled dives and contracts
-2. **Log Morning Dive** - Record dive details in Dive Operations
-3. **Check Equipment Status** - Review maintenance dashboard
-4. **Update Contracts** - Process any new bookings
+## Permissions & Access
 
-### Throughout the Day
-1. **Log Each Dive** - Record dive sites, guides, customers
-2. **Track Equipment Usage** - Note any maintenance needs
-3. **Monitor Contracts** - Update booking statuses
-4. **Review Analytics** - Check operational metrics
+Staff may only see the modules they have been granted access to. Permissions are role-based and managed through the admin system by management.
 
-### End of Day
-1. **Complete Dive Logs** - Ensure all dives are recorded
-2. **Update Maintenance** - Log any equipment issues
-3. **Review Reports** - Check daily performance
-4. **Prepare for Tomorrow** - Review upcoming schedule
+Typical access patterns:
 
-## Key Features
+| Role | Likely Access |
+|---|---|
+| Dive Guide / Divemaster | Dive log entry |
+| Boat Captain | Dive log entry |
+| Operations / Management | All modules |
+| Maintenance Technician | Assets, Maintenance |
+| Sales / Admin | Contracts, Hotels |
 
-### Contract Management
-- Create professional dive contracts
-- Calculate pricing automatically
-- Manage hotel and dive packages
-- Generate PDF documents
+If you cannot access a module you need, contact management to review your permissions.
 
-### Dive Logging
-- Record dive sites and conditions
-- Track guide assignments
-- Log customer participation
-- Monitor marine life sightings
+## Navigation
 
-### Maintenance Tracking
-- Schedule equipment service
-- Track maintenance history
-- Monitor service costs
-- Set preventive reminders
+- The **sidebar** provides access to all modules you have permission to use.
+- **Search and filters** are used throughout the app to find contracts, assets, and dive logs quickly.
+- Data is stored in **Google Firestore** and updates in real time — changes made by one user are reflected immediately for others.
 
-### Asset Management
-- Track company equipment
-- Monitor asset locations
-- Record usage history
-- Manage depreciation
+## Typical Daily Usage
 
-## Navigation Tips
+Not all staff use all modules. Usage depends on your operational responsibilities.
 
-- **Home Icon** - Return to main dashboard
-- **Search Bar** - Quick access to any function
-- **User Profile** - Account settings and preferences
-- **Help Button** - Access this knowledge base
+### After Dives Return
+- Log each dive in **Dive Operations** while details are fresh — site name, guide, boat, depth, temperature, and sightings.
+
+### After Completing Maintenance
+- Log the service in **Maintenance** against the correct child asset, recording hours, parts used, and next service due.
+
+### Building a Group Contract
+- Open **Contracts**, start a new contract, and work through the wizard: group details and dates → rooms → dive package → meal package → review calculations → generate PDF.
+
+### Reviewing Site Rotation
+- Check the **Analytics** dashboard for the 7-day site matrix to see if any boat/site combinations are showing repeated visits.
+
+### Updating Hotel Pricing for a New Season
+- Update seasons, rates, and room categories in **Hotel Configuration** before building contracts for the new period.
+
+## Module Summaries
+
+### Group Contracts
+- Built from pre-configured hotels, seasons, room categories, dive packages, and meal packages.
+- Pricing, commissions, and FOC are calculated automatically.
+- Editing a contract creates a new revision — previous versions are archived.
+- PDFs include room breakdowns, dive packages, meal packages, totals, and policies.
+
+### Dive Logs
+- Complete logs as soon as possible after each dive.
+- Accurate site names, temperatures, guide names, and sightings directly improve analytics quality.
+- Sightings should only reflect species actually observed on that dive.
+
+### Maintenance Logs
+- Log maintenance against the most specific asset — the engine, not the vessel.
+- Record actual hour readings, not estimates.
+- Keep asset operational status current so staff can see what is and isn't available.
 
 ## Getting Help
 
-If you need assistance:
-1. Check the relevant section in this knowledge base
-2. Contact your system administrator
-3. Review the troubleshooting guide
+If something isn't working as expected:
 
-## Next Steps
+1. Check the relevant section of this knowledge base.
+2. Contact management or your system administrator.
+3. See the [Troubleshooting Common Issues](Troubleshooting.md) page.
 
-After completing this quick start guide, explore these detailed sections:
-- [Contract Management](ContractManagement.md)
-- [Dive Logging & Operations](DiveLogging.md)
-- [Equipment Maintenance](Maintenance.md)
-- [Analytics & Reporting](Analytics.md)
+## Module Documentation
+
+- [Group Contract Management](ContractManagement.md)
+- [Dive Packages & Pricing Configuration](DivePackages.md)
+- [Hotel Configuration & Seasonal Room Rates](HotelManagement.md)
+- [Dive Log & Marine Life Sightings](DiveLogging.md)
+- [Maintenance Tracking & Service Logs](Maintenance.md)
+- [Equipment & Maintenance Tracking](AssetManagement.md)
+- [Dive Analytics & Operational Insights](Analytics.md)
 

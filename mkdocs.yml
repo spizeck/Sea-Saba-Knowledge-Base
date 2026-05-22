@@ -12,14 +12,14 @@ nav:
   - Home: index.md
   - Business App:
       - Quick Start Guide: BusinessApp/QuickStart.md
-      - Contract Management: BusinessApp/ContractManagement.md
-      - Dive Package Configuration: BusinessApp/DivePackages.md
-      - Hotel & Room Management: BusinessApp/HotelManagement.md
-      - Dive Logging & Operations: BusinessApp/DiveLogging.md
-      - Equipment Maintenance: BusinessApp/Maintenance.md
+      - Group Contract Management: BusinessApp/ContractManagement.md
+      - Dive Packages & Pricing Configuration: BusinessApp/DivePackages.md
+      - Hotel Configuration & Seasonal Room Rates: BusinessApp/HotelManagement.md
+      - Dive Log & Marine Life Sightings: BusinessApp/DiveLogging.md
+      - Maintenance Tracking & Service Logs: BusinessApp/Maintenance.md
       - Equipment & Maintenance Tracking: BusinessApp/AssetManagement.md
-      - Analytics & Reporting: BusinessApp/Analytics.md
-      - Troubleshooting Common Issues: BusinessApp/Troubleshooting.md
+      - Dive Analytics & Operational Insights: BusinessApp/Analytics.md
+      - Troubleshooting & Common Operational Issues: BusinessApp/Troubleshooting.md
   - General Information:
       - Problem-Solving & Issue Escalation: GeneralInformation/ProblemSolving.md
       - Diving & Snorkeling Info: GeneralInformation/DivingSnorkelingInfo.md

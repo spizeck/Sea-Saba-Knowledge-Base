@@ -1,217 +1,113 @@
-# Analytics & Reporting
+# Dive Analytics & Operational Insights
 
-The Analytics system provides comprehensive business intelligence to help you make data-driven decisions for your dive operation.
+The analytics dashboard turns Sea Saba dive log data into practical operational insights. It is built around the dives logged in the Business App and is intended for dive staff, guides, captains, and operations management — not financial reporting or business intelligence.
 
-## Dashboard Overview
+All analytics data comes directly from dive logs stored in **Google Firestore**. The quality of the analytics depends entirely on the quality of the dive logs. Consistent site names, accurate temperatures, correct guide and boat assignments, and honest sightings data all feed directly into what you see on the dashboard.
 
-### Key Performance Indicators
-Monitor your business health with real-time metrics:
-- **Daily Revenue** - Today's income across all services
-- **Bookings** - Current and upcoming reservations
-- **Occupancy Rates** - Hotel and boat utilization
-- **Customer Satisfaction** - Recent review scores
-- **Equipment Status** - Maintenance and availability
+## Dashboard Summary Statistics
 
-### Operational Metrics
-Track day-to-day operations:
-- **Dives Completed** - Daily, weekly, monthly totals
-- **Guide Utilization** - Efficiency and workload metrics
-- **Site Popularity** - Most visited dive locations
-- **Equipment Usage** - Gear utilization rates
-- **Fuel Consumption** - Boat and vehicle fuel usage
+The top of the dashboard shows a snapshot of overall dive activity:
 
-## Revenue Analytics
+- **Total Dives Logged** — All dives recorded in the system
+- **Recent Dives** — Dives completed in a recent window
+- **Average Water Temperature** — Calculated from logged dive data
+- **Most Active Boat** — Vessel with the highest dive count
+- **Most Active Guide** — Guide with the highest dive count
 
-### Revenue Breakdown
-Analyze income sources:
-- **Dive Packages** - Revenue from dive services
-- **Hotel Accommodations** - Room and lodging income
-- **Equipment Rental** - Gear rental revenue
-- **Additional Services** - Photography, courses, special trips
-- **Commission Income** - Agent and referral commissions
+These statistics update dynamically as new dives are logged.
 
-### Revenue Trends
-Monitor financial performance:
-- **Daily Revenue** - Day-to-day income variations
-- **Weekly Patterns** - Weekend vs. weekday performance
-- **Seasonal Analysis** - High and low season comparisons
-- **Year-over-Year Growth** - Annual growth metrics
-- **Forecasting** - Predicted future revenue
+## Boat & Guide Statistics
 
-### Profitability Analysis
-Evaluate business profitability:
-- **Gross Margins** - Revenue minus direct costs
-- **Net Profit** - After all expenses
-- **Cost per Dive** - Individual dive profitability
-- **Customer Lifetime Value** - Long-term customer worth
-- **Service Line Profitability** - Most profitable services
+Dive counts broken down by boat and by guide, with time range filtering:
 
-## Dive Operations Analytics
+| Filter | Period |
+|---|---|
+| All Time | Complete logged history |
+| Last 30 Days | Recent activity |
+| Current Year | Year-to-date |
 
-### Dive Site Analysis
-Understand dive site performance:
-- **Site Utilization** - How often each site is visited
-- **Customer Preferences** - Most popular dive locations
-- **Environmental Impact** - Diver density and reef health
-- **Weather Dependencies** - Site suitability by conditions
-- **Guide Efficiency** - Performance by dive site
+This helps management understand operational usage patterns — which boats and guides are most active, and how that changes over time.
 
-### Marine Life Tracking
-Monitor ocean ecosystem:
-- **Species Sightings** - Frequency and patterns
-- **Seasonal Variations** - Migration and breeding patterns
-- **Conservation Impact** - Environmental health indicators
-- **Tourism Value** - Economic value of wildlife sightings
-- **Research Contributions** - Scientific data collection
+## 7-Day Site Matrix
 
-### Equipment Performance
-Track equipment effectiveness:
-- **Utilization Rates** - How often equipment is used
-- **Maintenance Costs** - Service and repair expenses
-- **Downtime Analysis** - When equipment is unavailable
-- **Replacement Planning** - When to upgrade equipment
-- **Cost per Use** - True cost of equipment operation
+The site matrix shows which dive sites each boat has visited during the **last 7 days**, with color coding to identify repeat visits:
 
-## Customer Analytics
+| Color | Meaning |
+|---|---|
+| Blue | First visit to this site in the period |
+| Orange | Second visit |
+| Red | Third or more visits |
 
-### Customer Behavior
-Understand your customers:
-- **Booking Patterns** - When and how customers book
-- **Dive Preferences** - Types of dives customers prefer
-- **Spending Patterns** - Average customer spend
-- **Loyalty Metrics** - Repeat business and referrals
-- **Demographics** - Customer age, origin, experience
+### Why This Matters
 
-### Satisfaction Analysis
-Monitor customer happiness:
-- **Review Scores** - Customer ratings and feedback
-- **Complaint Analysis** - Common issues and resolutions
-- **Service Quality** - Guide and service performance
-- **Net Promoter Score** - Customer recommendation likelihood
-- **Retention Rates** - Customer return percentages
+Repeated visits to the same site put unnecessary pressure on the reef and reduce the variety of the guest experience. The matrix makes over-rotation immediately visible so management and guides can spread dive activity more evenly across available sites.
 
-### Marketing Effectiveness
-Evaluate marketing efforts:
-- **Channel Performance** - Which marketing channels work best
-- **Conversion Rates** - Booking conversion by channel
-- **Campaign ROI** - Return on marketing investment
-- **Referral Tracking** - Customer referral effectiveness
-- **Brand Awareness** - Market position and recognition
+> Check the site matrix when planning the day's dive sites. If a site is showing orange or red for your boat, consider alternatives.
 
-## Financial Reporting
+## Temperature Trends
 
-### Revenue Reports
-Generate detailed financial reports:
-- **Daily Revenue Summary** - Income by category
-- **Monthly Financial Statements** - P&L and balance sheets
-- **Annual Performance** - Year-end financial analysis
-- **Department Performance** - Revenue by business unit
-- **Forecast vs. Actual** - Budget variance analysis
+Water temperature data aggregated from all logged dives, displayed over selectable time ranges:
 
-### Cost Analysis
-Track and analyze expenses:
-- **Operating Costs** - Day-to-day business expenses
-- **Labor Costs** - Staff and contractor expenses
-- **Equipment Costs** - Purchase, maintenance, replacement
-- **Facility Costs** - Rent, utilities, maintenance
-- **Variable Costs** - Costs that change with volume
+- **30 Days** — Recent conditions
+- **12 Months** — Seasonal patterns over the past year
+- **24 Months** — Two-year trend view
 
-### Budget Management
-Manage financial planning:
-- **Budget Creation** - Annual and quarterly budgets
-- **Expense Tracking** - Monitor spending against budget
-- **Variance Analysis** - Understand budget differences
-- **Cash Flow Management** - Monitor cash position
-- **Investment Planning** - Plan for capital expenditures
+The dashboard displays average temperature, the range across the period, and trend direction. Outlier handling is applied to reduce the impact of obviously incorrect entries.
 
-## Operational Intelligence
+Temperature trends help staff and management understand seasonal water conditions and monitor long-term environmental changes at Sea Saba dive sites.
 
-### Staff Performance
-Monitor team effectiveness:
-- **Guide Productivity** - Dives per guide, customer ratings
-- **Administrative Efficiency** - Booking and processing times
-- **Maintenance Team Performance** - Response times, completion rates
-- **Training Effectiveness** - Skill development and certification
-- **Staff Utilization** - Workload distribution and efficiency
+## Site Visitation Patterns
 
-### Process Optimization
-Improve business processes:
-- **Bottleneck Analysis** - Identify process constraints
-- **Workflow Efficiency** - Time and motion studies
-- **Quality Metrics** - Error rates and rework
-- **Customer Journey** - End-to-end process analysis
-- **Automation Opportunities** - Areas for technology improvement
+A breakdown of how often each dive site has been visited, with filtering by time range:
 
-### Resource Planning
-Optimize resource allocation:
-- **Capacity Planning** - Match resources to demand
-- **Scheduling Efficiency** - Optimize staff and equipment schedules
-- **Inventory Management** - Optimize stock levels
-- **Facility Utilization** - Maximize space usage
-- **Seasonal Planning** - Prepare for demand variations
+- **30 Days**
+- **90 Days**
+- **12 Months**
 
-## Custom Reports
+For each site the dashboard shows:
 
-### Report Builder
-Create custom reports:
-- **Drag-and-Drop Interface** - Easy report design
-- **Data Filters** - Select specific data ranges and criteria
-- **Visualization Options** - Charts, graphs, and tables
-- **Export Formats** - PDF, Excel, CSV options
-- **Scheduled Reports** - Automatic report generation and delivery
+- **Visit count** and **percentage of total dives**
+- **Last visit date**
+- **Protected site indicator** where applicable
 
-### KPI Monitoring
-Track custom metrics:
-- **Business-Specific Metrics** - Tailored to your operation
-- **Industry Benchmarks** - Compare to industry standards
-- **Goal Tracking** - Monitor progress against targets
-- **Alert System** - Notifications for metric thresholds
-- **Trend Analysis** - Long-term performance tracking
+### Operational Use
 
-### Executive Dashboards
-High-level business overview:
-- **One-Page Summary** - Key metrics at a glance
-- **Drill-Down Capability** - Detailed analysis on demand
-- **Mobile Access** - View reports on any device
-- **Real-Time Updates** - Live data feeds
-- **Comparative Analysis** - Period-over-period comparisons
+- Identify sites that are being overused relative to others.
+- Monitor visitation pressure on protected or sensitive sites.
+- Plan site rotation to distribute dives more evenly.
+- Understand which sites are getting little or no use.
 
-## Best Practices
+## Seasonal Wildlife Patterns
 
-### Data Quality
-1. **Consistent Data Entry** - Standardized data collection
-2. **Regular Validation** - Verify data accuracy
-3. **Clean Data** - Remove duplicates and errors
-4. **Timely Updates** - Keep data current
+Species sightings from the Dive Log sightings workflow are aggregated and displayed as seasonal trends. For each tracked species the dashboard shows:
 
-### Analysis Techniques
-1. **Trend Analysis** - Look for patterns over time
-2. **Comparative Analysis** - Compare periods and segments
-3. **Root Cause Analysis** - Understand why things happen
-4. **Predictive Modeling** - Forecast future trends
+- **Peak season** — When sightings are most frequent
+- **Low season** — When sightings drop off
+- **Unique species count** — How many different species of concern have been logged
+- **Average sightings per dive** — Across the logged dataset
 
-### Decision Making
-1. **Data-Driven Decisions** - Use data to guide choices
-2. **Balanced Metrics** - Consider multiple perspectives
-3. **Context Understanding** - Know the business context
-4. **Actionable Insights** - Focus on actionable findings
+This data comes directly from the species of concern workflow completed during dive logging. It is only as accurate as the sightings logged by guides after each dive.
 
-## Troubleshooting
+!!! note
+    Wildlife trend data improves over time as more dives are logged. A few months of consistent logging will show meaningful seasonal patterns.
 
-### Common Issues
-- **Data Inconsistencies** - Verify data sources and entry procedures
-- **Slow Performance** - Optimize queries and database performance
-- **Incorrect Calculations** - Check formulas and data validation
-- **Display Problems** - Verify report formatting and visualization
+## Data Quality & the Analytics Connection
 
-### System Issues
-- **Sync Failures** - Check data connections and update schedules
-- **Access Problems** - Verify user permissions and system access
-- **Export Errors** - Check file formats and export procedures
-- **Integration Issues** - Verify connections to other systems
+The analytics dashboard is only as useful as the data behind it. Every field in the dive log feeds into one or more analytics views:
 
-## Related Articles
+| Dive Log Field | Affects |
+|---|---|
+| Boat | Boat statistics, site matrix |
+| Dive Guide | Guide statistics |
+| Dive Site | Site matrix, visitation patterns |
+| Water Temperature | Temperature trends |
+| Drift Dive | Operational records |
+| Species Sightings | Seasonal wildlife patterns |
 
-- [Dive Logging & Operations](DiveLogging.md)
-- [Contract Management](ContractManagement.md)
-- [Asset Management](AssetManagement.md)
+Inconsistent site names, missing fields, or inaccurate sightings all degrade the analytics. This is why accurate and timely dive logging matters beyond just the individual record.
+
+## Related
+
+- [Dive Log & Marine Life Sightings](DiveLogging.md)
+- [Equipment & Maintenance Tracking](AssetManagement.md)
+- [Marine Park Rules](../DiveOperations/MarineParkRules.md)

@@ -1,191 +1,177 @@
-# Hotel & Room Management
+# Hotel Configuration & Seasonal Room Rates
 
-The Hotel Management system allows you to configure room types, pricing, and policies for partner hotels used in dive packages.
+Hotels in the Business App are configuration objects used by the Group Contract Management system. They are not a reservations or property management system. The purpose of hotel configuration is to store accurate seasonal pricing, room categories, occupancy rates, meal packages, FOC rules, and policies so that group contracts calculate correctly and hotel price sheets can be generated.
 
-## Hotel Configuration
+!!! warning
+    Incorrect hotel configuration will directly affect contract pricing accuracy. Verify all rates, seasons, and occupancy types carefully before building contracts against a hotel.
 
-### Adding Partner Hotels
-1. Navigate to **Hotels** from the main menu
-2. Click **"Add New Hotel"**
-3. Enter hotel information:
-   - **Hotel Name** - Official business name
-   - **Contact Information** - Phone, email, address
-   - **Commission Rate** - Standard commission percentage
-   - **Payment Terms** - Net 30, Net 60, etc.
-   - **Contract Details** - Agreement terms and conditions
+## Hotel Data Structure
 
-### Room Type Setup
-For each hotel, configure available room types:
-1. **Standard Rooms** - Single, Double, Twin
-2. **Premium Rooms** - Deluxe, Suite, Ocean View
-3. **Specialty Rooms** - Family rooms, Honeymoon suites
-4. **Dormitory Style** - Shared accommodations for groups
+Each hotel in the system contains:
 
-### Room Configuration Details
-For each room type, specify:
-- **Base Capacity** - Maximum number of guests
-- **Bed Configuration** - King, Queen, Twin, Bunk
-- **Amenities** - AC, WiFi, Mini-bar, Safe
-- **View Type** - Ocean, Garden, Street, Pool
-- **Accessibility** - ADA compliance features
+- **Seasons** — Date ranges that define which rates apply
+- **Room Categories** — Groups of similar rooms with descriptions and optional quantity limits
+- **Occupancy Types** — Per-category pricing for single, double, triple, quad, etc.
+- **Rates** — Per-night pricing tied to season + room category + occupancy type
+- **Meal Packages** — Hotel-specific meal plan options with their own commission rules
+- **FOC Rules** — Configurable free-of-charge rules per hotel
+- **Policies & Terms** — Cancellation, payment, and operational policy fields used in contracts and price sheets
 
-## Pricing Structure
+## Seasons
 
-### Seasonal Rate Configuration
-Set different rates for different seasons:
-1. **High Season** (December - April):
-   - Peak pricing with premium rates
-   - Minimum stay requirements
-   - Strict cancellation policies
-2. **Shoulder Season** (May, November):
-   - Moderate pricing
-   - Flexible booking terms
-   - Standard cancellation policies
-3. **Low Season** (June - October):
-   - Discounted rates
-   - Special promotions
-   - Lenient cancellation terms
+Seasons define the date ranges during which specific room rates are active. Each hotel has its own seasonal structure — different hotels may have different season names, date ranges, and rate tiers.
 
-### Room Rate Calculations
-Configure pricing components:
-- **Base Rate** - Standard room price per night
-- **Occupancy Surcharge** - Additional charge for extra guests
-- **Seasonal Multiplier** - Percentage adjustment by season
-- **Taxes and Fees** - Government taxes, resort fees
-- **Commission** - Agent commission percentages
+- Seasons are configured with a start date and end date.
+- When a contract is created, the system automatically determines the correct season based on the group's travel dates.
+- If travel dates span multiple seasons, verify which season applies or split the booking accordingly.
 
-### Dynamic Pricing Rules
-Set up automatic price adjustments:
-- **Demand-Based Pricing** - Increase rates during high demand
-- **Length of Stay Discounts** - Reduced rates for longer stays
-- **Early Booking Discounts** - Incentives for advance bookings
-- **Last Minute Deals** - Fill unsold inventory
+> Verify seasonal date ranges carefully at the start of each year. A misconfigured season boundary will cause contracts to pull incorrect rates silently.
 
-## Policy Management
+## Room Categories
 
-### Cancellation Policies
-Configure cancellation rules by season and room type:
-- **High Season**: 30 days for full refund, 14 days for 50%
-- **Shoulder Season**: 14 days for full refund, 7 days for 50%
-- **Low Season**: 7 days for full refund, 3 days for 50%
+Room categories represent groups of similar rooms at a hotel.
 
-### Booking Policies
-Set booking requirements:
-- **Minimum Stay** - Required nights during peak periods
-- **Deposit Requirements** - Percentage or fixed amount
-- **Payment Schedule** - When balances are due
-- **Guarantee Policies** - Credit card requirements
+**Examples:**
+- Ocean View Double
+- Garden Cottage
+- Queen Cottage
+- Penthouse Suite
 
-### House Rules
-Define property-specific rules:
-- **Check-in/Check-out Times** - Standard and flexible options
-- **Age Restrictions** - Minimum age requirements
-- **Pet Policies** - Pet-friendly or no pets allowed
-- **Smoking Policies** - Designated smoking areas
-- **Noise Restrictions** - Quiet hours and party policies
+Each room category can include:
+- A description used in price sheets and contracts
+- An optional quantity limit (maximum rooms available)
+- An optional Checkfront item mapping for sync workflows
 
-## Inventory Management
+Room category names should be consistent across seasons. If the same room type exists in multiple seasons, use the same category name to avoid confusion in contracts and price sheets.
 
-### Room Allocation
-Track room availability:
-- **Total Inventory** - Total rooms by type
-- **Contracted Rooms** - Rooms reserved for dive packages
-- **Available Rooms** - Current availability
-- **Blocked Rooms** - Maintenance or unavailable rooms
+## Occupancy Types
 
-### Yield Management
-Optimize room revenue:
-- **Occupancy Targets** - Desired occupancy rates
-- **Rate Parity** - Consistent pricing across channels
-- **Channel Management** - Distribution across booking platforms
-- **Competitor Analysis** - Monitor market rates
+Occupancy types are configured per room category and define how many guests occupy a room.
 
-### Forecasting
-Predict future demand:
-- **Historical Data** - Past booking patterns
-- **Seasonal Trends** - Predictable seasonal variations
-- **Market Events** - Local events affecting demand
-- **Economic Factors** - Tourism trends and indicators
+**Examples:**
+- Single
+- Double
+- Triple
+- Quad
 
-## Integration Features
+Each occupancy type has its own rate. Not all occupancy types exist for every room category — only configure the occupancy options that are actually available for that room at that hotel.
 
-### Contract System Integration
-- **Automatic Room Assignment** - Based on package requirements
-- **Pricing Calculations** - Real-time rate calculations
-- **Availability Checking** - Prevent overbooking
-- **Policy Application** - Apply relevant policies automatically
+When building a group contract, the occupancy type selected by staff must match an option configured for that room category. If an occupancy type is missing, the contract will not be able to price that room correctly.
 
-### Booking Engine Integration
-- **Real-Time Availability** - Live inventory updates
-- **Instant Confirmation** - Immediate booking confirmation
-- **Payment Processing** - Secure payment handling
-- **Communication** - Automated email confirmations
+## Rate Configuration
 
-### Accounting Integration
-- **Revenue Tracking** - Room revenue by hotel and period
-- **Commission Calculations** - Automatic commission tracking
-- **Tax Reporting** - Tax collection and reporting
-- **Financial Reporting** - P&L by property
+Rates are the per-night prices for a specific combination of:
 
-## Reporting and Analytics
+- Season
+- Room Category
+- Occupancy Type
 
-### Performance Metrics
-Track key performance indicators:
-- **Occupancy Rates** - By room type and season
-- **Average Daily Rate (ADR)** - Revenue per occupied room
-- **Revenue Per Available Room (RevPAR)** - Overall performance metric
-- **Booking Lead Time** - How far in advance guests book
+Contracts pull room pricing automatically from these configured rates during Step 2 of the contract wizard. There is no manual price override in the contract — rates come directly from what is configured here.
 
-### Financial Reporting
-Monitor financial performance:
-- **Revenue Analysis** - By hotel, room type, and period
-- **Cost Analysis** - Operating costs and profitability
-- **Commission Tracking** - Agent commissions and payments
-- **Tax Reporting** - Tax collection and remittance
+When updating rates for a new season, add new rate entries under the correct season rather than overwriting existing rates. This preserves historical pricing for existing contracts.
 
-### Operational Reports
-Track operational efficiency:
-- **Housekeeping Reports** - Room turnover and cleaning times
-- **Maintenance Reports** - Repair costs and downtime
-- **Guest Satisfaction** - Review scores and feedback
-- **Staff Performance** - Productivity and service metrics
+## Meal Packages
+
+Meal packages are configured per hotel and are separate from dive package pricing.
+
+- Each hotel defines its own meal package options (e.g., Breakfast Only, Half Board, Full Board).
+- Meal package commission percentages may differ by hotel and are configured independently from room commissions.
+- FOC guests may still be charged for meal packages depending on how the hotel's meal FOC is configured. Confirm this before finalizing a contract.
+
+Meal packages appear in the contract wizard during Step 4 and are included in generated PDFs and price sheets.
+
+## FOC Rules
+
+Hotels may define their own FOC (Free of Charge) rules for room accommodation. These are configured per hotel and are separate from the dive FOC structure.
+
+- **Example:** "7 paid rooms, 1 room free" — the specific rule depends on the hotel agreement.
+- Hotel FOC calculations are applied automatically during contract generation.
+- Hotel FOC affects room pricing only. Dive FOC (7+1 diver structure) is calculated separately.
+
+Always verify the hotel's FOC rule is correctly configured before generating group contracts. An incorrect FOC rule will silently affect the contract total.
+
+## Policies & Terms
+
+Policy fields store the contractual and operational language associated with each hotel. These fields are used in:
+
+- Group contract PDFs
+- Hotel price sheets
+- Operational briefings for group coordinators
+
+Policy fields typically include:
+
+- **Cancellation policy** — Deadline and refund terms
+- **Payment terms** — Deposit schedule and balance due dates
+- **Fitness to dive** — Health and certification requirements
+- **Travel insurance** — Requirements or recommendations
+- **Unused services** — Policy on unused dives or room nights
+- **Force majeure** — Coverage for extraordinary circumstances
+- **General restrictions** — Any hotel-specific rules or conditions
+
+Keep these fields current. Outdated policy language in a contract PDF can create confusion or disputes with groups.
+
+## Hotel Price Sheet Generator
+
+The system can generate printable hotel price sheets that are used for operational and sales purposes with groups and agents.
+
+A price sheet typically includes:
+
+- Hotel name and description
+- Room categories and quantities
+- Seasonal room pricing by occupancy type
+- Dive package pricing
+- Meal package options
+- Applicable policies
+- Hotel logo and branding (if configured)
+
+Price sheets can be generated independently from contracts and are useful for pre-booking communications or agent briefings.
+
+## Integration with Group Contracts
+
+The Group Contract wizard draws directly from hotel configuration at every pricing step:
+
+| Contract Step | Data Source |
+|---|---|
+| Step 1 — Hotel & dates | Hotel record; season determined from dates |
+| Step 2 — Room selection | Room categories and occupancy types for that hotel and season |
+| Step 3 — Dive packages | Dive package config (hotel-independent) |
+| Step 4 — Meal packages | Meal packages configured for that hotel |
+| Step 5 — Calculations | Rates, meal commissions, FOC rules all from hotel config |
+
+Any gap or error in hotel configuration will affect the contract calculation at the corresponding step.
+
+## Checkfront Integration
+
+Room categories may optionally include a Checkfront item mapping. This supports optional Checkfront synchronization workflows where contracted rooms are linked to corresponding Checkfront bookings.
+
+!!! warning
+    Checkfront integration is operationally sensitive. Sync workflows involve booking modification and invoice generation risks. Confirm with management before configuring or using Checkfront item mappings.
+
+## Adding or Updating a Hotel
+
+When adding a new hotel or updating an existing one for a new season:
+
+1. **Create or verify the hotel record** — Name, description, and contact information
+2. **Configure seasons** — Start and end dates for each pricing period
+3. **Add room categories** — Names, descriptions, and optional quantity limits
+4. **Configure occupancy types per category** — Only the occupancy options that actually exist for that room
+5. **Enter rates** — For each season × room category × occupancy type combination
+6. **Add meal packages** — Hotel-specific options with commission percentages
+7. **Set FOC rules** — Per the hotel agreement
+8. **Update policies** — Cancellation, payment, and operational terms
 
 ## Best Practices
 
-### Rate Management
-1. **Competitive Analysis** - Regular competitor rate checks
-2. **Value-Based Pricing** - Price based on value delivered
-3. **Dynamic Adjustment** - Respond to market changes quickly
-4. **Promotion Planning** - Strategic promotional campaigns
+1. **Verify seasonal date ranges** at the start of each new season — a boundary error silently misdirects contract pricing.
+2. **Double-check occupancy pricing** — Single vs. double occupancy rates have a significant impact on contract totals.
+3. **Ensure room categories match actual hotel inventory** — Do not configure categories or occupancy types that are not genuinely available.
+4. **Keep policies current** — Outdated cancellation or payment terms in contract PDFs create confusion.
+5. **Review FOC rules carefully** before contract generation season begins.
+6. **Confirm meal package commission settings** — These vary by hotel and affect contract totals.
+7. **Use consistent naming** across seasons and room categories to avoid confusion in contracts and price sheets.
 
-### Inventory Optimization
-1. **Yield Management** - Maximize revenue per available room
-2. **Channel Distribution** - Optimize across booking channels
-3. **Group Management** - Balance group and individual bookings
-4. **Forecast Accuracy** - Improve demand prediction
+## Related
 
-### Guest Experience
-1. **Consistent Quality** - Maintain standards across properties
-2. **Clear Communication** - Accurate descriptions and policies
-3. **Problem Resolution** - Quick response to issues
-4. **Feedback Collection** - Regular guest satisfaction surveys
-
-## Troubleshooting
-
-### Common Issues
-- **Overbooking Problems** - Check inventory synchronization
-- **Pricing Errors** - Verify rate calculations and seasonal settings
-- **Policy Conflicts** - Review policy configuration
-- **Integration Failures** - Check system connections
-
-### Performance Issues
-- **Low Occupancy** - Review pricing and marketing strategies
-- **High Cancellation Rates** - Analyze booking policies and value proposition
-- **Revenue Decline** - Investigate market conditions and competition
-- **Guest Complaints** - Review property standards and service quality
-
-## Related Articles
-
-- [Contract Management](ContractManagement.md)
-- [Dive Package Configuration](DivePackages.md)
-- [Analytics & Reporting](Analytics.md)
+- [Group Contract Management](ContractManagement.md)
+- [Dive Packages & Pricing Configuration](DivePackages.md)
+- [Dive Analytics & Operational Insights](Analytics.md)

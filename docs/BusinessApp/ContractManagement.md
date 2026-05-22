@@ -1,136 +1,145 @@
-# Contract Management
+# Group Contract Management
 
-The Contract Management system allows you to create professional dive contracts with automatic pricing calculations and PDF generation.
+The Contract Management system is used to build group dive vacation contracts that combine hotel accommodations, dive packages, and meal packages into a single priced document. The system handles commission calculations, FOC (Free of Charge) logic, and generates customer-ready PDFs. All pricing is pulled automatically from pre-configured hotels, seasons, room rates, dive packages, and meal packages.
 
-## Overview
+## What the System Is Built Around
 
-Contracts are the foundation of your dive business operations. This system handles:
-- Group booking management
-- Hotel and dive package pricing
-- Automatic commission calculations
-- Professional document generation
+Contracts depend on correctly configured back-end data. Before a contract can be built accurately, the following must be set up in the system:
 
-## Creating a New Contract
+- **Hotels** — Properties available for booking
+- **Seasons** — Date ranges that determine which rates apply
+- **Room Categories & Rates** — Per-hotel, per-season occupancy pricing
+- **Dive Packages** — Available packages and seasonal pricing
+- **Meal Packages** — Hotel-specific meal options and commission rules
 
-### Step 1: Access Contract Creation
-1. Navigate to **Contracts** from the main dashboard
-2. Click **"Create New Contract"**
-3. Select the contract template (Standard or Custom)
+If any of these are missing or misconfigured, contract calculations will be incorrect.
 
-### Step 2: Customer Information
-Enter the primary customer details:
-- **Customer Name** - Primary contact person
-- **Email Address** - For contract delivery
-- **Phone Number** - Contact information
-- **Group Size** - Number of divers
-- **Arrival Date** - Check-in date
-- **Departure Date** - Check-out date
+## Creating a Contract
 
-### Step 3: Hotel Selection
-1. **Choose Hotel** - Select from configured hotels
-2. **Room Configuration** - Specify room types and quantities
-3. **Stay Duration** - Verify dates match customer booking
-4. **Special Requests** - Add any customer notes
+Contracts are built through a multi-step wizard. Work through each step carefully — errors in early steps affect all downstream calculations.
 
-### Step 4: Dive Package Configuration
-1. **Select Dive Package** - Choose from available packages
-2. **Number of Dives** - Specify total dives per person
-3. **Dive Sites** - Preferred locations (if any)
-4. **Equipment Rental** - Add gear if needed
-5. **Special Services** - Private guides, photo/video, etc.
+### Step 1 — Basic Group Information
 
-### Step 5: Pricing Review
-The system automatically calculates:
-- **Room Rates** - Based on hotel configuration
-- **Dive Package Pricing** - Per person rates
-- **Equipment Fees** - Rental charges
-- **Commission** - Agent commissions (if applicable)
-- **Total Amount** - Final contract value
+Enter the core details for the group:
 
-### Step 6: Generate Contract
-1. **Review All Details** - Verify accuracy
-2. **Add Special Terms** - Custom conditions if needed
-3. **Generate PDF** - Create professional document
-4. **Send to Customer** - Email or download for signature
+- **Group Name** — The name used to identify this contract
+- **Travel Dates** — Arrival and departure dates
+- **Hotel** — Select the hotel for this group
+- **Booking Type** — Select one:
+  - **Dive Shop** — 10% or 15% room commission
+  - **Tour Operator** — 20% or 25% room commission
 
-## Managing Existing Contracts
+> The booking type determines the room commission percentage applied throughout the contract. Seasons are determined automatically based on the travel dates entered.
 
-### View Contract List
-- **Status Filter** - Draft, Sent, Signed, Completed
-- **Date Range** - Filter by booking dates
-- **Search** - Find by customer name or contract ID
+### Step 2 — Room Selection
 
-### Contract Actions
-- **Edit** - Modify draft contracts
-- **Duplicate** - Create similar contracts quickly
-- **Send Reminder** - Follow up on unsigned contracts
-- **Convert to Booking** - Activate signed contracts
+Room options are filtered based on the selected hotel and the season covering the travel dates.
 
-## Pricing Configuration
+For each room type in the group:
 
-### Hotel Management
-Navigate to **Hotels** to configure:
-- **Room Types** - Single, Double, Suite, etc.
-- **Seasonal Rates** - High/Low season pricing
-- **Policies** - Cancellation rules, deposit requirements
-- **FOC Rules** - Free of Charge calculations
+1. Select the **room category** available at that hotel
+2. Select the **occupancy type** (single, double, triple, etc.)
+3. Enter the **number of rooms**
 
-### Dive Package Setup
-In **Dive Packages**, configure:
-- **Package Types** - 2-tank, 3-tank, night dives
-- **Pricing Tiers** - Group size discounts
-- **Inclusions** - What's included in each package
-- **Restrictions** - Certification requirements, etc.
+Room pricing is pulled automatically from the configured seasonal rates for that hotel. Repeat this step for each room category needed in the group.
 
-## Commission System
+### Step 3 — Dive Package Selection
 
-### Automatic Calculations
-- **Agent Commissions** - Percentage-based on total
-- **FOC Logic** - 7+1 diver rule automatically applied
-- **Tiered Rates** - Different rates for different booking types
-- **Reporting** - Track commission payments
+Dive packages are not hotel-specific but are priced by season.
 
-### Commission Rules
-- **Standard Rate** - Default percentage for all bookings
-- **VIP Rate** - Higher commission for premium agents
-- **Group Rate** - Special rates for large groups
-- **Referral Rate** - Commission for customer referrals
+- Select the **dive package**
+- Enter the **number of divers**
+
+Not all guests in a group need to be divers. The diver count is entered separately from room counts and does not need to match the total number of guests.
+
+### Step 4 — Meal Package Selection
+
+Meal packages are **hotel-specific**. Available options will reflect what is configured for the selected hotel.
+
+- Select the **meal package** (if applicable)
+- Enter the number of guests on the meal plan
+
+Meal package commissions may vary by hotel and are calculated separately from room commissions. FOC guests may still be charged for meal packages depending on how the hotel is configured.
+
+### Step 5 — Automatic Calculations
+
+Once all selections are made, the system calculates the full contract summary:
+
+- **Hotel room pricing** — Based on room category, occupancy, season, and quantity
+- **Dive package pricing** — Based on package selection and diver count
+- **Meal package pricing** — Based on hotel-specific meal rates
+- **Commission** — Applied based on booking type and hotel meal rules
+- **FOC** — Free of charge guests calculated and deducted automatically
+- **Group total** — Combined pricing across all components
+
+Review the summary carefully before generating the PDF.
+
+## FOC Logic
+
+FOC (Free of Charge) guests reduce the billable total for qualifying groups.
+
+- **Dive FOC** — Uses a **7+1 structure**: for every 7 paying divers, 1 diver is free.
+- **Hotel FOC** — Hotel-specific rules configured per property. Not all hotels use the same FOC structure.
+- **Meal packages** — FOC guests may still be charged for meal packages depending on hotel configuration. Confirm the hotel's meal FOC rules before finalizing.
+
+FOC calculations are applied automatically during summary generation. Always verify the FOC result against the group size before sending a PDF to the customer.
+
+## Commission Structure
+
+Room commissions are determined by the booking type selected in Step 1:
+
+| Booking Type | Room Commission |
+|---|---|
+| `diveShop10` | 10% |
+| `diveShop15` | 15% |
+| `tourOperator20` | 20% |
+| `tourOperator25` | 25% |
+
+Meal package commissions are configured per hotel and may differ from the room commission rate. Dive package commissions are handled separately from room commissions.
+
+> Confirm the correct booking type before building the contract. Changing it later requires editing the contract and creating a new revision.
+
+## Contract Revisions
+
+Editing a contract creates a new revision rather than overwriting the original. The previous version is archived automatically and the revision history is preserved.
+
+- **Always use the revision workflow** when changes are needed after a contract has been shared or finalized.
+- Previous revisions remain accessible for reference.
+- The system maintains links between the original contract and all subsequent revisions.
+
+Do not create a duplicate contract to reflect changes — edit the existing contract and allow the system to version it correctly.
+
+## PDF Generation
+
+Once the contract summary is reviewed and correct, generate the customer-ready PDF. The PDF includes:
+
+- Hotel name and details
+- Room category and occupancy breakdown
+- Dive package details
+- Meal package details
+- Pricing summary and group totals
+- Applicable policies
+- Customer confirmation and signature area
+
+Hotel price sheets can also be generated separately when needed for reference or pre-booking communications.
+
+## Checkfront Integration
+
+The system supports optional synchronization with Checkfront bookings. Contracts can be linked to a corresponding Checkfront booking to align operational records.
+
+!!! warning
+    Checkfront sync is handled carefully due to risks around invoice duplication and booking modification conflicts. This integration may not be enabled in all operational scenarios. Confirm with management before attempting to sync a contract with Checkfront.
 
 ## Best Practices
 
-### Contract Creation
-1. **Double-Check Dates** - Ensure accuracy
-2. **Verify Room Availability** - Check hotel inventory
-3. **Confirm Dive Capacity** - Ensure boats/guides available
-4. **Review Pricing** - Validate all calculations
+1. **Verify travel dates carefully** — Seasons are determined automatically from dates. A one-day error can shift pricing to a different season.
+2. **Confirm occupancy types match the customer request** — Single vs. double occupancy has a significant price impact.
+3. **Double-check diver counts** before finalizing — FOC calculations depend on the diver count being accurate.
+4. **Review FOC results** in the summary — Verify the system applied FOC correctly for both diving and hotel.
+5. **Confirm commissions are correct** before generating a PDF for the customer.
+6. **Use revisions, not duplicates** — Edit the existing contract when changes are needed after it has been shared.
 
-### Customer Communication
-1. **Send Promptly** - Deliver contracts within 24 hours
-2. **Follow Up** - Contact customers after 3 days if not signed
-3. **Answer Questions** - Be responsive to inquiries
-4. **Track Changes** - Document all modifications
-
-### Documentation
-1. **Keep Records** - Save all contract versions
-2. **Track Amendments** - Log any changes to signed contracts
-3. **Maintain Backups** - Ensure data is backed up regularly
-4. **Audit Trail** - Keep history of all contract actions
-
-## Troubleshooting
-
-### Common Issues
-- **Pricing Errors** - Check hotel and package configurations
-- **PDF Generation** - Verify all required fields are filled
-- **Email Delivery** - Check customer email addresses
-- **Commission Calculations** - Review agent settings
-
-### Error Messages
-- **"Invalid Date Range"** - Check arrival/departure dates
-- **"Room Not Available"** - Verify hotel inventory
-- **"Package Capacity Exceeded"** - Check dive boat availability
-- **"Commission Calculation Error"** - Review agent settings
-
-## Related Articles
+## Related
 
 - [Dive Package Configuration](DivePackages.md)
 - [Hotel & Room Management](HotelManagement.md)

@@ -1,199 +1,88 @@
-# Dive Logging & Operations
+# Dive Log & Marine Life Sightings
 
-The Dive Logging system allows you to record daily dive operations, track marine life sightings, and monitor dive site utilization.
+## Purpose
 
-## Daily Dive Operations
+To create consistent, accurate records of completed Sea Saba dives and marine life sightings. The dive log is the primary record of what was dived, who guided it, and what was observed — including species of concern sightings used to track marine life across all Sea Saba dive operations.
 
-### Morning Briefing
-1. **Weather Assessment** - Check conditions and forecast
-2. **Site Selection** - Choose appropriate dive sites
-3. **Boat Assignment** - Allocate boats and guides
-4. **Equipment Preparation** - Stage gear for scheduled dives
+## Scope
 
-### Dive Log Entry Process
-For each dive, record the following information:
+This guide applies to all dive staff responsible for entering completed dives into the Sea Saba Business App.
 
-#### Basic Dive Information
-- **Date** - Dive date
-- **Time Slot** - 9am, 11am, 1pm, 4pm, or night
-- **Dive Site** - Primary dive location
-- **Secondary Site** - If doing two sites
-- **Dive Duration** - Planned and actual bottom time
-- **Maximum Depth** - Deepest point reached
+## What the Dive Log Records
 
-#### Environmental Conditions
-- **Water Temperature** - Surface and bottom temperature
-- **Visibility** - Horizontal visibility in meters/feet
-- **Current** - None, mild, moderate, strong
-- **Wave Height** - Sea conditions
-- **Weather** - Sunny, cloudy, rainy, windy
+Each dive log entry captures the following:
 
-#### Personnel Assignment
-- **Dive Guide** - Lead guide for the dive
-- **Captain** - Boat captain
-- **Deckhand** - Surface support
-- **Number of Divers** - Total participants
-- **Certification Levels** - Open water, advanced, etc.
+- **Dive Number** — Sequential number for the dive
+- **Boat** — Which vessel the dive was conducted from
+- **Date** — Date of the dive
+- **Dive Guide** — Staff member who led the dive
+- **Dive Site** — Where the dive took place
+- **Drift Dive** — Whether the dive was conducted as a drift dive
+- **Maximum Depth** — Deepest point reached during the dive
+- **Water Temperature** — Temperature recorded during the dive
+- **Species of concern sightings** — Marine life sightings recorded via the multi-step sightings form
 
-#### Customer Information
-- **Group Names** - Which groups/divers participated
-- **Special Requirements** - Private guides, photographers
-- **Equipment Rentals** - Gear rented to customers
-- **Incidents** - Any problems or emergencies
+## When to Complete the Dive Log
 
-## Marine Life Tracking
+Complete the dive log as soon as possible after the dive while the details are fresh. Waiting too long increases the risk of inaccurate site names, incorrect depths, and missed or misremembered sightings.
 
-### Species Documentation
-Record all significant marine life sightings:
-- **Sharks** - Species, count, behavior
-- **Rays** - Manta, eagle, stingray sightings
-- **Turtles** - Species observed
-- **Special Fish** - Rare or notable species
-- **Coral Health** - Bleaching, damage, new growth
+> Log each dive on the same day it was completed whenever possible.
 
-### Sighting Categories
-1. **Common Species** - Regular sightings (angelfish, parrotfish)
-2. **Seasonal Visitors** - Migratory species (whale sharks, mantas)
-3. **Rare Sightings** - Unusual or endangered species
-4. **Behavioral Notes** - Mating, feeding, hunting behaviors
-5. **Environmental Indicators** - Coral bleaching, algae blooms
+## Basic Dive Information
 
-### Research Integration
-- **Citizen Science** - Contribute to marine research databases
-- **Conservation Tracking** - Monitor endangered species
-- **Climate Impact** - Track environmental changes
-- **Tourism Value** - Economic value of marine life sightings
+Fill in each field accurately before moving to the sightings section:
 
-## Site Management
+- **Dive Number** — Use the correct sequential number for the day and boat. Check with the guide or captain if unsure.
+- **Boat** — Select the vessel used. Do not guess — confirm if needed.
+- **Date** — Defaults to today. Correct it if you are entering a log from a previous dive.
+- **Dive Guide** — Select the guide who led the dive, not the person entering the log.
+- **Dive Site** — Select the correct site from the list. Use consistent site names — do not abbreviate or invent variations.
+- **Maximum Depth** — Record the maximum depth reached. Use the guide's computer or dive slate as the reference.
+- **Water Temperature** — Record the temperature from the dive. Bottom temperature is preferred if available.
 
-### Dive Site Information
-Maintain detailed site records:
-- **Site Name** - Official and local names
-- **GPS Coordinates** - Precise location data
-- **Depth Range** - Maximum and average depths
-- **Difficulty Level** - Beginner, intermediate, advanced
-- **Current Patterns** - Typical current conditions
-- **Marine Life** - Common and rare species
-- **Special Features** - Wrecks, reefs, walls, caves
+## Drift Dive Checkbox
 
-### Site Utilization Tracking
-Monitor site usage patterns:
-- **Visit Frequency** - How often each site is used
-- **Capacity Limits** - Maximum divers per site
-- **Environmental Impact** - Monitor reef health
-- **Seasonal Patterns** - Best times for each site
-- **Customer Satisfaction** - Ratings and feedback
+Mark the drift dive checkbox **only if the dive was conducted as a drift dive** — where divers ascended away from the mooring and were picked up by the boat.
 
-### Conservation Monitoring
-- **Dive Impact** - Track diver effects on sites
-- **Reef Health** - Monitor coral conditions
-- **Wildlife Disturbance** - Assess human impact
-- **Restoration Needs** - Identify areas needing attention
+Do not mark it as a drift dive if the current was mild but divers returned normally to the mooring line. This field is used for operational records and sightings data analysis, so accuracy matters.
 
-## Equipment Tracking
+## Species of Concern Sightings
 
-### Dive Equipment Usage
-Track equipment for each dive:
-- **Tanks** - Number used, air fills
-- **BCDs** - Units assigned per dive
-- **Regulators** - Sets used and maintained
-- **Computers** - Dive profiles recorded
-- **Safety Gear** - SMBs, whistles, reels deployed
+After the basic dive information is entered, the form walks the user through a multi-step sightings workflow focused on **species of concern**.
 
-### Maintenance Integration
-- **Usage Hours** - Track equipment usage
-- **Service Scheduling** - Plan maintenance based on use
-- **Replacement Planning** - Forecast equipment needs
-- **Cost Analysis** - True cost per dive
+For each listed species, staff record whether that species was observed during the dive. The sightings are saved with the dive log record in Firestore.
 
-### Inventory Management
-- **Gear Assignment** - Who used which equipment
-- **Damage Reports** - Record any equipment issues
-- **Loss Tracking** - Monitor lost or missing items
-- **Performance Metrics** - Equipment reliability
+### Purpose of the Sightings Workflow
 
-## Safety and Incident Reporting
+The sightings data creates a consistent, long-term record of marine life observations across all Sea Saba dives. Over time this data helps identify trends, monitor species presence, and supports conservation awareness — but only if the data is accurate.
 
-### Safety Protocols
-Document safety procedures:
-- **Pre-Dive Checks** - Equipment and briefings completed
-- **Emergency Procedures** - Drills and actual incidents
-- **Medical Incidents** - Decompression illness, injuries
-- **Rescue Operations** - Actual rescue scenarios
+### How to Complete Sightings
 
-### Incident Reporting
-For any incidents, record:
-- **Type of Incident** - Medical, equipment, environmental
-- **Severity Level** - Minor, serious, critical
-- **Response Time** - How quickly assistance arrived
-- **Outcome** - Resolution and follow-up required
-- **Preventive Measures** - Steps to prevent recurrence
+1. Work through each species listed in the form.
+2. Mark a species as seen **only if it was actually observed** during that dive.
+3. If you are not sure whether a species was seen, **leave it unmarked**. Do not guess.
+4. Complete all steps in the form before submitting.
 
-### Compliance Tracking
-- **Certification Checks** - Verify diver certifications
-- **Medical Fitness** - Ensure medical forms current
-- **Insurance Coverage** - Verify dive insurance
-- **Regulatory Compliance** - Meet local requirements
+!!! warning
+    Do not log sightings of species that were not observed. Inaccurate sightings data undermines the value of the entire dataset.
 
-## Analytics and Reporting
+## Data Accuracy Expectations
 
-### Operational Metrics
-Track key performance indicators:
-- **Dives Per Day** - Total dives completed
-- **Divers Per Guide** - Guide efficiency metrics
-- **Site Utilization** - Most/least popular sites
-- **Equipment Usage** - Gear utilization rates
+- **Do not guess.** If you are unsure about a field, confirm it before submitting.
+- **Use consistent site names.** Select from the available list — do not create alternate spellings or abbreviations.
+- **Confirm guide, boat, and dive number** before submitting, especially when entering logs for dives you did not personally guide.
+- **Sightings must be actual observations** from that specific dive. Do not carry over sightings from previous dives.
 
-### Environmental Data
-Analyze environmental trends:
-- **Temperature Patterns** - Seasonal water temperature changes
-- **Visibility Trends** - Long-term visibility patterns
-- **Marine Life Trends** - Species population changes
-- **Climate Impact** - Environmental change indicators
+## Data Storage
 
-### Business Intelligence
-Generate business insights:
-- **Revenue Per Dive** - Profitability analysis
-- **Customer Patterns** - Booking and diving preferences
-- **Guide Performance** - Efficiency and customer satisfaction
-- **Seasonal Analysis** - Peak and off-peak patterns
+Dive log data is stored in **Google Firestore**, which is the system of record for all Sea Saba dive logs and species sightings. Staff do not need to interact with Firestore directly — the app form handles data submission automatically. Once a log is submitted, it is saved to the database.
 
-## Best Practices
+## Accountability
 
-### Data Quality
-1. **Consistent Entry** - Use standardized formats and terminology
-2. **Complete Records** - Fill all required fields for each dive
-3. **Timely Entry** - Record dives immediately after completion
-4. **Accuracy Checks** - Verify data accuracy before submission
+Dive staff entering logs are responsible for the accuracy and timeliness of submitted records. If a log is submitted with incorrect information, notify management so it can be corrected.
 
-### Safety First
-1. **Pre-Dive Planning** - Thorough planning and risk assessment
-2. **Weather Monitoring** - Regular condition checks
-3. **Equipment Checks** - Pre-dive equipment inspections
-4. **Emergency Preparedness** - Regular drills and training
+## Related
 
-### Environmental Responsibility
-1. **Sustainable Practices** - Minimize environmental impact
-2. **Conservation Support** - Participate in protection programs
-3. **Education Focus** - Educate divers on marine conservation
-4. **Research Contribution** - Support marine research efforts
-
-## Troubleshooting
-
-### Common Issues
-- **Missing Data** - Ensure all required fields are completed
-- **GPS Errors** - Verify site location accuracy
-- **Equipment Conflicts** - Check equipment assignment records
-- **Weather Data Issues** - Verify environmental condition entries
-
-### System Problems
-- **Sync Failures** - Check internet connection and try manual sync
-- **Login Issues** - Verify credentials and system access
-- **Performance Problems** - Clear cache and restart application
-- **Data Corruption** - Contact system administrator
-
-## Related Articles
-
-- [Equipment Maintenance](Maintenance.md)
+- [Morning Routine](../DiveOperations/MorningRoutine.md)
+- [Marine Park Rules](../DiveOperations/MarineParkRules.md)
 - [Analytics & Reporting](Analytics.md)
-- [Diving Operations](../DiveOperations/MorningRoutine.md)

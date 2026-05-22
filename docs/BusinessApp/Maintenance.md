@@ -1,209 +1,130 @@
-# Equipment Maintenance
+# Maintenance Tracking & Service Logs
 
-The Maintenance system helps you track equipment service schedules, maintenance history, and preventive maintenance for all dive and business equipment.
+The Maintenance Tracking system is how Sea Saba records completed maintenance, monitors service schedules, and keeps operational equipment ready. Assets exist primarily so service records and maintenance schedules can be attached to the correct piece of equipment — see [Equipment & Maintenance Tracking](AssetManagement.md) for how assets are structured.
 
-## Equipment Categories
+The maintenance system is operationally focused. It is not an accounting or budgeting tool.
 
-### Dive Equipment
-- **Compressors** - Air and nitrox filling stations
-- **Tanks** - SCUBA cylinders and valves
-- **Regulators** - First and second stage regulators
-- **BCDs** - Buoyancy control devices
-- **Dive Computers** - Electronic dive computers
-- **Safety Equipment** - SMBs, whistles, reels, lights
+## How the System Is Organized
 
-### Boat Equipment
-- **Engines** - Outboard and inboard motors
-- **Navigation** - GPS, compasses, depth sounders
-- **Safety Gear** - Life jackets, flares, first aid kits
-- **Communication** - VHF radios, satellite phones
-- **Anchoring** - Anchors, chains, windlasses
+Maintenance tracking is built around three core elements:
 
-### Facility Equipment
-- **Vehicles** - Trucks, vans for transportation
-- **Generators** - Power generation equipment
-- **Water Systems** - Pumps, filters, water heaters
-- **Air Conditioning** - HVAC systems
-- **Security Systems** - Cameras, alarms, access control
+- **Assets** — The equipment being maintained (boats, engines, compressors, tanks, vehicles, safety gear)
+- **Service Schedules** — What maintenance is required and how often
+- **Maintenance Logs** — The record of completed service
 
-## Maintenance Scheduling
+The relationship between them is straightforward:
 
-### Service Intervals
-Configure maintenance schedules based on:
+```
+Asset → Service Schedule → Maintenance Log → Next Service Due Updated
+```
 
-#### Time-Based Scheduling
-- **Monthly Checks** - Basic inspections and cleaning
-- **Quarterly Service** - Detailed inspections and minor repairs
-- **Annual Overhaul** - Complete disassembly and rebuilding
-- **Biennial Certification** - Professional certification requirements
+### Parent & Child Assets
 
-#### Usage-Based Scheduling
-- **Dive Count** - After X number of dives
-- **Hours of Operation** - After Y hours of use
-- **Pressure Cycles** - After Z pressure cycles (compressors)
-- **Distance Traveled** - After X kilometers (vehicles)
+Equipment is organized in parent/child relationships. Child assets carry their own maintenance histories independently from their parent.
 
-#### Condition-Based Scheduling
-- **Performance Monitoring** - When efficiency drops below threshold
-- **Visual Inspection** - When wear or damage is observed
-- **Sensor Readings** - When diagnostic sensors indicate issues
-- **User Reports** - When operators report problems
+**Log maintenance against the most specific asset possible.**
 
-### Preventive Maintenance Program
-Establish a comprehensive preventive maintenance program:
+| Parent | Child Assets |
+|---|---|
+| Shark Bait (vessel) | Port Yamaha 300, Starboard Yamaha 300, House Batteries |
+| Old Red Compressor | Final Filters, Air Dryer, O2 Analyzer |
+| Blue Truck (vehicle) | Engine, Battery, Tires |
 
-#### Daily Checks
-- **Visual Inspection** - Check for obvious damage or wear
-- **Fluid Levels** - Check oil, coolant, fuel levels
-- **Safety Equipment** - Verify safety gear is functional
-- **Cleanliness** - Remove dirt, salt, debris
+A Yamaha 300 oil change should be logged to the engine — not to the boat.
 
-#### Weekly Maintenance
-- **Detailed Inspection** - Check all components thoroughly
-- **Lubrication** - Apply lubricants to moving parts
-- **Filter Changes** - Replace air, oil, fuel filters
-- **Calibration** - Check and adjust equipment settings
+## Service Tracking Types
 
-#### Monthly Service
-- **Complete Overhaul** - Disassemble and inspect major components
-- **Replacement Parts** - Replace worn or damaged parts
-- **Performance Testing** - Test equipment under load
-- **Documentation** - Complete service records
+Maintenance schedules are based on the tracking type that matches the equipment:
 
-## Maintenance Tracking
+| Type | Example |
+|---|---|
+| **Date** | Tank VIP annually, O2 analyzer calibration |
+| **Hours** | Compressor oil change every 90 hours, outboard service every 100 hours |
+| **Cycles / Fills** | Filter replacement tracked by compressor run hours |
+| **Mileage** | Vehicle service by odometer |
+| **Combination** | Outboard impeller — annually or 100 hours, whichever comes first |
 
-### Service Records
-Maintain detailed maintenance history:
-- **Service Date** - When maintenance was performed
-- **Technician** - Who performed the service
-- **Work Performed** - Detailed description of service
-- **Parts Used** - Replacement parts and quantities
-- **Cost** - Labor and parts costs
-- **Next Service Due** - Calculated next service date
+Each asset can have multiple service items with independent schedules. A Yamaha 300 outboard might track oil changes, lower unit oil, impeller, spark plugs, and anodes all separately.
 
-### Performance Metrics
-Track equipment performance:
-- **Downtime** - Time equipment is out of service
-- **Service Costs** - Total maintenance expenses
-- **Failure Rates** - Frequency of breakdowns
-- **Mean Time Between Failures** - Reliability metrics
-- **Repair Times** - Average time to complete repairs
+## Maintenance Logs
 
-### Warranty Tracking
-Monitor warranty coverage:
-- **Purchase Date** - Original acquisition date
-- **Warranty Period** - Manufacturer warranty duration
-- **Warranty Claims** - Track warranty repairs and replacements
-- **Extended Coverage** - Extended warranty information
-- **Service Provider** - Authorized service centers
+Maintenance logs are the core workflow. Every time service is completed on an asset, a log entry should be created.
 
-## Work Order Management
+Each maintenance log records:
 
-### Creating Work Orders
-1. **Identify Issue** - Report equipment problem or scheduled service
-2. **Priority Assignment** - Set urgency level (Critical, High, Medium, Low)
-3. **Assign Technician** - Allocate to qualified maintenance staff
-4. **Schedule Service** - Set date and time for maintenance
-5. **Order Parts** - Procure necessary replacement parts
+- **Asset** — What was serviced
+- **Date completed** — When the work was done
+- **Current reading** — Hours, date, or cycles at time of service
+- **Work performed** — Description of what was done
+- **Parts used** — What was replaced or consumed
+- **Notes** — Anything relevant to the service or condition found
+- **Completed by** — Who did the work
+- **Next due** — Next service reading or date
+- **Attachment** *(optional)* — Photo or supporting document
 
-### Work Order Tracking
-Monitor work order progress:
-- **Status Updates** - Pending, In Progress, Completed, Cancelled
-- **Time Tracking** - Actual vs. estimated time
-- **Cost Tracking** - Labor, parts, and total costs
-- **Quality Control** - Inspection and approval process
-- **Documentation** - Complete service documentation
+Maintenance logs build the historical service record for each asset. A complete log history makes it easier to troubleshoot recurring issues, verify service was completed, and track reliability over time.
 
-### Parts Management
-Manage replacement parts inventory:
-- **Stock Levels** - Current inventory quantities
-- **Reorder Points** - When to order more parts
-- **Supplier Information** - Vendor details and pricing
-- **Usage Tracking** - Parts consumption patterns
-- **Cost Analysis** - Parts cost trends
+### Sea Saba Maintenance Log Examples
 
-## Compliance and Safety
+| Asset | Service | Tracking Type |
+|---|---|---|
+| Old Red Compressor | Oil and filter change | Every 90 hours |
+| Old Red Compressor — Final Filters | Filter replacement | Every 50 hours |
+| New Red Compressor | Oil and filter change | Every 90 hours |
+| Port Yamaha 300 | Full outboard service | Every 100 hours / annually |
+| Scuba Tank (serial #) | Visual Inspection (VIP) | Annually |
+| Oxygen Kit 1 | Inspection and cylinder check | Date-based |
+| O2 Analyzer | Calibration | Date-based |
+| Boat Safety Equipment | Full safety gear inspection | Date-based |
 
-### Regulatory Requirements
-Ensure compliance with regulations:
-- **Certification Requirements** - Professional certifications needed
-- **Safety Standards** - OSHA, Coast Guard, diving standards
-- **Environmental Regulations** - Disposal and environmental compliance
-- **Insurance Requirements** - Coverage for equipment and operations
+## Operational Status
 
-### Safety Protocols
-Implement safety procedures:
-- **Lockout/Tagout** - Equipment de-energization procedures
-- **Personal Protective Equipment** - Required safety gear
-- **Hazard Communication** - Chemical and material safety
-- **Emergency Procedures** - Response to equipment failures
+Each asset has an operational status that reflects its current readiness:
 
-### Documentation Requirements
-Maintain required documentation:
-- **Service Logs** - Complete maintenance records
-- **Certification Records** - Professional certifications
-- **Inspection Reports** - Regulatory inspection results
-- **Training Records** - Staff training and qualifications
+| Status | Meaning |
+|---|---|
+| **Active** | In normal service |
+| **Maintenance** | Currently being serviced |
+| **Out of Service** | Not available for use |
+| **Retired** | No longer in operation |
 
-## Budget and Cost Management
+Mark equipment **Out of Service** or **Maintenance** whenever it is unavailable so staff can see its status immediately in the asset list without searching through notes. Return it to **Active** once service is complete and it is back in operation.
 
-### Maintenance Budgeting
-Plan maintenance expenses:
-- **Annual Budget** - Planned maintenance spending
-- **Contingency Fund** - Emergency repair funds
-- **Capital Replacement** - Equipment replacement planning
-- **Cost Allocation** - Distribute costs across departments
+## Preventive Maintenance
 
-### Cost Analysis
-Analyze maintenance costs:
-- **Cost Per Equipment** - Individual equipment maintenance costs
-- **Cost Per Hour** - Maintenance cost per operating hour
-- **Trend Analysis** - Cost trends over time
-- **Benchmarking** - Compare to industry standards
+The goal is to complete maintenance before equipment becomes a problem — not after. For Sea Saba operations, consistent preventive maintenance is critical for:
 
-### ROI Analysis
-Evaluate maintenance investments:
-- **Preventive vs. Reactive** - Cost comparison of approaches
-- **Equipment Lifecycle** - Total cost of ownership analysis
-- **Downtime Costs** - Impact of equipment failures
-- **Efficiency Gains** - Benefits of proper maintenance
+- **Compressor reliability** — Overdue oil or filter changes can affect air quality and compressor life
+- **Vessel safety** — Engine service, impellers, and safety equipment inspections directly affect operational safety
+- **Rental equipment readiness** — Regulators, BCDs, and computers need to be ready when guests arrive
+- **Tank safety** — VIP and hydro intervals are regulatory requirements, not optional
+
+> Do not allow critical equipment to become significantly overdue. Service before the interval expires whenever possible.
+
+## Relationship to SOPs
+
+SOPs and maintenance logs serve different purposes and work together:
+
+- **SOPs define how** maintenance is performed — procedures, safety steps, torque specs, filter part numbers.
+- **Maintenance logs record when** maintenance was completed — date, hours, parts, technician.
+
+**Example:** The [Compressor Servicing SOP](../Equipment/CompressorServicing.md) explains the filter change procedure for the Old Red Compressor. The maintenance log records that filters were changed on a specific date at a specific hour reading, using specific part numbers, by a named technician.
+
+Both are necessary. The SOP without the log leaves no history. The log without the SOP leaves no procedure.
 
 ## Best Practices
 
-### Planning and Scheduling
-1. **Proactive Approach** - Schedule maintenance before failures
-2. **Seasonal Planning** - Plan around peak and off-peak seasons
-3. **Resource Allocation** - Ensure adequate staff and parts
-4. **Contingency Planning** - Backup plans for equipment failures
+1. **Log maintenance immediately** after completion — do it the same day while details are fresh.
+2. **Use accurate readings** — record actual hours or dates, not estimates.
+3. **Log to the correct child asset** — oil change goes to the engine, not the vessel.
+4. **Record enough detail** for future troubleshooting — brief notes on condition found are valuable.
+5. **Keep operational status current** — mark equipment Out of Service when it is unavailable.
+6. **Don't let critical equipment go significantly overdue** — compressors, engines, and safety equipment should be prioritized.
+7. **Notify management** when recurring issues appear in the log history for the same asset.
 
-### Quality Assurance
-1. **Standardized Procedures** - Use consistent maintenance processes
-2. **Qualified Technicians** - Ensure proper training and certification
-3. **Quality Parts** - Use approved replacement parts
-4. **Documentation** - Maintain complete and accurate records
+## Related
 
-### Continuous Improvement
-1. **Performance Monitoring** - Track equipment performance trends
-2. **Failure Analysis** - Investigate root causes of failures
-3. **Process Optimization** - Improve maintenance procedures
-4. **Technology Updates** - Adopt new maintenance technologies
-
-## Troubleshooting
-
-### Common Issues
-- **Scheduling Conflicts** - Use priority-based scheduling
-- **Parts Shortages** - Maintain adequate inventory levels
-- **Technician Availability** - Cross-train maintenance staff
-- **Equipment Downtime** - Plan maintenance during off-peak times
-
-### System Problems
-- **Data Entry Errors** - Implement validation checks
-- **Calculation Errors** - Verify service interval calculations
-- **Reporting Issues** - Check data sources and parameters
-- **Integration Problems** - Verify system connections
-
-## Related Articles
-
-- [Asset Tracking](AssetManagement.md)
-- [Dive Logging & Operations](DiveLogging.md)
-- [Equipment SOPs](../Equipment/SOPVehicleMaint.md)
+- [Equipment & Maintenance Tracking](AssetManagement.md)
+- [Compressor Operation SOP](../Equipment/CompressorOperation.md)
+- [Compressor Servicing SOP](../Equipment/CompressorServicing.md)
+- [Vehicle Maintenance SOP](../Equipment/SOPVehicleMaint.md)
