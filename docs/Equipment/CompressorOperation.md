@@ -106,9 +106,6 @@ This SOP applies to all dive staff involved in compressor operations. It covers 
 
 ![Fill Panel](../Images/Compressors/PanelClose.jpeg)
 
-!!! danger
-    Never open both banks simultaneously!
-
 !!! warning
     - **Pressure Regulation**: The pressure to tanks is regulated at 3400 psi; when this is reached, the valve will close, back pressuring the system.
     - **Restarting Compressors**: If the compressor shuts down at 4500 psi, it's OK, but avoid making it a habit. Ensure the tank valves are closed before opening the bank valve and restarting the compressor.
