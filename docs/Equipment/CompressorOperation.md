@@ -87,10 +87,10 @@ This SOP applies to all dive staff involved in compressor operations. It covers 
    
 2. **Switch Banks**:
     - **Close Bank 2** before opening **Bank 1** to complete the fill.
-    - If **Bank 1** is below **3300 psi**, close it after equilibrium is reached and finish topping off the tanks with the compressor.
+    - If **Bank 1** is below **3400 psi**, close it after equilibrium is reached and finish topping off the tanks with the compressor.
 
 3. **Reaching Full Pressure**:
-    - Once the tanks reach full pressure (**3300 psi hot**), close the tank valve.
+    - Once the tanks reach full pressure (**3400 psi hot**), close the tank valve.
     - Open **Bank 1** during the switchover process.
 
 4. **Switch Tanks**:
@@ -110,8 +110,7 @@ This SOP applies to all dive staff involved in compressor operations. It covers 
     Never open both banks simultaneously!
 
 !!! warning
-    - **Maximum Pressure**: The max pressure in **Bank 2** is 3000 psi with no auto shutoff. Pay close attention.
-    - **Pressure Regulation**: The pressure to tanks is regulated at 3300 psi; when this is reached, the valve will close, back pressuring the system.
+    - **Pressure Regulation**: The pressure to tanks is regulated at 3400 psi; when this is reached, the valve will close, back pressuring the system.
     - **Restarting Compressors**: If the compressor shuts down at 4500 psi, it's OK, but avoid making it a habit. Ensure the tank valves are closed before opening the bank valve and restarting the compressor.
 
 ### Filling Procedure — Air
@@ -126,17 +125,17 @@ This SOP applies to all dive staff involved in compressor operations. It covers 
 2. **Shut Off Half the Tanks**:
     - Once half of the tanks reach **3000 psi**, shut them off.
 
-3. **Continue Filling to 3300 psi**:
-    - Allow the other half of the tanks to continue filling until they reach **3300 psi**.
+3. **Continue Filling to 3400 psi**:
+    - Allow the other half of the tanks to continue filling until they reach **3400 psi**.
     - **Note**: Properly timing this will prevent the compressor from shutting off due to back pressure (4500 psi).
 
 4. **Switch the Tanks**:
-    - While the compressor is pumping the second half of the tanks to **3300 psi**, change out the first half of the tanks that were previously shut off.
+    - While the compressor is pumping the second half of the tanks to **3400 psi**, change out the first half of the tanks that were previously shut off.
 
 5. **Repeat the Process**:
-    - Once the second half of tanks reaches **3300 psi**, close them.
+    - Once the second half of tanks reaches **3400 psi**, close them.
     - Open the new set of tanks (the first half that was replaced) and repeat the process.
-    - Continue alternating until all tanks are filled to **3300 psi**.
+    - Continue alternating until all tanks are filled to **3400 psi**.
 
 ### Shutting Down
 
