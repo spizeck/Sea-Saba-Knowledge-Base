@@ -95,7 +95,7 @@ This SOP applies to all dive staff involved in compressor operations. It covers 
 
 4. **Switch Tanks**:
     - Replace the filled tanks with new ones and repeat the process.
-    - If you need to step away, consider filling the banks (Note: **Bank 2** has a maximum pressure of **3000 psi**).
+    - If you need to step away, consider filling the banks (Note: **Both Banks** have a maximum pressure of **4500 psi**).
 
 5. **Compressor Auto-Shutdown**:
     - The system will automatically shut off when it reaches **4500 psi**.
