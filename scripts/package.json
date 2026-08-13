@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Build scripts for Sea Saba Knowledge Base",
   "dependencies": {
-    "yaml": "^2.3.4",
+    "yaml": "^2.9.0",
     "marked": "^18.0.9"
   }
 }
