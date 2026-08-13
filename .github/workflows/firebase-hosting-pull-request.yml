@@ -18,7 +18,9 @@ jobs:
         run: pip install -r requirements.txt
       - name: Build with MkDocs
         run: mkdocs build
-      - uses: FirebaseExtended/action-hosting-deploy@v0
+      - name: Deploy Firebase preview
+        if: '${{ github.actor != ''dependabot[bot]'' }}'
+        uses: FirebaseExtended/action-hosting-deploy@v0
         with:
           repoToken: '${{ secrets.GITHUB_TOKEN }}'
           firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_SEA_SABA_KNOWLEDGE_BASE }}'
