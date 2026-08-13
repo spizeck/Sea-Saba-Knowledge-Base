@@ -20,7 +20,7 @@ mkdocs-mermaid2-plugin==1.1.1
 packaging==24.1
 paginate==0.5.7
 pathspec==0.12.1
-platformdirs==4.3.6
+platformdirs==4.11.2
 Pygments==2.18.0
 pymdown-extensions==10.12
 python-dateutil==2.9.0.post0
