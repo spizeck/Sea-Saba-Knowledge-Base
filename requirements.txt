@@ -7,7 +7,7 @@ colorama==0.4.6
 EditorConfig==0.17.1
 ghp-import==2.1.0
 idna==3.10
-Jinja2==3.1.4
+Jinja2==3.1.6
 jsbeautifier==1.15.1
 lxml==5.4.0
 Markdown==3.7
